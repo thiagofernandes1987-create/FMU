@@ -1,0 +1,23 @@
+{
+  "release": "M26",
+  "release_type": "INCREMENTAL_TESTED_NOT_FULL_RUST_PARITY",
+  "baseline_m25_commit": "164b2e7",
+  "source_rust_commit": "bd2ccbdd5f1aaacb6437b58b198d7963c61b3780",
+  "license": "GPL-3.0-only",
+  "features": [
+    "Native BFN skippable frame Zstandard + CBOR decode and synthetic fixture encoder",
+    "Read-only CLI for BFN and fmu-demo-v1 saves",
+    "Simulation/systems/persistence example diagnostics, clearly marked adapted"
+  ],
+  "validation": {
+    "baseline_tests": 411,
+    "new_tests": 42,
+    "total_tests": 453,
+    "rust_source_sha256": "231/231",
+    "zstd_independent_cli": "PASS",
+    "clone_git_bundle_tests": "453/453 PASS",
+    "patch_M25_to_M26_tests": "42/42 PASS"
+  },
+  "mapping": {"base":196,"current":205,"rust_total":231,"previous_percent":84.85,"current_percent":88.74,"delta_pp":3.90,"still_unported":26,"functional_parity_verified":false},
+  "limitations": ["No Rust World deserialization", "Legacy .bfn migrations v1/v2 not applied", "No .s22 binary import", "No differential Rust testing", "9 new examples are adapted diagnostics, not 9 production functions fully ported"]
+}

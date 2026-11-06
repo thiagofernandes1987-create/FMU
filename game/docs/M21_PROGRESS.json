@@ -1,0 +1,81 @@
+{
+  "source_total": 231,
+  "rust_hashes_verified": 231,
+  "source_revision": "bd2ccbdd5f1aaacb6437b58b198d7963c61b3780",
+  "m20_standalone": {
+    "source_mappings": 27,
+    "percentage": 11.69
+  },
+  "m21_new": {
+    "new_sources": 28,
+    "percentage_points": 12.12,
+    "tested_behavioral_sources": 13,
+    "tested_data_sources": 3,
+    "partially_ported_source_adapters": 12
+  },
+  "m20_m21_standalone": {
+    "source_mappings": 55,
+    "percentage": 23.81,
+    "unported": 176
+  },
+  "last_historical_m18": {
+    "source_mappings": 74,
+    "percentage": 32.03
+  },
+  "historical_m18_union": "UNVERIFIED - tree/matrix M18 not available; no assumptions about overlap",
+  "rust_differential": "UNVERIFIED",
+  "runtime_wasm": "NOT COUNTED",
+  "requested_gain_pp": 30,
+  "actual_gain_pp_in_m20_standalone": 12.12,
+  "requested_gain_met": false,
+  "full_functional_completion_percent": null,
+  "qa": {
+    "test_total": 163,
+    "new_m21_tests": 43,
+    "prior_m20_tests": 120,
+    "typescript": "PASS",
+    "rust_differential": "UNVERIFIED"
+  },
+  "by_crate": {
+    "app": {
+      "total": 66,
+      "with_mapping": 0,
+      "m21_new": 0
+    },
+    "datapack": {
+      "total": 12,
+      "with_mapping": 5,
+      "m21_new": 5
+    },
+    "engine": {
+      "total": 14,
+      "with_mapping": 7,
+      "m21_new": 2
+    },
+    "i18n": {
+      "total": 2,
+      "with_mapping": 0,
+      "m21_new": 0
+    },
+    "model": {
+      "total": 24,
+      "with_mapping": 15,
+      "m21_new": 13
+    },
+    "persistence": {
+      "total": 25,
+      "with_mapping": 0,
+      "m21_new": 0
+    },
+    "simulation": {
+      "total": 46,
+      "with_mapping": 15,
+      "m21_new": 5
+    },
+    "systems": {
+      "total": 42,
+      "with_mapping": 13,
+      "m21_new": 3
+    }
+  }
+}

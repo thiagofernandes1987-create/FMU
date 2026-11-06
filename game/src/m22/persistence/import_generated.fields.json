@@ -1,0 +1,2452 @@
+{
+  "game": [
+    {
+      "field": "nations_league_m",
+      "reader": "reference",
+      "source": "GC"
+    },
+    {
+      "field": "nations_league_n",
+      "reader": "reference",
+      "source": "GI"
+    },
+    {
+      "field": "friendly_tournament",
+      "reader": "reference",
+      "source": "Gy"
+    },
+    {
+      "field": "finalissima",
+      "reader": "reference",
+      "source": "IX"
+    },
+    {
+      "field": "conference_league",
+      "reader": "reference",
+      "source": "IY"
+    },
+    {
+      "field": "finalissima_season",
+      "reader": "int",
+      "source": "IZ"
+    },
+    {
+      "field": "nations_league_m_season",
+      "reader": "int",
+      "source": "Ja"
+    },
+    {
+      "field": "nations_league_n_season",
+      "reader": "int",
+      "source": "Jb"
+    },
+    {
+      "field": "intercontinental_cup",
+      "reader": "reference",
+      "source": "aA"
+    },
+    {
+      "field": "champions_league",
+      "reader": "reference",
+      "source": "aB"
+    },
+    {
+      "field": "libertadores",
+      "reader": "reference",
+      "source": "aC"
+    },
+    {
+      "field": "caf_champions_league",
+      "reader": "reference",
+      "source": "aD"
+    },
+    {
+      "field": "afc_champions_league",
+      "reader": "reference",
+      "source": "aE"
+    },
+    {
+      "field": "concacaf_champions_cup",
+      "reader": "reference",
+      "source": "aF"
+    },
+    {
+      "field": "ofc_champions_league",
+      "reader": "reference",
+      "source": "aG"
+    },
+    {
+      "field": "friendly",
+      "reader": "reference",
+      "source": "aH"
+    },
+    {
+      "field": "super_cup_e",
+      "reader": "reference",
+      "source": "aI"
+    },
+    {
+      "field": "super_cup_d",
+      "reader": "reference",
+      "source": "aJ"
+    },
+    {
+      "field": "world_cup",
+      "reader": "reference",
+      "source": "aK"
+    },
+    {
+      "field": "south_american_qualifiers",
+      "reader": "reference",
+      "source": "aL"
+    },
+    {
+      "field": "euro_qualifiers",
+      "reader": "reference",
+      "source": "aM"
+    },
+    {
+      "field": "african_qualifiers",
+      "reader": "reference",
+      "source": "aN"
+    },
+    {
+      "field": "asian_qualifiers",
+      "reader": "reference",
+      "source": "aO"
+    },
+    {
+      "field": "oceania_qualifiers",
+      "reader": "reference",
+      "source": "aP"
+    },
+    {
+      "field": "concacaf_qualifiers",
+      "reader": "reference",
+      "source": "aQ"
+    },
+    {
+      "field": "copa_america",
+      "reader": "reference",
+      "source": "aR"
+    },
+    {
+      "field": "european_championship",
+      "reader": "reference",
+      "source": "aS"
+    },
+    {
+      "field": "africa_cup_of_nations",
+      "reader": "reference",
+      "source": "aT"
+    },
+    {
+      "field": "asian_cup",
+      "reader": "reference",
+      "source": "aU"
+    },
+    {
+      "field": "gold_cup",
+      "reader": "reference",
+      "source": "aV"
+    },
+    {
+      "field": "oceania_nations_cup",
+      "reader": "reference",
+      "source": "aW"
+    },
+    {
+      "field": "europa_league",
+      "reader": "reference",
+      "source": "aX"
+    },
+    {
+      "field": "copa_sudamericana",
+      "reader": "reference",
+      "source": "aY"
+    },
+    {
+      "field": "regional_cups",
+      "reader": "items",
+      "source": "aZ"
+    },
+    {
+      "field": "summary",
+      "reader": "reference",
+      "source": "ad"
+    },
+    {
+      "field": "season",
+      "reader": "int",
+      "source": "ae"
+    },
+    {
+      "field": "day",
+      "reader": "int",
+      "source": "af"
+    },
+    {
+      "field": "players",
+      "reader": "items",
+      "source": "ag"
+    },
+    {
+      "field": "youth_players",
+      "reader": "items",
+      "source": "ah"
+    },
+    {
+      "field": "generated_players",
+      "reader": "items",
+      "source": "ai"
+    },
+    {
+      "field": "clubs",
+      "reader": "items",
+      "source": "aj"
+    },
+    {
+      "field": "human_clubs",
+      "reader": "items",
+      "source": "ak"
+    },
+    {
+      "field": "coaches",
+      "reader": "items",
+      "source": "al"
+    },
+    {
+      "field": "human_coaches",
+      "reader": "items",
+      "source": "am"
+    },
+    {
+      "field": "list_an",
+      "reader": "items",
+      "source": "an"
+    },
+    {
+      "field": "league_countries",
+      "reader": "items",
+      "source": "ao"
+    },
+    {
+      "field": "countries",
+      "reader": "items",
+      "source": "ap"
+    },
+    {
+      "field": "state_leagues",
+      "reader": "items",
+      "source": "aq"
+    },
+    {
+      "field": "national_super_cups",
+      "reader": "items",
+      "source": "ar"
+    },
+    {
+      "field": "days",
+      "reader": "items",
+      "source": "as"
+    },
+    {
+      "field": "coach_changes",
+      "reader": "items",
+      "source": "at"
+    },
+    {
+      "field": "transfers",
+      "reader": "items",
+      "source": "au"
+    },
+    {
+      "field": "auto_renew_contracts",
+      "reader": "boolean",
+      "source": "autoRenovaContrato"
+    },
+    {
+      "field": "autosave",
+      "reader": "int",
+      "source": "autoSalvar"
+    },
+    {
+      "field": "loans",
+      "reader": "items",
+      "source": "av"
+    },
+    {
+      "field": "contract_end_warning",
+      "reader": "int",
+      "source": "avisoTerminoContrato"
+    },
+    {
+      "field": "stadium_works",
+      "reader": "items",
+      "source": "aw"
+    },
+    {
+      "field": "head_to_head",
+      "reader": "items",
+      "source": "ax"
+    },
+    {
+      "field": "list_ay",
+      "reader": "items",
+      "source": "ay"
+    },
+    {
+      "field": "retired_idols",
+      "reader": "items",
+      "source": "az"
+    },
+    {
+      "field": "flag_ba",
+      "reader": "boolean",
+      "source": "ba"
+    },
+    {
+      "field": "flag_bb",
+      "reader": "boolean",
+      "source": "bb"
+    },
+    {
+      "field": "flag_bc",
+      "reader": "boolean",
+      "source": "bc"
+    },
+    {
+      "field": "flag_bd",
+      "reader": "boolean",
+      "source": "bd"
+    },
+    {
+      "field": "value_be",
+      "reader": "int",
+      "source": "be"
+    },
+    {
+      "field": "value_bf",
+      "reader": "int",
+      "source": "bf"
+    },
+    {
+      "field": "next_club_id",
+      "reader": "int",
+      "source": "bg"
+    },
+    {
+      "field": "training_cycle",
+      "reader": "int",
+      "source": "bh"
+    },
+    {
+      "field": "use_real_cup_groups",
+      "reader": "boolean",
+      "source": "bi"
+    },
+    {
+      "field": "save_name",
+      "reader": "optional_string",
+      "source": "bj"
+    },
+    {
+      "field": "season_over",
+      "reader": "boolean",
+      "source": "bk"
+    },
+    {
+      "field": "world_cup_season",
+      "reader": "int",
+      "source": "bl"
+    },
+    {
+      "field": "euro_season",
+      "reader": "int",
+      "source": "bm"
+    },
+    {
+      "field": "copa_america_season",
+      "reader": "int",
+      "source": "bn"
+    },
+    {
+      "field": "africa_cup_season",
+      "reader": "int",
+      "source": "bo"
+    },
+    {
+      "field": "asian_cup_season",
+      "reader": "int",
+      "source": "bp"
+    },
+    {
+      "field": "oceania_cup_season",
+      "reader": "int",
+      "source": "bq"
+    },
+    {
+      "field": "gold_cup_season",
+      "reader": "int",
+      "source": "br"
+    },
+    {
+      "field": "interactive",
+      "reader": "boolean",
+      "source": "bs"
+    },
+    {
+      "field": "last_coach_id",
+      "reader": "int",
+      "source": "bt"
+    },
+    {
+      "field": "list_bu",
+      "reader": "items",
+      "source": "bu"
+    },
+    {
+      "field": "scoreboard_color",
+      "reader": "int",
+      "source": "corPlacar"
+    },
+    {
+      "field": "default_international_groups",
+      "reader": "boolean",
+      "source": "gruposIntPadrao"
+    },
+    {
+      "field": "individual_skills",
+      "reader": "boolean",
+      "source": "habilidadeIndividual"
+    },
+    {
+      "field": "ignore_state",
+      "reader": "boolean",
+      "source": "ignoraEstadual"
+    },
+    {
+      "field": "ignore_leagues",
+      "reader": "boolean",
+      "source": "ignoraLigas"
+    },
+    {
+      "field": "plays_state",
+      "reader": "boolean",
+      "source": "jogaEstadual"
+    },
+    {
+      "field": "plays_international_clubs",
+      "reader": "boolean",
+      "source": "jogaIntClubes"
+    },
+    {
+      "field": "international_in_first_year",
+      "reader": "boolean",
+      "source": "jogaIntano1"
+    },
+    {
+      "field": "plays_regionals",
+      "reader": "boolean",
+      "source": "jogaRegionais"
+    },
+    {
+      "field": "regionals_all",
+      "reader": "boolean_array",
+      "source": "jogaRegionaisTodos"
+    },
+    {
+      "field": "plays_all_national_teams",
+      "reader": "boolean",
+      "source": "jogaSelecoesAll"
+    },
+    {
+      "field": "bold_home",
+      "reader": "boolean",
+      "source": "negritoCasa"
+    },
+    {
+      "field": "start_year",
+      "reader": "int",
+      "source": "rM"
+    },
+    {
+      "field": "monthly_salary",
+      "reader": "boolean",
+      "source": "salarioMensal"
+    },
+    {
+      "field": "use_scoreboard_color",
+      "reader": "boolean",
+      "source": "usaCorPlacar"
+    },
+    {
+      "field": "use_list_colors",
+      "reader": "boolean",
+      "source": "usaCoresLista"
+    },
+    {
+      "field": "default_state_groups",
+      "reader": "boolean",
+      "source": "usaGrupoPadraoEstadual"
+    },
+    {
+      "field": "use_sounds",
+      "reader": "boolean",
+      "source": "usaSons"
+    },
+    {
+      "field": "speed",
+      "reader": "int",
+      "source": "velocidade"
+    },
+    {
+      "field": "speed_non_human",
+      "reader": "int",
+      "source": "velocidadeNH"
+    },
+    {
+      "field": "show_ai_penalties",
+      "reader": "int",
+      "source": "verDecisaoPenNaoHumano"
+    },
+    {
+      "field": "show_states_grouped",
+      "reader": "boolean",
+      "source": "verEstaduaisAgrupados"
+    },
+    {
+      "field": "show_substitutions_window",
+      "reader": "int",
+      "source": "verJanelaSubs"
+    },
+    {
+      "field": "show_international",
+      "reader": "boolean_array",
+      "source": "verJint"
+    },
+    {
+      "field": "show_auctions",
+      "reader": "boolean",
+      "source": "verLeiloes"
+    },
+    {
+      "field": "show_coach_changes",
+      "reader": "int",
+      "source": "verMudancaTecnicos"
+    }
+  ],
+  "coach_job_market": [
+    {
+      "field": "countries",
+      "reader": "items",
+      "source": "Jg"
+    },
+    {
+      "field": "shuffled_countries",
+      "reader": "items",
+      "source": "Jh"
+    },
+    {
+      "field": "list_jj",
+      "reader": "items",
+      "source": "Jj"
+    },
+    {
+      "field": "clubs",
+      "reader": "items",
+      "source": "Jl"
+    }
+  ],
+  "save_summary": [
+    {
+      "field": "year",
+      "reader": "boxed_int",
+      "source": "a"
+    },
+    {
+      "field": "next_match",
+      "reader": "optional_string",
+      "source": "i"
+    },
+    {
+      "field": "club",
+      "reader": "optional_string",
+      "source": "n"
+    },
+    {
+      "field": "coach",
+      "reader": "optional_string",
+      "source": "tc"
+    }
+  ],
+  "player": [
+    {
+      "field": "club",
+      "reader": "int_ref_club_id",
+      "source": "bW"
+    },
+    {
+      "field": "name",
+      "reader": "string",
+      "source": "dm"
+    },
+    {
+      "field": "attribute_progress",
+      "reader": "double_array",
+      "source": "eH"
+    },
+    {
+      "field": "injured_until",
+      "reader": "long",
+      "source": "eI"
+    },
+    {
+      "field": "contract_until",
+      "reader": "long",
+      "source": "eJ"
+    },
+    {
+      "field": "fitness",
+      "reader": "int",
+      "source": "eK"
+    },
+    {
+      "field": "started_recently",
+      "reader": "boxed_boolean",
+      "source": "eL"
+    },
+    {
+      "field": "strength_progress",
+      "reader": "double",
+      "source": "eM"
+    },
+    {
+      "field": "last_rating",
+      "reader": "double",
+      "source": "eN"
+    },
+    {
+      "field": "flag_eo",
+      "reader": "boxed_boolean",
+      "source": "eO"
+    },
+    {
+      "field": "sold_between_humans",
+      "reader": "boxed_boolean",
+      "source": "eP"
+    },
+    {
+      "field": "flag_eq",
+      "reader": "boxed_boolean",
+      "source": "eQ"
+    },
+    {
+      "field": "slot",
+      "reader": "int",
+      "source": "eR"
+    },
+    {
+      "field": "competition_stats",
+      "reader": "items",
+      "source": "eS"
+    },
+    {
+      "field": "season_stats",
+      "reader": "items",
+      "source": "eT"
+    },
+    {
+      "field": "ratings",
+      "reader": "items",
+      "source": "eU"
+    },
+    {
+      "field": "value_ev",
+      "reader": "int",
+      "source": "eV"
+    },
+    {
+      "field": "listed_for_loan",
+      "reader": "boxed_boolean",
+      "source": "eW"
+    },
+    {
+      "field": "on_loan",
+      "reader": "boxed_boolean",
+      "source": "eX"
+    },
+    {
+      "field": "listed_for_sale",
+      "reader": "boxed_boolean",
+      "source": "eY"
+    },
+    {
+      "field": "previous_club",
+      "reader": "int",
+      "source": "eZ"
+    },
+    {
+      "field": "save_number",
+      "reader": "int",
+      "source": "ei"
+    },
+    {
+      "field": "save_list",
+      "reader": "int",
+      "source": "ej"
+    },
+    {
+      "field": "star",
+      "reader": "boxed_boolean",
+      "source": "ek"
+    },
+    {
+      "field": "world_class",
+      "reader": "boxed_boolean",
+      "source": "el"
+    },
+    {
+      "field": "age",
+      "reader": "int",
+      "source": "em"
+    },
+    {
+      "field": "position",
+      "reader": "int",
+      "source": "en"
+    },
+    {
+      "field": "unused_ep",
+      "reader": "int",
+      "source": "ep"
+    },
+    {
+      "field": "strength",
+      "reader": "int",
+      "source": "eq"
+    },
+    {
+      "field": "side",
+      "reader": "int",
+      "source": "er"
+    },
+    {
+      "field": "potential",
+      "reader": "int",
+      "source": "es"
+    },
+    {
+      "field": "salary",
+      "reader": "int",
+      "source": "et"
+    },
+    {
+      "field": "market_value",
+      "reader": "int",
+      "source": "eu"
+    },
+    {
+      "field": "price",
+      "reader": "int",
+      "source": "ev"
+    },
+    {
+      "field": "shirt_number",
+      "reader": "int",
+      "source": "ew"
+    },
+    {
+      "field": "style",
+      "reader": "int",
+      "source": "ex"
+    },
+    {
+      "field": "trait1",
+      "reader": "int",
+      "source": "ey"
+    },
+    {
+      "field": "trait2",
+      "reader": "int",
+      "source": "ez"
+    },
+    {
+      "field": "value_fa",
+      "reader": "int",
+      "source": "fa"
+    },
+    {
+      "field": "youth",
+      "reader": "boxed_boolean",
+      "source": "fb"
+    },
+    {
+      "field": "estimated_potential",
+      "reader": "int",
+      "source": "fc"
+    },
+    {
+      "field": "development",
+      "reader": "int",
+      "source": "fd"
+    },
+    {
+      "field": "development_progress",
+      "reader": "double",
+      "source": "fe"
+    },
+    {
+      "field": "signed_season",
+      "reader": "int",
+      "source": "ff"
+    },
+    {
+      "field": "career_goals",
+      "reader": "int",
+      "source": "fh"
+    },
+    {
+      "field": "career_games",
+      "reader": "int",
+      "source": "fi"
+    },
+    {
+      "field": "country",
+      "reader": "int",
+      "source": "pais"
+    },
+    {
+      "field": "status",
+      "reader": "int",
+      "source": "status"
+    }
+  ],
+  "competition_stats": [
+    {
+      "field": "games",
+      "reader": "int",
+      "source": "T"
+    },
+    {
+      "field": "goals",
+      "reader": "int",
+      "source": "V"
+    },
+    {
+      "field": "yellow_cards",
+      "reader": "int",
+      "source": "ca"
+    },
+    {
+      "field": "red_cards",
+      "reader": "int",
+      "source": "cb"
+    },
+    {
+      "field": "assists",
+      "reader": "int",
+      "source": "cc"
+    },
+    {
+      "field": "competition_number",
+      "reader": "int",
+      "source": "ft"
+    },
+    {
+      "field": "rating_sum",
+      "reader": "double",
+      "source": "fu"
+    },
+    {
+      "field": "rated_games",
+      "reader": "int",
+      "source": "fv"
+    }
+  ],
+  "season_stats": [
+    {
+      "field": "games",
+      "reader": "int",
+      "source": "T"
+    },
+    {
+      "field": "goals",
+      "reader": "int",
+      "source": "V"
+    },
+    {
+      "field": "rating_sum",
+      "reader": "double",
+      "source": "ab"
+    },
+    {
+      "field": "season",
+      "reader": "int",
+      "source": "ae"
+    },
+    {
+      "field": "club_id",
+      "reader": "int",
+      "source": "bW"
+    },
+    {
+      "field": "yellow_cards",
+      "reader": "int",
+      "source": "ca"
+    },
+    {
+      "field": "red_cards",
+      "reader": "int",
+      "source": "cb"
+    },
+    {
+      "field": "assists",
+      "reader": "int",
+      "source": "cc"
+    },
+    {
+      "field": "injuries",
+      "reader": "int",
+      "source": "cd"
+    },
+    {
+      "field": "rated_games",
+      "reader": "int",
+      "source": "ce"
+    }
+  ],
+  "match_rating": [
+    {
+      "field": "rating",
+      "reader": "double",
+      "source": "Z"
+    },
+    {
+      "field": "day",
+      "reader": "int",
+      "source": "fy"
+    },
+    {
+      "field": "match_index",
+      "reader": "int",
+      "source": "gx"
+    }
+  ],
+  "club": [
+    {
+      "field": "trophies",
+      "reader": "items",
+      "source": "cA"
+    },
+    {
+      "field": "color1",
+      "reader": "string",
+      "source": "cor1"
+    },
+    {
+      "field": "color2",
+      "reader": "string",
+      "source": "cor2"
+    },
+    {
+      "field": "stadium",
+      "reader": "reference",
+      "source": "dH"
+    },
+    {
+      "field": "division",
+      "reader": "int",
+      "source": "divisao"
+    },
+    {
+      "field": "name",
+      "reader": "string",
+      "source": "dm"
+    },
+    {
+      "field": "state",
+      "reader": "int",
+      "source": "dr"
+    },
+    {
+      "field": "level",
+      "reader": "int",
+      "source": "hA"
+    },
+    {
+      "field": "tiebreak_number",
+      "reader": "int",
+      "source": "hr"
+    },
+    {
+      "field": "id",
+      "reader": "int",
+      "source": "mU"
+    },
+    {
+      "field": "file_ref",
+      "reader": "string",
+      "source": "mV"
+    },
+    {
+      "field": "human",
+      "reader": "boxed_boolean",
+      "source": "mW"
+    },
+    {
+      "field": "league_club",
+      "reader": "boxed_boolean",
+      "source": "mX"
+    },
+    {
+      "field": "team_file_id",
+      "reader": "int",
+      "source": "mY"
+    },
+    {
+      "field": "kit",
+      "reader": "int",
+      "source": "nA"
+    },
+    {
+      "field": "ranking_points",
+      "reader": "int_array",
+      "source": "nB"
+    },
+    {
+      "field": "all_time_record",
+      "reader": "int_matrix",
+      "source": "nC"
+    },
+    {
+      "field": "value_nd",
+      "reader": "int",
+      "source": "nD"
+    },
+    {
+      "field": "coach",
+      "reader": "int_ref_coach_id",
+      "source": "na"
+    },
+    {
+      "field": "cash",
+      "reader": "long",
+      "source": "nb"
+    },
+    {
+      "field": "reputation",
+      "reader": "int",
+      "source": "nc"
+    },
+    {
+      "field": "squad",
+      "reader": "items",
+      "source": "nd"
+    },
+    {
+      "field": "youth_squad",
+      "reader": "items",
+      "source": "ne"
+    },
+    {
+      "field": "last_starters",
+      "reader": "items",
+      "source": "nf"
+    },
+    {
+      "field": "last_bench",
+      "reader": "items",
+      "source": "ng"
+    },
+    {
+      "field": "captain",
+      "reader": "reference",
+      "source": "nh"
+    },
+    {
+      "field": "penalty_taker",
+      "reader": "reference",
+      "source": "ni"
+    },
+    {
+      "field": "free_kick_taker",
+      "reader": "reference",
+      "source": "nj"
+    },
+    {
+      "field": "corner_taker",
+      "reader": "reference",
+      "source": "nk"
+    },
+    {
+      "field": "base_color",
+      "reader": "int",
+      "source": "nl"
+    },
+    {
+      "field": "stage_records",
+      "reader": "items",
+      "source": "no"
+    },
+    {
+      "field": "competition_records",
+      "reader": "items",
+      "source": "np"
+    },
+    {
+      "field": "tactics",
+      "reader": "int_array",
+      "source": "nq"
+    },
+    {
+      "field": "training_focus",
+      "reader": "int_array",
+      "source": "nr"
+    },
+    {
+      "field": "training_mode",
+      "reader": "int",
+      "source": "ns"
+    },
+    {
+      "field": "auto_training",
+      "reader": "boolean",
+      "source": "nt"
+    },
+    {
+      "field": "reputation_points",
+      "reader": "int",
+      "source": "nu"
+    },
+    {
+      "field": "lineup_set",
+      "reader": "boolean",
+      "source": "nv"
+    },
+    {
+      "field": "rivals",
+      "reader": "items",
+      "source": "nw"
+    },
+    {
+      "field": "finances",
+      "reader": "embedded",
+      "source": "nx"
+    },
+    {
+      "field": "saved_lineups",
+      "reader": "items",
+      "source": "ny"
+    },
+    {
+      "field": "saved_lineup",
+      "reader": "reference",
+      "source": "nz"
+    },
+    {
+      "field": "country",
+      "reader": "int",
+      "source": "pais"
+    }
+  ],
+  "club_finances": [
+    {
+      "field": "value_dk",
+      "reader": "long",
+      "source": "dK"
+    },
+    {
+      "field": "income_type5",
+      "reader": "int",
+      "source": "dL"
+    },
+    {
+      "field": "income_type3",
+      "reader": "int",
+      "source": "dM"
+    },
+    {
+      "field": "income_transfers",
+      "reader": "long",
+      "source": "dN"
+    },
+    {
+      "field": "income_type6",
+      "reader": "int",
+      "source": "dO"
+    },
+    {
+      "field": "income_type9",
+      "reader": "int",
+      "source": "dP"
+    },
+    {
+      "field": "expense_type7",
+      "reader": "int",
+      "source": "dQ"
+    },
+    {
+      "field": "expense_transfers",
+      "reader": "long",
+      "source": "dR"
+    },
+    {
+      "field": "expense_salaries",
+      "reader": "long",
+      "source": "dS"
+    },
+    {
+      "field": "expense_type4",
+      "reader": "int",
+      "source": "dT"
+    },
+    {
+      "field": "expense_other",
+      "reader": "int",
+      "source": "dU"
+    },
+    {
+      "field": "expense_type8",
+      "reader": "int",
+      "source": "dV"
+    },
+    {
+      "field": "bank_loan",
+      "reader": "int",
+      "source": "dW"
+    },
+    {
+      "field": "bank_interest",
+      "reader": "int",
+      "source": "dX"
+    }
+  ],
+  "stadium": [
+    {
+      "field": "name",
+      "reader": "string",
+      "source": "dm"
+    },
+    {
+      "field": "capacity",
+      "reader": "int_array",
+      "source": "dn"
+    },
+    {
+      "field": "ticket_prices",
+      "reader": "int_array",
+      "source": "do"
+    },
+    {
+      "field": "automatic_prices",
+      "reader": "boolean",
+      "source": "dp"
+    },
+    {
+      "field": "condition",
+      "reader": "int",
+      "source": "dq"
+    },
+    {
+      "field": "country",
+      "reader": "int",
+      "source": "pais"
+    }
+  ],
+  "stage_record": [
+    {
+      "field": "games",
+      "reader": "int",
+      "source": "T"
+    },
+    {
+      "field": "wins",
+      "reader": "int",
+      "source": "bX"
+    },
+    {
+      "field": "losses",
+      "reader": "int",
+      "source": "d"
+    },
+    {
+      "field": "goals_for",
+      "reader": "int",
+      "source": "nK"
+    },
+    {
+      "field": "goals_against",
+      "reader": "int",
+      "source": "nL"
+    },
+    {
+      "field": "stage",
+      "reader": "reference",
+      "source": "nS"
+    },
+    {
+      "field": "points",
+      "reader": "int",
+      "source": "nT"
+    }
+  ],
+  "competition_record": [
+    {
+      "field": "games",
+      "reader": "int",
+      "source": "T"
+    },
+    {
+      "field": "season",
+      "reader": "int",
+      "source": "ae"
+    },
+    {
+      "field": "wins",
+      "reader": "int",
+      "source": "bX"
+    },
+    {
+      "field": "losses",
+      "reader": "int",
+      "source": "d"
+    },
+    {
+      "field": "division",
+      "reader": "int",
+      "source": "divisao"
+    },
+    {
+      "field": "competition_subkind",
+      "reader": "int",
+      "source": "dz"
+    },
+    {
+      "field": "goals_for",
+      "reader": "int",
+      "source": "nK"
+    },
+    {
+      "field": "goals_against",
+      "reader": "int",
+      "source": "nL"
+    },
+    {
+      "field": "position",
+      "reader": "int",
+      "source": "nM"
+    },
+    {
+      "field": "round_reached",
+      "reader": "int",
+      "source": "nN"
+    },
+    {
+      "field": "league_move",
+      "reader": "int",
+      "source": "nO"
+    },
+    {
+      "field": "competition_kind",
+      "reader": "int",
+      "source": "w"
+    }
+  ],
+  "trophy": [
+    {
+      "field": "competition",
+      "reader": "reference",
+      "source": "Y"
+    },
+    {
+      "field": "season",
+      "reader": "int",
+      "source": "ae"
+    },
+    {
+      "field": "club_id",
+      "reader": "int",
+      "source": "bW"
+    },
+    {
+      "field": "competition_subkind",
+      "reader": "int",
+      "source": "dz"
+    },
+    {
+      "field": "competition_kind",
+      "reader": "int",
+      "source": "w"
+    }
+  ],
+  "saved_lineup": [
+    {
+      "field": "slots",
+      "reader": "items",
+      "source": "Ri"
+    },
+    {
+      "field": "name",
+      "reader": "string",
+      "source": "nome"
+    },
+    {
+      "field": "players",
+      "reader": "items",
+      "source": "vp"
+    }
+  ],
+  "coach": [
+    {
+      "field": "games",
+      "reader": "int",
+      "source": "W"
+    },
+    {
+      "field": "club_id",
+      "reader": "int_ref_club_id",
+      "source": "bW"
+    },
+    {
+      "field": "titles",
+      "reader": "int",
+      "source": "bZ"
+    },
+    {
+      "field": "previous_country",
+      "reader": "int",
+      "source": "bf"
+    },
+    {
+      "field": "trophies",
+      "reader": "items",
+      "source": "cA"
+    },
+    {
+      "field": "name",
+      "reader": "string",
+      "source": "dm"
+    },
+    {
+      "field": "national_team",
+      "reader": "reference",
+      "source": "hy"
+    },
+    {
+      "field": "human",
+      "reader": "boxed_boolean",
+      "source": "mW"
+    },
+    {
+      "field": "id",
+      "reader": "int",
+      "source": "nU"
+    },
+    {
+      "field": "previous_club",
+      "reader": "int_ref_club_id",
+      "source": "nX"
+    },
+    {
+      "field": "previous_division",
+      "reader": "int",
+      "source": "nY"
+    },
+    {
+      "field": "country",
+      "reader": "int",
+      "source": "nZ"
+    },
+    {
+      "field": "reputation",
+      "reader": "int",
+      "source": "nc"
+    },
+    {
+      "field": "reputation_points",
+      "reader": "int",
+      "source": "nu"
+    },
+    {
+      "field": "start_season",
+      "reader": "int",
+      "source": "oa"
+    },
+    {
+      "field": "seasons",
+      "reader": "items",
+      "source": "ob"
+    },
+    {
+      "field": "points",
+      "reader": "int",
+      "source": "oc"
+    },
+    {
+      "field": "wins",
+      "reader": "int",
+      "source": "od"
+    },
+    {
+      "field": "losses",
+      "reader": "int",
+      "source": "oe"
+    },
+    {
+      "field": "board_confidence",
+      "reader": "int",
+      "source": "of"
+    },
+    {
+      "field": "fan_support",
+      "reader": "int",
+      "source": "og"
+    },
+    {
+      "field": "messages",
+      "reader": "items",
+      "source": "oh"
+    },
+    {
+      "field": "seasons_at_club",
+      "reader": "int",
+      "source": "oi"
+    }
+  ],
+  "coach_season": [
+    {
+      "field": "games",
+      "reader": "int",
+      "source": "T"
+    },
+    {
+      "field": "season",
+      "reader": "int",
+      "source": "ae"
+    },
+    {
+      "field": "club_id",
+      "reader": "int",
+      "source": "bW"
+    },
+    {
+      "field": "wins",
+      "reader": "int",
+      "source": "bX"
+    },
+    {
+      "field": "points",
+      "reader": "int",
+      "source": "bY"
+    },
+    {
+      "field": "titles",
+      "reader": "int",
+      "source": "bZ"
+    },
+    {
+      "field": "losses",
+      "reader": "int",
+      "source": "d"
+    }
+  ],
+  "message": [
+    {
+      "field": "sender",
+      "reader": "int",
+      "source": "RU"
+    },
+    {
+      "field": "message_id",
+      "reader": "int",
+      "source": "RV"
+    },
+    {
+      "field": "text1",
+      "reader": "string",
+      "source": "RW"
+    },
+    {
+      "field": "text2",
+      "reader": "string",
+      "source": "RX"
+    },
+    {
+      "field": "read",
+      "reader": "boolean",
+      "source": "RY"
+    },
+    {
+      "field": "flag_rz",
+      "reader": "boolean",
+      "source": "RZ"
+    },
+    {
+      "field": "text3",
+      "reader": "string",
+      "source": "Sa"
+    },
+    {
+      "field": "text4",
+      "reader": "string",
+      "source": "Sb"
+    },
+    {
+      "field": "value_sc",
+      "reader": "int",
+      "source": "Sc"
+    },
+    {
+      "field": "value_sd",
+      "reader": "int",
+      "source": "Sd"
+    },
+    {
+      "field": "flag_se",
+      "reader": "boolean",
+      "source": "Se"
+    },
+    {
+      "field": "date_text",
+      "reader": "string",
+      "source": "data"
+    },
+    {
+      "field": "amount",
+      "reader": "int",
+      "source": "oq"
+    }
+  ],
+  "match": [
+    {
+      "field": "stadium",
+      "reader": "reference",
+      "source": "dH"
+    },
+    {
+      "field": "stadium_condition",
+      "reader": "int",
+      "source": "dq"
+    },
+    {
+      "field": "away",
+      "reader": "reference",
+      "source": "fA"
+    },
+    {
+      "field": "home_goals",
+      "reader": "int",
+      "source": "fB"
+    },
+    {
+      "field": "away_goals",
+      "reader": "int",
+      "source": "fC"
+    },
+    {
+      "field": "attendance",
+      "reader": "int_array",
+      "source": "fD"
+    },
+    {
+      "field": "income",
+      "reader": "int",
+      "source": "fE"
+    },
+    {
+      "field": "home_starters",
+      "reader": "items",
+      "source": "fF"
+    },
+    {
+      "field": "away_starters",
+      "reader": "items",
+      "source": "fG"
+    },
+    {
+      "field": "home_bench",
+      "reader": "items",
+      "source": "fH"
+    },
+    {
+      "field": "away_bench",
+      "reader": "items",
+      "source": "fI"
+    },
+    {
+      "field": "home_played",
+      "reader": "items",
+      "source": "fJ"
+    },
+    {
+      "field": "away_played",
+      "reader": "items",
+      "source": "fK"
+    },
+    {
+      "field": "home_list_fl",
+      "reader": "items",
+      "source": "fL"
+    },
+    {
+      "field": "away_list_fm",
+      "reader": "items",
+      "source": "fM"
+    },
+    {
+      "field": "events",
+      "reader": "items",
+      "source": "fN"
+    },
+    {
+      "field": "home_strength",
+      "reader": "int",
+      "source": "fO"
+    },
+    {
+      "field": "away_strength",
+      "reader": "int",
+      "source": "fP"
+    },
+    {
+      "field": "values_fq",
+      "reader": "int_array",
+      "source": "fQ"
+    },
+    {
+      "field": "substitutions_left",
+      "reader": "int_array",
+      "source": "fR"
+    },
+    {
+      "field": "value_fs",
+      "reader": "int",
+      "source": "fS"
+    },
+    {
+      "field": "value_ft",
+      "reader": "int",
+      "source": "fT"
+    },
+    {
+      "field": "value_fu",
+      "reader": "int",
+      "source": "fU"
+    },
+    {
+      "field": "list_fv",
+      "reader": "items",
+      "source": "fV"
+    },
+    {
+      "field": "possession",
+      "reader": "int_array",
+      "source": "fW"
+    },
+    {
+      "field": "values_fx",
+      "reader": "int_array",
+      "source": "fX"
+    },
+    {
+      "field": "shots",
+      "reader": "int_array",
+      "source": "fY"
+    },
+    {
+      "field": "shots_on_target",
+      "reader": "int_array",
+      "source": "fZ"
+    },
+    {
+      "field": "stage",
+      "reader": "reference",
+      "source": "fw"
+    },
+    {
+      "field": "competition",
+      "reader": "reference",
+      "source": "fx"
+    },
+    {
+      "field": "day",
+      "reader": "int",
+      "source": "fy"
+    },
+    {
+      "field": "home",
+      "reader": "reference",
+      "source": "fz"
+    },
+    {
+      "field": "values_ga",
+      "reader": "int_array",
+      "source": "ga"
+    },
+    {
+      "field": "tackles",
+      "reader": "int_array",
+      "source": "gb"
+    },
+    {
+      "field": "values_gc",
+      "reader": "int_array",
+      "source": "gc"
+    },
+    {
+      "field": "values_gd",
+      "reader": "int_array",
+      "source": "gd"
+    },
+    {
+      "field": "knockout",
+      "reader": "boolean",
+      "source": "ge"
+    },
+    {
+      "field": "penalties_if_level",
+      "reader": "boolean",
+      "source": "gf"
+    },
+    {
+      "field": "value_gg",
+      "reader": "int",
+      "source": "gg"
+    },
+    {
+      "field": "value_gh",
+      "reader": "int",
+      "source": "gh"
+    },
+    {
+      "field": "penalty_shootout",
+      "reader": "int_array",
+      "source": "gi"
+    },
+    {
+      "field": "went_to_penalties",
+      "reader": "boolean",
+      "source": "gj"
+    },
+    {
+      "field": "winner",
+      "reader": "reference",
+      "source": "gk"
+    },
+    {
+      "field": "lineup_slots",
+      "reader": "int_matrix",
+      "source": "gl"
+    },
+    {
+      "field": "substitution_minutes",
+      "reader": "int_matrix",
+      "source": "gm"
+    },
+    {
+      "field": "tactical_change_minutes",
+      "reader": "int_matrix",
+      "source": "gn"
+    },
+    {
+      "field": "played",
+      "reader": "boolean",
+      "source": "v"
+    }
+  ],
+  "match_event": [
+    {
+      "field": "minute",
+      "reader": "int",
+      "source": "dA"
+    },
+    {
+      "field": "half",
+      "reader": "int",
+      "source": "dB"
+    },
+    {
+      "field": "player",
+      "reader": "reference",
+      "source": "dC"
+    },
+    {
+      "field": "other_player",
+      "reader": "reference",
+      "source": "dD"
+    },
+    {
+      "field": "done",
+      "reader": "boolean",
+      "source": "dE"
+    },
+    {
+      "field": "value_df",
+      "reader": "int",
+      "source": "dF"
+    },
+    {
+      "field": "flag_dg",
+      "reader": "boolean",
+      "source": "dG"
+    },
+    {
+      "field": "club",
+      "reader": "reference",
+      "source": "dy"
+    },
+    {
+      "field": "detail",
+      "reader": "int",
+      "source": "dz"
+    },
+    {
+      "field": "kind",
+      "reader": "int",
+      "source": "w"
+    }
+  ],
+  "day": [
+    {
+      "field": "date",
+      "reader": "calendar",
+      "source": "p"
+    },
+    {
+      "field": "tasks_before",
+      "reader": "items",
+      "source": "q"
+    },
+    {
+      "field": "tasks_after",
+      "reader": "items",
+      "source": "r"
+    },
+    {
+      "field": "matches",
+      "reader": "items",
+      "source": "s"
+    },
+    {
+      "field": "stages",
+      "reader": "items",
+      "source": "t"
+    },
+    {
+      "field": "competitions",
+      "reader": "items",
+      "source": "u"
+    },
+    {
+      "field": "done",
+      "reader": "boolean",
+      "source": "v"
+    },
+    {
+      "field": "kind",
+      "reader": "int",
+      "source": "w"
+    }
+  ],
+  "title_record": [
+    {
+      "field": "top_scorer_goals",
+      "reader": "int",
+      "source": "V"
+    },
+    {
+      "field": "season",
+      "reader": "int",
+      "source": "ae"
+    },
+    {
+      "field": "champion",
+      "reader": "int",
+      "source": "bQ"
+    },
+    {
+      "field": "runner_up",
+      "reader": "int",
+      "source": "bR"
+    },
+    {
+      "field": "top_scorer_name",
+      "reader": "optional_string",
+      "source": "bS"
+    },
+    {
+      "field": "top_scorer_club",
+      "reader": "int",
+      "source": "bT"
+    },
+    {
+      "field": "champion_coach",
+      "reader": "int",
+      "source": "bU"
+    },
+    {
+      "field": "runner_up_coach",
+      "reader": "int",
+      "source": "bV"
+    }
+  ],
+  "scorer_record": [
+    {
+      "field": "player",
+      "reader": "reference",
+      "source": "U"
+    },
+    {
+      "field": "goals",
+      "reader": "int",
+      "source": "V"
+    },
+    {
+      "field": "games",
+      "reader": "int",
+      "source": "W"
+    }
+  ],
+  "rating_record": [
+    {
+      "field": "player",
+      "reader": "reference",
+      "source": "U"
+    },
+    {
+      "field": "competition",
+      "reader": "reference",
+      "source": "Y"
+    },
+    {
+      "field": "rating_sum",
+      "reader": "double",
+      "source": "Z"
+    },
+    {
+      "field": "rated_games",
+      "reader": "double",
+      "source": "aa"
+    },
+    {
+      "field": "average",
+      "reader": "double",
+      "source": "ab"
+    },
+    {
+      "field": "value_ac",
+      "reader": "int",
+      "source": "ac"
+    }
+  ],
+  "season_selection": [
+    {
+      "field": "season",
+      "reader": "int",
+      "source": "ae"
+    },
+    {
+      "field": "value_oj",
+      "reader": "int",
+      "source": "oj"
+    },
+    {
+      "field": "players",
+      "reader": "items",
+      "source": "ok"
+    },
+    {
+      "field": "clubs",
+      "reader": "items",
+      "source": "ol"
+    }
+  ],
+  "country_slots": [
+    {
+      "field": "country",
+      "reader": "int",
+      "source": "Rw"
+    },
+    {
+      "field": "slots",
+      "reader": "int",
+      "source": "Rx"
+    },
+    {
+      "field": "flag_ry",
+      "reader": "boolean",
+      "source": "Ry"
+    }
+  ],
+  "group": [
+    {
+      "field": "clubs",
+      "reader": "items",
+      "source": "fs"
+    }
+  ],
+  "knockout_round": [
+    {
+      "field": "knockout",
+      "reader": "reference",
+      "source": "aae"
+    },
+    {
+      "field": "club_count",
+      "reader": "int",
+      "source": "aaf"
+    },
+    {
+      "field": "away_goals",
+      "reader": "boolean",
+      "source": "aag"
+    },
+    {
+      "field": "first_leg",
+      "reader": "items",
+      "source": "aai"
+    },
+    {
+      "field": "second_leg",
+      "reader": "items",
+      "source": "aaj"
+    },
+    {
+      "field": "winners",
+      "reader": "items",
+      "source": "aak"
+    },
+    {
+      "field": "prize",
+      "reader": "int",
+      "source": "aam"
+    },
+    {
+      "field": "value_aan",
+      "reader": "int",
+      "source": "aan"
+    },
+    {
+      "field": "days",
+      "reader": "items",
+      "source": "as"
+    },
+    {
+      "field": "two_legged",
+      "reader": "boolean",
+      "source": "gj"
+    },
+    {
+      "field": "round",
+      "reader": "int",
+      "source": "oj"
+    },
+    {
+      "field": "format_code",
+      "reader": "int",
+      "source": "var0"
+    },
+    {
+      "field": "kind",
+      "reader": "int",
+      "source": "w"
+    }
+  ],
+  "country": [
+    {
+      "field": "divisions",
+      "reader": "items",
+      "source": "ds"
+    },
+    {
+      "field": "clubs",
+      "reader": "items",
+      "source": "dt"
+    },
+    {
+      "field": "two_legged_rounds",
+      "reader": "boolean_array",
+      "source": "duasVoltasMataMata"
+    },
+    {
+      "field": "value_dw",
+      "reader": "int",
+      "source": "dw"
+    },
+    {
+      "field": "level",
+      "reader": "int",
+      "source": "hA"
+    },
+    {
+      "field": "text_hb",
+      "reader": "string",
+      "source": "hB"
+    },
+    {
+      "field": "flag_hc",
+      "reader": "boolean",
+      "source": "hC"
+    },
+    {
+      "field": "value_hr",
+      "reader": "int",
+      "source": "hr"
+    },
+    {
+      "field": "cup",
+      "reader": "reference",
+      "source": "hu"
+    },
+    {
+      "field": "clubs_hv",
+      "reader": "items",
+      "source": "hv"
+    },
+    {
+      "field": "list_hw",
+      "reader": "items",
+      "source": "hw"
+    },
+    {
+      "field": "national_team",
+      "reader": "reference",
+      "source": "hy"
+    },
+    {
+      "field": "flag_hz",
+      "reader": "boolean",
+      "source": "hz"
+    },
+    {
+      "field": "country",
+      "reader": "int",
+      "source": "pais"
+    }
+  ],
+  "state_league": [
+    {
+      "field": "state",
+      "reader": "int",
+      "source": "dr"
+    },
+    {
+      "field": "divisions",
+      "reader": "items",
+      "source": "ds"
+    },
+    {
+      "field": "clubs",
+      "reader": "items",
+      "source": "dt"
+    },
+    {
+      "field": "value_dw",
+      "reader": "int",
+      "source": "dw"
+    }
+  ],
+  "coach_change": [
+    {
+      "field": "club_id",
+      "reader": "int",
+      "source": "bW"
+    },
+    {
+      "field": "coach_out",
+      "reader": "reference",
+      "source": "di"
+    },
+    {
+      "field": "coach_in",
+      "reader": "reference",
+      "source": "dj"
+    },
+    {
+      "field": "value_dk",
+      "reader": "int",
+      "source": "dk"
+    },
+    {
+      "field": "date",
+      "reader": "calendar",
+      "source": "p"
+    }
+  ],
+  "transfer": [
+    {
+      "field": "day",
+      "reader": "int",
+      "source": "d"
+    },
+    {
+      "field": "player_number",
+      "reader": "int",
+      "source": "ei"
+    },
+    {
+      "field": "player_list",
+      "reader": "int",
+      "source": "ej"
+    },
+    {
+      "field": "month",
+      "reader": "int",
+      "source": "on"
+    },
+    {
+      "field": "from_club",
+      "reader": "int",
+      "source": "oo"
+    },
+    {
+      "field": "to_club",
+      "reader": "int",
+      "source": "op"
+    },
+    {
+      "field": "fee",
+      "reader": "int",
+      "source": "oq"
+    },
+    {
+      "field": "year",
+      "reader": "int",
+      "source": "y"
+    }
+  ],
+  "loan": [
+    {
+      "field": "until",
+      "reader": "long",
+      "source": "Pm"
+    },
+    {
+      "field": "owner",
+      "reader": "reference",
+      "source": "Pn"
+    },
+    {
+      "field": "flag_po",
+      "reader": "boolean",
+      "source": "Po"
+    },
+    {
+      "field": "player",
+      "reader": "reference",
+      "source": "U"
+    }
+  ],
+  "head_to_head": [
+    {
+      "field": "games",
+      "reader": "int",
+      "source": "T"
+    },
+    {
+      "field": "club1",
+      "reader": "int",
+      "source": "gV"
+    },
+    {
+      "field": "club2",
+      "reader": "int",
+      "source": "gW"
+    },
+    {
+      "field": "goals1",
+      "reader": "int",
+      "source": "gX"
+    },
+    {
+      "field": "goals2",
+      "reader": "int",
+      "source": "gY"
+    },
+    {
+      "field": "wins1",
+      "reader": "int",
+      "source": "gZ"
+    },
+    {
+      "field": "wins2",
+      "reader": "int",
+      "source": "ha"
+    },
+    {
+      "field": "best_win1_kind",
+      "reader": "int",
+      "source": "hb"
+    },
+    {
+      "field": "best_win1_season",
+      "reader": "int",
+      "source": "hc"
+    },
+    {
+      "field": "best_win1_for",
+      "reader": "int",
+      "source": "hd"
+    },
+    {
+      "field": "best_win1_against",
+      "reader": "int",
+      "source": "he"
+    },
+    {
+      "field": "best_win2_kind",
+      "reader": "int",
+      "source": "hf"
+    },
+    {
+      "field": "best_win2_season",
+      "reader": "int",
+      "source": "hg"
+    },
+    {
+      "field": "best_win2_for",
+      "reader": "int",
+      "source": "hh"
+    },
+    {
+      "field": "best_win2_against",
+      "reader": "int",
+      "source": "hi"
+    }
+  ],
+  "retired_idol": [
+    {
+      "field": "games",
+      "reader": "int",
+      "source": "T"
+    },
+    {
+      "field": "goals",
+      "reader": "int",
+      "source": "g"
+    },
+    {
+      "field": "name",
+      "reader": "string",
+      "source": "n"
+    }
+  ],
+  "stadium_work": [
+    {
+      "field": "stadium",
+      "reader": "reference",
+      "source": "dH"
+    },
+    {
+      "field": "until",
+      "reader": "calendar",
+      "source": "dI"
+    },
+    {
+      "field": "seats",
+      "reader": "int_array",
+      "source": "dJ"
+    }
+  ]
+}

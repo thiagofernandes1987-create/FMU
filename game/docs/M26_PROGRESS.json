@@ -1,0 +1,66 @@
+{
+  "baseline": "M25 196/231 = 84.85%",
+  "rust_total": 231,
+  "sha256_verified": 231,
+  "newly_mapped_M26": 9,
+  "enhanced_existing_M26": 2,
+  "mapped_nominal": 205,
+  "unported": 26,
+  "mapped_nominal_percent": 88.74,
+  "previous_nominal_percent": 84.85,
+  "delta_percentage_points": 3.9,
+  "functional_parity_percent": null,
+  "new_test_cases": 42,
+  "all_test_cases": 453,
+  "rust_differential": "UNVERIFIED",
+  "semantics": "M26 new mappings are DEMO/CBOR diagnostic adapters; not World-compatible Rust example binaries",
+  "crates": {
+    "app": {
+      "total": 66,
+      "mapped_nominal": 66
+    },
+    "datapack": {
+      "total": 12,
+      "mapped_nominal": 9
+    },
+    "engine": {
+      "total": 14,
+      "mapped_nominal": 12
+    },
+    "i18n": {
+      "total": 2,
+      "mapped_nominal": 2
+    },
+    "model": {
+      "total": 24,
+      "mapped_nominal": 23
+    },
+    "persistence": {
+      "total": 25,
+      "mapped_nominal": 19
+    },
+    "simulation": {
+      "total": 46,
+      "mapped_nominal": 41
+    },
+    "systems": {
+      "total": 42,
+      "mapped_nominal": 33
+    }
+  },
+  "new_sources": [
+    "crates/simulation/examples/compare_ratings.rs",
+    "crates/simulation/examples/days_to_season_end.rs",
+    "crates/simulation/examples/inspect_competitions.rs",
+    "crates/systems/examples/day_matches.rs",
+    "crates/systems/examples/compare_season.rs",
+    "crates/systems/examples/new_game_smoke.rs",
+    "crates/persistence/examples/comp_ids.rs",
+    "crates/persistence/examples/save_features.rs",
+    "crates/persistence/examples/game_data.rs"
+  ],
+  "enhanced_sources": [
+    "crates/persistence/src/native.rs",
+    "crates/persistence/examples/open_bfn.rs"
+  ]
+}

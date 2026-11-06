@@ -1,0 +1,31 @@
+{
+  "artifact": "FMU Next M22 large batch",
+  "license": "GPL-3.0-only",
+  "baseline_commit": "8e5cfbd",
+  "rust_source_commit": "bd2ccbdd5f1aaacb6437b58b198d7963c61b3780",
+  "rust_sources": 231,
+  "rust_sha256_verified": 231,
+  "baseline_mapped": 55,
+  "new_m22_mapped": 70,
+  "previously_mapped_enhanced": 1,
+  "nominal_mapped_cumulative": 125,
+  "nominal_percent": 54.11,
+  "gain_pp": 30.3,
+  "unported": 106,
+  "new_tests": 86,
+  "regression_tests": 163,
+  "total_tests_passed": 249,
+  "rust_differential": "UNVERIFIED",
+  "full_conversion_status": "RELEASE_BLOCKED",
+  "visual_scope": false,
+  "private_database_included": false,
+  "WASM_counted_as_typescript": false,
+  "release_candidate_QA": "PASS_249_TESTS_629_MEMBER_HASHES_THREE_REPLAY_TREES",
+  "qa_replay": {
+    "bundle_tests_pass": 249,
+    "patch_tests_pass": 249,
+    "zip_extract_tests_pass": 249,
+    "source_tree": "c3d98037728e2d32f35eaad4e55524cd9c0aa7ae",
+    "candidate_member_hashes_pass": 629
+  }
+}

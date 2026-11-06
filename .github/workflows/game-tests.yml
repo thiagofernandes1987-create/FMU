@@ -1,0 +1,21 @@
+name: FMU recovered game tests
+on:
+  push:
+    paths:
+      - 'game/**'
+      - '.github/workflows/game-tests.yml'
+  pull_request:
+jobs:
+  game:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: game
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --global typescript@5.9.3
+      - run: npm test
+      - run: npm run m27:audit

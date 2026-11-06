@@ -1,0 +1,26 @@
+[
+  {
+    "source": "simulation/src/tables.rs",
+    "constants": 13,
+    "sha256": "59287659eb6e783d07a9bd697b7bbe373f45987e564886c87336be4e31be0ebf",
+    "ts": "src/simulation/generated/tables.ts"
+  },
+  {
+    "source": "simulation/src/fixture_tables.rs",
+    "constants": 8,
+    "sha256": "20e1056d298c7add1d75c9fb98734dbffe67d7d43fda46ee4981b71277cae9c7",
+    "ts": "src/simulation/generated/fixture_tables.ts"
+  },
+  {
+    "source": "engine/src/tables.rs",
+    "constants": 6,
+    "sha256": "d4bcba7dfbe6518171272ea130d2164017bdb16066c984506cff2beb853ac757",
+    "ts": "src/engine/generated/tables.ts"
+  },
+  {
+    "source": "model/src/host_cities.rs",
+    "constants": 6,
+    "sha256": "cbf006b5378d35cc3efeeaaea5af26ca4c15ddd53386d334299908dcff5ffcdc",
+    "ts": "src/model/generated/host_cities.ts"
+  }
+]

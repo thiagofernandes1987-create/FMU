@@ -1,0 +1,3508 @@
+{
+  "source": "M29 original + M30 standalone, no proprietary player database",
+  "paths": {
+    ".github/workflows/game-tests.yml": {
+      "bytes": 457,
+      "sha256": "e9b2ac3059f8a8e0f2054a5a13a1b9840ec1ecf463b0f81e2deb20605f5d41b4",
+      "git_blob_sha1": "0690e289ef6726a4384dca43d5ea4f6b2fe7e328"
+    },
+    "README.md": {
+      "bytes": 1494,
+      "sha256": "233d9f05b5f20f69341f29a796224367a3627784c06a50a47a28d042e005ec98",
+      "git_blob_sha1": "7bcf71cb759253873b15ddb60a23b1a1d4817cd0"
+    },
+    "docs/RECOVERY_M28_M29_M30.md": {
+      "bytes": 1453,
+      "sha256": "9cc2c7ca4d4e1c333dbaf1dc5116b5446b929960036439b8f24993ca752a7890",
+      "git_blob_sha1": "860bc8b500dfd492e149ee0ab5ba50bccee49b9f"
+    },
+    "game/.gitignore": {
+      "bytes": 78,
+      "sha256": "633d101d7dde81e086eb34b2767f1116d61cf6fafc9fae0bc463fb89d34f60dc",
+      "git_blob_sha1": "3a51219229862a628a738fa7ac10550d778d399a"
+    },
+    "game/BACKLOG_FUTURO.md": {
+      "bytes": 1052,
+      "sha256": "8816f0208d59a544dedc4f2dc9fda4900a12f7a3884f7d5890a86cdceb67ff33",
+      "git_blob_sha1": "47a6d9bb883ba1cd351f4835736c1a9ba2273982"
+    },
+    "game/CHANGELOG.md": {
+      "bytes": 1914,
+      "sha256": "3b538c94f599f5aff4971abcc6307a4c4a5121c8e536ca7fb7abcb4739669db9",
+      "git_blob_sha1": "b6f58dd7b1da93139d7ce8d2ae5b7bf31d6e2b34"
+    },
+    "game/CONTRACTS.md": {
+      "bytes": 2619,
+      "sha256": "7afdfcf259210721b4bd0a49107468078c1fcf9f814052e3225876eb42eede2d",
+      "git_blob_sha1": "1602bb8e78e237fb6c815d19c306c8f9ea3e7f9f"
+    },
+    "game/CONTRACTS_M20.md": {
+      "bytes": 2237,
+      "sha256": "7c94f044574bb4d6570d0518af2fed97f7bf4fc3c9797bffe999154da62ff428",
+      "git_blob_sha1": "97ea8c553b20ab46300e7f6b043194fc6a2e1dff"
+    },
+    "game/CONTRACTS_M21.md": {
+      "bytes": 1838,
+      "sha256": "30e7a3f4664c76463ad3aec2281cb348d8e8c0f875288f241bcc568377b2217a",
+      "git_blob_sha1": "156852574e400b509146b188df547a08ef86e89e"
+    },
+    "game/CONTRACTS_M22.md": {
+      "bytes": 15869,
+      "sha256": "698ec536918aebcd826d106643a8844cf9a3a5d8e9fb87fddb53c42328e25963",
+      "git_blob_sha1": "53738db79d8f0ac5fddf66d12a71f704bb6e18c7"
+    },
+    "game/CONTRACTS_M23.md": {
+      "bytes": 1765,
+      "sha256": "7fcba212cd0cf49de23c2a3afc9597f9e00d1da63262e771a91954207460bfb0",
+      "git_blob_sha1": "4fcc25872581633fc6ef13f69d8853a92afaafd9"
+    },
+    "game/CONTRACTS_M24.md": {
+      "bytes": 1344,
+      "sha256": "ebe1faf68bc7d695d2e2648756861bcdae9f84450168c367f2d0cd8e45b80233",
+      "git_blob_sha1": "5e8c728ce99641c538777dbbddbdbeebe5097f37"
+    },
+    "game/CONTRACTS_M25.md": {
+      "bytes": 1473,
+      "sha256": "2926d1c720216c9c75f989adc078a378d6b0ff59d3f5a84cfc8ed5a32d505414",
+      "git_blob_sha1": "299d34f65f0780aeba81247343f05296a0bd61ff"
+    },
+    "game/CONTRACTS_M26.md": {
+      "bytes": 1495,
+      "sha256": "a56f90dff8af060ec1c8199a78c7b979853fb40ee34823bfb3558cee75854401",
+      "git_blob_sha1": "bf241ed4c3d4a0ca0a91dcf9a2b2a6f1ec42fbf3"
+    },
+    "game/CONTRACTS_M27.md": {
+      "bytes": 1565,
+      "sha256": "8cc82bcf66906ba9f98877fef8fb9ed122b5a9387bd6af6ec59ad903a35c51f8",
+      "git_blob_sha1": "178243a14739ca4541d389b64cbeaa8c4056c642"
+    },
+    "game/CONTRACTS_M28.md": {
+      "bytes": 1566,
+      "sha256": "35b177cbe7ba8476fe5386f89fb0f120f6f8740e16dd7567f38bd3bf84a81c62",
+      "git_blob_sha1": "b29eae0db5b2ccbdbc19a51f1b880e44aa22565c"
+    },
+    "game/CONTRACTS_M29.md": {
+      "bytes": 1496,
+      "sha256": "67f25932ae7d65fb5b6bfb0e1522510e3fff998655078190b38feba53baa7275",
+      "git_blob_sha1": "81079a31f2f82874f4c2978e9de51a3bbc860317"
+    },
+    "game/DEPENDENCY_MATRIX.md": {
+      "bytes": 1674,
+      "sha256": "27e4c5fba7eadadfeeacd8aaa32495dd37699726c86f32fdc51012513207568b",
+      "git_blob_sha1": "55d178543152032b63ac3b3fd64f303e46aca069"
+    },
+    "game/DEPENDENCY_MATRIX_M20.md": {
+      "bytes": 1681,
+      "sha256": "78dbfd13c8899a9a0b7a81e9fcb1fb8d281bce489c9fc133ebf3890420e2f14b",
+      "git_blob_sha1": "8398526c5ff9eaa5fbbe0c3b2655395a100c6ef6"
+    },
+    "game/DEPENDENCY_MATRIX_M21.md": {
+      "bytes": 1396,
+      "sha256": "16b8be03eba82e3488f8ed7303dce34a9edb1f315d7de370a3b4c14e08f2b978",
+      "git_blob_sha1": "9c4fe51d6602f5f6dc11582272d0c0113e661107"
+    },
+    "game/DEPENDENCY_MATRIX_M22.md": {
+      "bytes": 13139,
+      "sha256": "f510edd5f0914d8323b5346bab845d77650aeb6fe92cafc5edff920b766575e6",
+      "git_blob_sha1": "77c335d0a95f1ec280b638a2c194ae751ef245f0"
+    },
+    "game/DEPENDENCY_MATRIX_M23.md": {
+      "bytes": 1674,
+      "sha256": "fae827d58ca948276d713a322c2ed1c8b9edd359c0ca1ae55eff4f677813dc45",
+      "git_blob_sha1": "19f3061a91b69fb4292b7bf3e32904a37cfc20d5"
+    },
+    "game/DEPENDENCY_MATRIX_M24.md": {
+      "bytes": 945,
+      "sha256": "bbf568bb533f89d4e3f8d4393a6742fa4d2ffb4febef0adae10fdb33ec0c1a0c",
+      "git_blob_sha1": "92772a05c1cca595f26e5749a4e84c51edb608f0"
+    },
+    "game/DEPENDENCY_MATRIX_M25.md": {
+      "bytes": 993,
+      "sha256": "810331c8379859f063e1bdc339840dcef4ae82fd787480efc36ef5262a9350cc",
+      "git_blob_sha1": "61f939f264f23573c030362c0e43e06e4a2d932c"
+    },
+    "game/DEPENDENCY_MATRIX_M26.md": {
+      "bytes": 1008,
+      "sha256": "3c3cce12d60b9d73ee8b8c3e4db242e558039f40bb93baa146511066ae0ee59f",
+      "git_blob_sha1": "efb439846012db4a6222712a43253c198b583956"
+    },
+    "game/DEPENDENCY_MATRIX_M27.md": {
+      "bytes": 1100,
+      "sha256": "a1881222559e7bb6ae70ada88ee62eb8983de46fa88a7da0cb3d0281e005e2df",
+      "git_blob_sha1": "11404e2d13817e6deee89600842c8b9251d09422"
+    },
+    "game/DEPENDENCY_MATRIX_M28.md": {
+      "bytes": 1039,
+      "sha256": "e598be71441702f2660e30cc4869549255b313ec0806140ea3d932ca3544660b",
+      "git_blob_sha1": "adf4bb23da82d77d1f6fb5a7d05b9926fcb215ef"
+    },
+    "game/DEPENDENCY_MATRIX_M29.md": {
+      "bytes": 1036,
+      "sha256": "213ee3cea7be7a2a351fe9cffc9cfbeca0ffe46e24104c4a354846c22f8940d4",
+      "git_blob_sha1": "6306d7e4eea85561c6ef2a017682d5f2adc1bd87"
+    },
+    "game/KNOWN_ISSUES_M20.md": {
+      "bytes": 1608,
+      "sha256": "46dba594cd075d80f7f15e5957ea9ac930f15efb8ffef06dfe5dec73055783f7",
+      "git_blob_sha1": "ac44a23df7f921b138ac3f0ed72a8c694a26677f"
+    },
+    "game/KNOWN_ISSUES_M21.md": {
+      "bytes": 836,
+      "sha256": "91e195f2334b35dc395436259ea00a2d8a7835810e891199b09d33ffdb069060",
+      "git_blob_sha1": "876bac297a776450a18f8222a57aec5f600110f5"
+    },
+    "game/KNOWN_ISSUES_M22.md": {
+      "bytes": 1343,
+      "sha256": "1a921b2c826f69fbd51a06aaedc0c0d05abc766f744ab417cfb46926017a0df8",
+      "git_blob_sha1": "034abd0cb469c5f655a35322ab29fa7cfca4a1e3"
+    },
+    "game/KNOWN_ISSUES_M23.md": {
+      "bytes": 1298,
+      "sha256": "ef3e21b78874160d15b087ad441a45638d5dcfbfc0b6c1f99df48a96bbd6a297",
+      "git_blob_sha1": "d5b5cbecd1a4159382a0c54e045e3fe6bd452a85"
+    },
+    "game/KNOWN_ISSUES_M24.md": {
+      "bytes": 1569,
+      "sha256": "3336039c00107d80827d837f3062755786961957ccb0ddd71683bef3e15e0eee",
+      "git_blob_sha1": "fe295458dffd4be3df274fe499feaf038cbf504b"
+    },
+    "game/KNOWN_ISSUES_M25.md": {
+      "bytes": 1336,
+      "sha256": "25a666c0a48a670ea596f7626a12cc2e9c4f4ae022506914d40472e511c822b2",
+      "git_blob_sha1": "ac6da2c0f1df79ce93cafe2ac1eb6eb270215a37"
+    },
+    "game/KNOWN_ISSUES_M26.md": {
+      "bytes": 1038,
+      "sha256": "3054ddd7458f5152550e770d2d738f0e13c0cd98fef45507896770ad726b2e82",
+      "git_blob_sha1": "596fd5efe2b76471cf738a3136afd6320f91f13d"
+    },
+    "game/KNOWN_ISSUES_M27.md": {
+      "bytes": 1623,
+      "sha256": "1373044623958dd8ee7b71ed3471f720c6257b11d9dedbc67003f3b1a0068913",
+      "git_blob_sha1": "e21179566ccb52da67fadba051d062ebbbed5489"
+    },
+    "game/KNOWN_ISSUES_M28.md": {
+      "bytes": 1377,
+      "sha256": "24a3476bfd2b43d69252a1448b25665de87db52bdd601550fb3ba63935c02edd",
+      "git_blob_sha1": "6b4afe05da3ee48474543d5decd879204ef7f47f"
+    },
+    "game/KNOWN_ISSUES_M29.md": {
+      "bytes": 1691,
+      "sha256": "514c5c76b3d3c41e06b23d1da4c3ef67810093c7e079a474dbf469e17c1a9f4f",
+      "git_blob_sha1": "050e08d369cbd47b68f84c0ea9b2e951338fc012"
+    },
+    "game/MISSING_INPUTS.yaml": {
+      "bytes": 907,
+      "sha256": "8a10f36e8f0a50bcf58af2bf78a1f89de81cf402c9e191fe4e21b05a30f294f8",
+      "git_blob_sha1": "7f7aff9d624e7402a0b157c816e70b8dc40c6ee9"
+    },
+    "game/QA_RECOVERY_M29_M30.md": {
+      "bytes": 1883,
+      "sha256": "ac6663c931f23847f091c0cca8dff8c499a4782c09501d1b6f01ac65ffc2cc32",
+      "git_blob_sha1": "f94cc79afa2fd2b763a37bee011e1f50ead76495"
+    },
+    "game/QA_REPORT.md": {
+      "bytes": 2648,
+      "sha256": "4d2bceb0bd4306c4b8578c071879370ef447cd4ad2a4c4dd0a60cf98bdd49c94",
+      "git_blob_sha1": "9b884870c7af7994b2dcee3069d6fd33b5974e63"
+    },
+    "game/QA_REPORT_M20.md": {
+      "bytes": 2735,
+      "sha256": "b2f7a7240432c3120856fc26ad9b1f7f3d5a8f921da4c9a12c50f815d6c01216",
+      "git_blob_sha1": "d48e78a9a89ef9321489b7eead330b91cd235fa8"
+    },
+    "game/QA_REPORT_M21.md": {
+      "bytes": 3993,
+      "sha256": "8bab6126f2b61500b045d6b621ffbf0aa999f49ec6d2cfdf42e56653c61fa674",
+      "git_blob_sha1": "346fc39b3e37bc13e3f853a4d0e2ef7e1c13d165"
+    },
+    "game/QA_REPORT_M22.md": {
+      "bytes": 2809,
+      "sha256": "58bffec7e68482d26f23abf3b44e77b05069766bc72ee2f60f3534a8563ba626",
+      "git_blob_sha1": "3fdc586b2b6d9993048170d0a10a94fac69119dd"
+    },
+    "game/QA_REPORT_M23.md": {
+      "bytes": 3925,
+      "sha256": "478f282e2ef08ae7723bc5a1d82d937b6eda66d4cfb6132d3471bc1137eb6656",
+      "git_blob_sha1": "6acf68d93b4781416f145da8b7d5847c567b51ab"
+    },
+    "game/QA_REPORT_M24.md": {
+      "bytes": 4344,
+      "sha256": "ac6136ca35bc90deb4a74c831d70042cbcfa27cc16e10d59bf0b88948e50a359",
+      "git_blob_sha1": "bb73f817bb3ba74a65dd08e40b9318fb86d1841f"
+    },
+    "game/QA_REPORT_M25.md": {
+      "bytes": 3119,
+      "sha256": "00f836d7c6879a8da5254f3d76c65106d03602e6ad5274d803bfea0cc4d58797",
+      "git_blob_sha1": "3a25c8905c14a71c34cb984ba06191f33673ec10"
+    },
+    "game/QA_REPORT_M26.md": {
+      "bytes": 1737,
+      "sha256": "9a2ac7de818faf35dcfe796939f8306e0dc3f273bb25b39f8ca59553e18d765a",
+      "git_blob_sha1": "6291c30266471b2ca89ef99542a14e6c4c280020"
+    },
+    "game/QA_REPORT_M27.md": {
+      "bytes": 2255,
+      "sha256": "930d01eca50eb44ae2be80569ac0408c3ccb0fea1d26ca5fa7638277e2e8de28",
+      "git_blob_sha1": "59ec66d56e52d2e92925ad33e504c8f81bd61b7f"
+    },
+    "game/QA_REPORT_M28.md": {
+      "bytes": 2299,
+      "sha256": "5b47b90e17597d5f1727ff03c8ab7a5c41997bcb3434518e48d5cb00791fa49c",
+      "git_blob_sha1": "8e6254dbd6baea739bc28e829c6e9f9952181458"
+    },
+    "game/QA_REPORT_M29.md": {
+      "bytes": 2825,
+      "sha256": "c3e413a45d49eaff5fc3fde9dc97a9316c4906575d2bbdffcec38cd7a9deda25",
+      "git_blob_sha1": "bd19f437569dc1cc21fb24a42ef91163f6c4ca49"
+    },
+    "game/README.md": {
+      "bytes": 5668,
+      "sha256": "db0bf017759fa3fc47225faa99f14917059b72c308b690224d75bf0728d65109",
+      "git_blob_sha1": "9c3eef51b69171527114a11e9bab4173b7a689b6"
+    },
+    "game/README_M20.md": {
+      "bytes": 4376,
+      "sha256": "ad01e57f59a04974482827cee416521ecc0977851b7881931bc3cb38fafdc2fe",
+      "git_blob_sha1": "97cf9feb1753fb58049c307aac3327e57598f114"
+    },
+    "game/README_M21.md": {
+      "bytes": 1971,
+      "sha256": "7ab4d035f205872b6ea640e1c7b19e8511d57a3bd591771e3812a1a2f2ec5c16",
+      "git_blob_sha1": "70472a9e6cba124439628b87c601d5e7a2e355f3"
+    },
+    "game/README_M22.md": {
+      "bytes": 1620,
+      "sha256": "4b2ee8fdf3f822586be108610a683a136a0403dfbf9a4e3c11422bbd73961f2d",
+      "git_blob_sha1": "2039de76248476da9c87cb2a9db33f38025ae925"
+    },
+    "game/README_M23.md": {
+      "bytes": 1695,
+      "sha256": "08be97b76a448363f13a54fb034da62d90929244ae1e62467bef802ce9ddca8d",
+      "git_blob_sha1": "bb89feb93aa577097ddb4f904884b16b13698268"
+    },
+    "game/README_M24.md": {
+      "bytes": 1931,
+      "sha256": "cb997c5cde8915244409e5cf8c85f4830798435d2d0a6e6e6cf07197c2c8e72b",
+      "git_blob_sha1": "1a0c96c8a89ee2bf934f3b7a769de41717f701bf"
+    },
+    "game/README_M25.md": {
+      "bytes": 1740,
+      "sha256": "dfa67e24e4ba744c40979420d429d50afcdd31c7e2abb6db4ffe4c0fc5737589",
+      "git_blob_sha1": "5906f2698fe22fb33e62d7220db30312487e3386"
+    },
+    "game/README_M26.md": {
+      "bytes": 1744,
+      "sha256": "5f912df8f09c496db777c921de538c934c2dae10c60b8b0e706a17c705566e1b",
+      "git_blob_sha1": "565f23ac624703854d59f139b4b44b2915908b66"
+    },
+    "game/README_M28.md": {
+      "bytes": 1454,
+      "sha256": "fb9877e441a36e3419c03fc6104375933487b38db82d69e640008c95f7bb6283",
+      "git_blob_sha1": "a5d6388ea7cff8803d9234599853fd653f6b2ad3"
+    },
+    "game/README_M29.md": {
+      "bytes": 2801,
+      "sha256": "dc3f54cfa7a457e486d513ecb70de306cc3344c23cadf7a5e49d77d186d49082",
+      "git_blob_sha1": "2cd8a65518bcd3b2da2450edadc662c65a4f619e"
+    },
+    "game/RECOVERY_MANIFEST.json": {
+      "bytes": 685,
+      "sha256": "f88b682c152f089938d86d50f59e9ce045d9ad9e260fad09c4c1cac50896e7d5",
+      "git_blob_sha1": "c6c2d054669864f391259f4d1b65fd276b634eaf"
+    },
+    "game/RECOVERY_README.md": {
+      "bytes": 1378,
+      "sha256": "0f1b7087f2429459e38da0e71f081dfd71cabaf794e3197822ebd1c3af000430",
+      "git_blob_sha1": "7b35c29d034c539ea5c6e85bffe2ba066abc04d8"
+    },
+    "game/RELEASE_MANIFEST_M20.json": {
+      "bytes": 1064,
+      "sha256": "8d37f0a89b81e056b9182eeb8c81a8ece9094ccf84026f8416ce5d566b3cc8e7",
+      "git_blob_sha1": "a08c5458dc8b0bd142653c08856f0afa8de4f71f"
+    },
+    "game/RELEASE_MANIFEST_M21.json": {
+      "bytes": 892,
+      "sha256": "84bdcc4523d765c64e201d655713fea276db492a0fdc26cdd9c96bfa3c11717d",
+      "git_blob_sha1": "509eee99f97f7ad49aff0402f4471b5f62574bb7"
+    },
+    "game/RELEASE_MANIFEST_M22.json": {
+      "bytes": 975,
+      "sha256": "78fd0dfdbcfda2bbf52f6ee66391aa81160a4affeabcb66c4726733053db7c07",
+      "git_blob_sha1": "6de1fafcdc975dcf01b6dfc5d9c34e62585a450a"
+    },
+    "game/RELEASE_MANIFEST_M23.json": {
+      "bytes": 1629,
+      "sha256": "f7a2074f8e89102f57f039e7cca5a6f5d894a2e3ed80792e6f28fc75b30fb065",
+      "git_blob_sha1": "012bbcff4310eaaeefae37751cd991b484244e0e"
+    },
+    "game/RELEASE_MANIFEST_M24.json": {
+      "bytes": 792,
+      "sha256": "5b2ccc618d1c0ae201a7f3e949a310b4e0d60ccb37ffe86af8e22e2b0a970434",
+      "git_blob_sha1": "37dd48919076b28124a7d30d4706d21fdb220833"
+    },
+    "game/RELEASE_MANIFEST_M25.json": {
+      "bytes": 989,
+      "sha256": "799f5acf4b939cf66e3381cd849fb496964e28ff7290905b7788f581c1f29c67",
+      "git_blob_sha1": "ac1cac42ed18ca8eabfe2e526e881790b369a373"
+    },
+    "game/RELEASE_MANIFEST_M26.json": {
+      "bytes": 1129,
+      "sha256": "1d22f3af368293fdc810eeaa62b65ec985c5089c6cf8a9bd86113b453e250d06",
+      "git_blob_sha1": "4a388bde402a93bf1abe1e33856a61c4d6ec75cd"
+    },
+    "game/RELEASE_MANIFEST_M28.json": {
+      "bytes": 584,
+      "sha256": "8bda1a9260642ee76ba785c6b1a9ffaa7acfd9f636bf3e3e9fceac10ba3eebb4",
+      "git_blob_sha1": "089bb001428ff1cc440d23f0d285f754e94f057e"
+    },
+    "game/TASKS.md": {
+      "bytes": 2355,
+      "sha256": "7fb8c55c9bd5fe29b72040485fa2eace0cda7d3bb2b6935bbc630b62f1a48884",
+      "git_blob_sha1": "da30b912b5451edacc24c463b303f68a9d189888"
+    },
+    "game/TASKS_M21.md": {
+      "bytes": 1384,
+      "sha256": "0698c566bc4398d12b582a93df7fe682ae36ca6f6a16feb5ead08a52e04863fc",
+      "git_blob_sha1": "bcffb99b8bf3f82c95e9cf179cb95ff2b0f1e826"
+    },
+    "game/TASKS_M22.md": {
+      "bytes": 1653,
+      "sha256": "bf0d92c3f5d930c131a4c6e921792d545274935f4ddfda70775d357cf03789ed",
+      "git_blob_sha1": "e31b5cf5bbbdd07dd2052bed563484e4a80ba854"
+    },
+    "game/TASKS_M23.md": {
+      "bytes": 2468,
+      "sha256": "569c31ef83a3df009e40ada1f3cbe394dbbcc784891dea10e8a7d74ae373af84",
+      "git_blob_sha1": "3e02b7a093ec67188f5254f87dedc8fa8b6c2a68"
+    },
+    "game/TASKS_M24.md": {
+      "bytes": 1835,
+      "sha256": "d0b14f10eb68699cb631a2beda7442a9afe57b20e1ea8ad5c1b886957ff61ade",
+      "git_blob_sha1": "72ce932cad55c4c25a169bf949cf30a2ed82a455"
+    },
+    "game/TASKS_M25.md": {
+      "bytes": 1608,
+      "sha256": "32f187d469a9c7bf6f7750ae4fa4acbfd16ca6e8c1a92f4b47391276bc1fd09d",
+      "git_blob_sha1": "4cf4aa513195342f9830441f18dcb0f66b27779f"
+    },
+    "game/TASKS_M27.md": {
+      "bytes": 2338,
+      "sha256": "d9d34f56514ad8d081434d21ad0f5fb1e734fd5a292f41c35a112fda76688dd8",
+      "git_blob_sha1": "957d2613f18afd049855ea94864137ce671836d1"
+    },
+    "game/TASKS_M28.md": {
+      "bytes": 1877,
+      "sha256": "3589a47081c65e32075b8cea86d5496a7de0c7f39d79613ff18e0a4c6c103f34",
+      "git_blob_sha1": "1741362c31f02aa2e8278e6ea53eef7a8b48321e"
+    },
+    "game/TASKS_M29.md": {
+      "bytes": 2015,
+      "sha256": "396bb96bdd93199169c5268b8dd1723b051de16697d9a7222bce02d4280963cb",
+      "git_blob_sha1": "3e6bd90426e7675db612a87d99896142ddefd33e"
+    },
+    "game/TASKS_RECOVERY.md": {
+      "bytes": 839,
+      "sha256": "27d1a195bb153e4e9a9b2075ef0cce3ebf1bba484377d8cca67283fb452d4237",
+      "git_blob_sha1": "a6d8f4398783f1a7ea0b9fc4369382f01a7ced84"
+    },
+    "game/TRACEABILITY_MATRIX.md": {
+      "bytes": 1069,
+      "sha256": "d8e631b4c6c27dde3a3ee79ed924d351832d2aedb5e73d7a11dd37b4fb6bac62",
+      "git_blob_sha1": "241bf2012df937f75a29491f04caaedf302e4381"
+    },
+    "game/TRACEABILITY_MATRIX_M20.md": {
+      "bytes": 1296,
+      "sha256": "2e19faaeaf839741fe86bacaf78a4b23fc813d8c8d218aa9b0a0786f9291467b",
+      "git_blob_sha1": "86559e1a798da65f2c3a0cebf9aaf4647e085282"
+    },
+    "game/TRACEABILITY_MATRIX_M21.md": {
+      "bytes": 891,
+      "sha256": "e92aedd8b88f73bc7fdca0db622d9e5f8d9e04a0d9a670823119efd273228795",
+      "git_blob_sha1": "f6b87b31ed7c1fb335c11852ca9cf2f36151cb80"
+    },
+    "game/TRACEABILITY_MATRIX_M22.md": {
+      "bytes": 9814,
+      "sha256": "f4cfb5b53aa0263662406b6247be3d88677ca3e72df204a65a3989c2088a8b12",
+      "git_blob_sha1": "798d10ea74eb4e6372e62c2ba3a639d507ec8ba1"
+    },
+    "game/TRACEABILITY_MATRIX_M23.md": {
+      "bytes": 1338,
+      "sha256": "e7b61300d2f4bb195e83714e50a24064c127beb0814e11df034832b5459f9fc4",
+      "git_blob_sha1": "265d7c492db9c992c6a9f880137eb8f8acfe1414"
+    },
+    "game/TRACEABILITY_MATRIX_M24.md": {
+      "bytes": 1003,
+      "sha256": "bce48dfe0dd159c90a87a3e6ff126714d4f142118fa43c9bb2cea23cc776e0f7",
+      "git_blob_sha1": "118f8301a82bcbaad739e5ee31c4cdbc5bcca45e"
+    },
+    "game/TRACEABILITY_MATRIX_M25.md": {
+      "bytes": 1043,
+      "sha256": "a2ee022afde0b9270f471f6f82220ecebf45d22f7ef3916c353af2dc827bcc3b",
+      "git_blob_sha1": "77ad887e7628083714c409e7ea96286e49fcf51c"
+    },
+    "game/TRACEABILITY_MATRIX_M26.md": {
+      "bytes": 1037,
+      "sha256": "dc8feaee0447a4128398613e29cba266d5beb5a3574588ccb331d4a7b5501f0e",
+      "git_blob_sha1": "10f48a07453f9be7320a2f9433c74a51b476ad4b"
+    },
+    "game/TRACEABILITY_MATRIX_M27.md": {
+      "bytes": 1008,
+      "sha256": "f921c5b395ce505e344191de3490354bfce710b478db480cbb4a64de2cade730",
+      "git_blob_sha1": "1109db9bfdeb8d856a6364723d9fe48d165b1148"
+    },
+    "game/TRACEABILITY_MATRIX_M28.md": {
+      "bytes": 956,
+      "sha256": "ffb6ad48521826a7a572ef448e7f2c20275c97fe2485437b95a90ecff15fdc2a",
+      "git_blob_sha1": "9b5b5b4124309d87f1d8fa87bfc9cfe30181f6bf"
+    },
+    "game/TRACEABILITY_MATRIX_M29.md": {
+      "bytes": 1212,
+      "sha256": "e4e2394dca40274d3371b247118d3a483f1cea404358fb3ca026838c64e928b6",
+      "git_blob_sha1": "c4c146899b43971f9e20f8136d04bf4ca239a9a9"
+    },
+    "game/docs/M19_BATCH88_PLAN.csv": {
+      "bytes": 8585,
+      "sha256": "a35f2d9202443658578ef281b26b406c60048f35a2e67d225748f45f7b9dd9fc",
+      "git_blob_sha1": "4b6e16071ebf274d9c9cc143ce0c421d40fd5979"
+    },
+    "game/docs/M19_PROGRESS.json": {
+      "bytes": 652,
+      "sha256": "94896869b4ec9a56fae68a0af63ca3f635e76d0cde0045a3e41d5fb497bfb8c5",
+      "git_blob_sha1": "e66588d63c9b841c8225fa6625b7ebefa5a2aab9"
+    },
+    "game/docs/M19_SOURCE_INVENTORY.csv": {
+      "bytes": 30824,
+      "sha256": "3ce8923932dedc46e263c507c936840dda9bb828985cafa8541f31ded34e17ee",
+      "git_blob_sha1": "3111013dc94c175fe4885d25e42e4ca13e1ada84"
+    },
+    "game/docs/M20_PORTING_MATRIX.csv": {
+      "bytes": 30826,
+      "sha256": "41154572026887a582adbd0f0e5a78cb5c3031af72961a709f660f85e68b2dff",
+      "git_blob_sha1": "12bbd07888fdf4abfdcdb56be2e03f66f14aca45"
+    },
+    "game/docs/M20_PROGRESS.json": {
+      "bytes": 1453,
+      "sha256": "083ac84fd77a096e48355c7998f580de337210a282a8a905eaf1503291f0a1d2",
+      "git_blob_sha1": "212eb4965df5e88bb7317e11a6201cc950d7f1b7"
+    },
+    "game/docs/M21_PORTING_MATRIX.csv": {
+      "bytes": 31785,
+      "sha256": "4330cbd0239036801dae4d6b67caceac266f68989e292297fdd468dc6de78743",
+      "git_blob_sha1": "6bea8bf1db8fb843201d1106724bd1163fbc73ed"
+    },
+    "game/docs/M21_PROGRESS.json": {
+      "bytes": 1764,
+      "sha256": "77f6f75f48d9d1db2d20b4d5d780a1cded902a2fc79b8fb75948f3ceebf48995",
+      "git_blob_sha1": "c3d49c8e734b3697d1f0a8fcf1bcb0f66473b582"
+    },
+    "game/docs/M21_SOURCES.md": {
+      "bytes": 3456,
+      "sha256": "3d111769caf911a42b1aa9a45a439fdb883926a59245e479dbb281a540b9a6a1",
+      "git_blob_sha1": "913037023c850e21f55c425dc8f7f40ac398fc8c"
+    },
+    "game/docs/M22_MODULE_GUIDE.md": {
+      "bytes": 17444,
+      "sha256": "1110255259bf797d37d2b6a41bced13ee62067f8e8164c7a2be46101247cb99e",
+      "git_blob_sha1": "999521b1e6254e9d2cfd61301f9eed3532cc3c75"
+    },
+    "game/docs/M22_NEW_SOURCES.csv": {
+      "bytes": 12110,
+      "sha256": "39e905fd7b2783bc5aba52b33b819f12cfa68e31400fc75619bd8bd1bc5cc2ee",
+      "git_blob_sha1": "63c8c2e3a7a64e3c3d4c69eab2118ead0ade6f93"
+    },
+    "game/docs/M22_PORTING_MATRIX.csv": {
+      "bytes": 34986,
+      "sha256": "784d99f461ee27aa0cb496ba24d1119a251b7c6e1900897263567835a378b2f9",
+      "git_blob_sha1": "da75c671091e526ec1d451c9a29bacc3e6666e90"
+    },
+    "game/docs/M22_PROGRESS.json": {
+      "bytes": 1857,
+      "sha256": "3a21c2e71d3acdd24d4f33c141651f15061b95ef2b9d903e1b83cef342e3ac46",
+      "git_blob_sha1": "14ba44ed5b99b8357860caff23c7278793051b1f"
+    },
+    "game/docs/M22_REMAINING_RUST.csv": {
+      "bytes": 13642,
+      "sha256": "99334e9a463499c4f0ef13fa5bde0cdd27144e32a3ddd3516d14c486a95ec7bc",
+      "git_blob_sha1": "438f6db245b7334aa14a8420367dfe0ce5acc8b6"
+    },
+    "game/docs/M22_SCOPE_AT_START.md": {
+      "bytes": 1907,
+      "sha256": "868dc2c40e47090f2ba0e765a1de9b165dcee6c0069a7bfd29b1cf8c6ba410ec",
+      "git_blob_sha1": "9ba431c6640199efa590a8949ffc8a1d5b327d13"
+    },
+    "game/docs/M22_SOURCE_MANIFEST.json": {
+      "bytes": 18668,
+      "sha256": "a5c22ed752e6a51462c130042b17db9b97fffde44626d4f5cabfdda110200402",
+      "git_blob_sha1": "f15aea770bc59b330d6639063dd32925defbc02a"
+    },
+    "game/docs/M23_APP_FUNCTIONS.csv": {
+      "bytes": 16464,
+      "sha256": "c26d38d19a11a79f5a52085b6e7f8d14bced4b2a873e7ab66ba406bd074323bc",
+      "git_blob_sha1": "dc28904e0e8ce6a951f9344860cf0b44ef30d443"
+    },
+    "game/docs/M23_APP_FUNCTIONS.json": {
+      "bytes": 35860,
+      "sha256": "0da6f4ff2cf409b32759b6c8a7c2a0196950dd6b77abf39a04f54db4973c5e7b",
+      "git_blob_sha1": "bf7b8a6928d42ad0903391bcfa265381c35c54f9"
+    },
+    "game/docs/M23_MODULE_GUIDE.md": {
+      "bytes": 5941,
+      "sha256": "570780f2e2c321f783506df20b1e2fe75d58fd2a573285174d0a53872542b784",
+      "git_blob_sha1": "15b664cb79adb5d92149df2c7f643d3bf630ce0f"
+    },
+    "game/docs/M23_PORTING_MATRIX.csv": {
+      "bytes": 37495,
+      "sha256": "e038eccb524122acc8f59213253d944058d3481ce1c4b98990763c84eeb8520d",
+      "git_blob_sha1": "39ba12cb0dc4becf7623aef09d52b3f995ba7e83"
+    },
+    "game/docs/M23_PROGRESS.json": {
+      "bytes": 12022,
+      "sha256": "73bbfc2f2f0366fbce43e0aca4ee6fd61adce734ef7abbc94b6264aff04fe9b9",
+      "git_blob_sha1": "9ac9fc49de07bc3cf1ebaff3a21a9e06b3776144"
+    },
+    "game/docs/M24_MODULE_GUIDE.md": {
+      "bytes": 5268,
+      "sha256": "6668cb089250f1ffb355d20fd06b4427261510aa601873ede4d980e6aee52655",
+      "git_blob_sha1": "693f29b24f2dd8d076a76d5b9fde8833f00c4d0f"
+    },
+    "game/docs/M24_PORTING_MATRIX.csv": {
+      "bytes": 38101,
+      "sha256": "9503dddcddb02f198728dcd981ba76aa63f33bebdbc0087b619ae16a6884dabc",
+      "git_blob_sha1": "a13509ed55579a513449cea505c88a01524a2fc4"
+    },
+    "game/docs/M24_PROGRESS.json": {
+      "bytes": 2365,
+      "sha256": "a6b6a4ff63197de21dbf042eabdeb87c7bfbb5607338e0a5fd7d25ef3a33adf5",
+      "git_blob_sha1": "e4026bce0af9d4eaf9d9d7060b6ff1a42c27641b"
+    },
+    "game/docs/M25_MODULE_GUIDE.md": {
+      "bytes": 7503,
+      "sha256": "8a57ae1f1d0073e4c5b18b07b867cd14fbbdb3a1baa4cad88618e296a83a686b",
+      "git_blob_sha1": "13eba17118786f78ce55655a2ec782ba0d75ea04"
+    },
+    "game/docs/M25_PORTING_MATRIX.csv": {
+      "bytes": 38275,
+      "sha256": "b7102ebd83e1c958824f0bcd1e42e6b0e4ac58f4627948e4374074da52319bb4",
+      "git_blob_sha1": "4c40b866f622482bd8033c68604c3cb72ed3ce0d"
+    },
+    "game/docs/M25_PROGRESS.json": {
+      "bytes": 1756,
+      "sha256": "530bb3bac3aa313dc98f8c403c6edd4edd991a67e0b9f813f6bcd54f61448ad4",
+      "git_blob_sha1": "782fce23cad71c132ccb07f910f40addf8067b06"
+    },
+    "game/docs/M26_MODULE_GUIDE.md": {
+      "bytes": 6114,
+      "sha256": "a0bf69a97d869f898b6fea961e7ac6f9712ae72e097a8a33df723be081e9567c",
+      "git_blob_sha1": "ba94f229cf1dd4d8412d877178bc8f4357a2b547"
+    },
+    "game/docs/M26_PORTING_MATRIX.csv": {
+      "bytes": 38992,
+      "sha256": "30f750f990ff9fdf3e0ad93593fa231c19012b7944379e94d0232383efbcef1c",
+      "git_blob_sha1": "dad44883c70f8c5b3b793377b55e997bd1a307f6"
+    },
+    "game/docs/M26_PROGRESS.json": {
+      "bytes": 1697,
+      "sha256": "e5b39d7a7c333e51590eae966d66e7da92746ae94a624d5b11b8e2c4cbdada43",
+      "git_blob_sha1": "045ed420c42005c8da267477b3df929bc009c0a9"
+    },
+    "game/docs/M27_LAST_26_GAP_MATRIX.csv": {
+      "bytes": 3769,
+      "sha256": "65d3b5e2f693803744b0ca52bc43453f33abd442e3e21c62ea65c50a2123cc3d",
+      "git_blob_sha1": "fcbade66d1145a9d5c2debcae1b4fae6815ebe53"
+    },
+    "game/docs/M27_MODULE_GUIDE.md": {
+      "bytes": 6407,
+      "sha256": "aa56e0c28e861c7c669cc2b2ea040cbc4d9b08c246855ea62f4a0623985cee69",
+      "git_blob_sha1": "4545bd1a64b9897b85c5b77353fc7ad1f03c99fd"
+    },
+    "game/docs/M27_PORTING_MATRIX.csv": {
+      "bytes": 39275,
+      "sha256": "eeba8143c23384c683abe7d913b25e2e5b87ae13b4bd72b17da7329521a40300",
+      "git_blob_sha1": "e66ab8510f9606d0c799e5c8019c7729502d5665"
+    },
+    "game/docs/M27_PROGRESS.json": {
+      "bytes": 1899,
+      "sha256": "9efd9a6647704deaea17230e4ad64ee5060d9efca80727e7414bebd9a9866195",
+      "git_blob_sha1": "a183a91ca067e24c33e844b227faf835518b02a2"
+    },
+    "game/docs/M28_MODULE_GUIDE.md": {
+      "bytes": 6352,
+      "sha256": "1b69b731077b9a95b062961d4e26069d5508bb018e577022acbdabdb94dc6cbb",
+      "git_blob_sha1": "b29322dabad60a94ea9e0d428d0c57d3ace0cf3f"
+    },
+    "game/docs/M28_PORTING_MATRIX.csv": {
+      "bytes": 39512,
+      "sha256": "8f4d2716609fbda1a5cf00c0df5d6046c0b49f05b3cd1cb6f378c00525eda73f",
+      "git_blob_sha1": "fd14afdf1082adb71c2f08b9161fae24d936f607"
+    },
+    "game/docs/M28_PROGRESS.json": {
+      "bytes": 1645,
+      "sha256": "023da5f0c35cb3699198ee28795dafa32d08edd5d82f79e56dac3be90ef59f61",
+      "git_blob_sha1": "c5ed0ff3607f99de1f9aa0abd88ab59f828d0a10"
+    },
+    "game/docs/M29_MODULE_GUIDE.md": {
+      "bytes": 5288,
+      "sha256": "931338d35d3e8358671158da71a9897fdb3ce1b68ab203a0f6b3658ad02a6e40",
+      "git_blob_sha1": "0e2be3200a8935db6a1eb9d7bc03ce2a5c609405"
+    },
+    "game/docs/M29_PORTING_MATRIX.csv": {
+      "bytes": 39512,
+      "sha256": "8f4d2716609fbda1a5cf00c0df5d6046c0b49f05b3cd1cb6f378c00525eda73f",
+      "git_blob_sha1": "fd14afdf1082adb71c2f08b9161fae24d936f607"
+    },
+    "game/docs/M29_PROGRESS.json": {
+      "bytes": 798,
+      "sha256": "a3b35e730ce17a3f7e9ea773f23efe47ba174407ad20359046ac22a87f4556a7",
+      "git_blob_sha1": "e937b62d9f3d547e60522a73ceb4cb914a102943"
+    },
+    "game/docs/QA_PACKAGE_FINAL.json": {
+      "bytes": 350,
+      "sha256": "d3fe9a79bdc7b351bb5dbb1c75d5becc4eb1bfbded9b3fff1d17ad37e82cc6c5",
+      "git_blob_sha1": "b9fb7152f13580f2ad108ea46859a3a848e590b2"
+    },
+    "game/docs/TASKS_M20_ARCHIVE.md": {
+      "bytes": 2061,
+      "sha256": "e5567821aab4a79d85ff637989da90195f2fd1634c9dd0b1b3812178d0030e3e",
+      "git_blob_sha1": "632e8d7984b66f8d95938b2338f0c56ceb621481"
+    },
+    "game/docs/WASM_RUNTIME_AUDIT.json": {
+      "bytes": 597,
+      "sha256": "b9f84be2963f492a4d1ac5cbeba065ee51caca2f9267499e76e3021ab96eb562",
+      "git_blob_sha1": "091a163c4c2471589e21a71f0ef6c35044f7cd23"
+    },
+    "game/docs/evidence/M20_baseline.log": {
+      "bytes": 11292,
+      "sha256": "ebed1f8e09077c199cf6e21e4b622d06389ffbdf6ad98f94ac58a501eb48b126",
+      "git_blob_sha1": "a8247b03c3a4b5ba8769ada9149274664bcd70c4"
+    },
+    "game/docs/evidence/M20_full_tests.log": {
+      "bytes": 24619,
+      "sha256": "65f7b86643261fca00d8dd094c836e17e04eae2ced64cdabeaa02e0f05574eee",
+      "git_blob_sha1": "ae82bcaafb142dc9c3e69f31ae6010c48841965a"
+    },
+    "game/docs/evidence/M20_inventory_check.log": {
+      "bytes": 103,
+      "sha256": "cf9d0c3c5ba805e728dba286f2fcd2674388f5b8af9347761b34802cfc373ab2",
+      "git_blob_sha1": "5ba9ec533127e1322ead3cb32ba76f72e00ce5dd"
+    },
+    "game/docs/evidence/M20_regression_verify.log": {
+      "bytes": 1040,
+      "sha256": "7347e349d20d8db425a645d325a4dee45045f1f92167d516de9895b9d8112ec3",
+      "git_blob_sha1": "d34d01888f70045b308944314390da44865217a4"
+    },
+    "game/docs/evidence/M20_static_tables_check.log": {
+      "bytes": 812,
+      "sha256": "4dc3137c7e79b93cfd536087a126c11ad09889f191a2399b938f97790d944485",
+      "git_blob_sha1": "903228d639bada38b66b57c4937cb66e60c4aa08"
+    },
+    "game/docs/evidence/M21_tests_and_source_verify.log": {
+      "bytes": 33448,
+      "sha256": "2608be3df79db936127a7118820a3e55f37571b2de31e041805098351d5a64c8",
+      "git_blob_sha1": "030ef3a3d70788e55da9aa87a9382ce50375a785"
+    },
+    "game/docs/m30/INTEGRATION_M29.md": {
+      "bytes": 3570,
+      "sha256": "6f6d61556dcfaa324767f83ec25e3c7774f3b6dc22fc92f0cb9149b378c78cd2",
+      "git_blob_sha1": "cf42c2148819de29950a5a6134ca204c32f6114f"
+    },
+    "game/docs/m30/RELEASE_TEST_PLAN.md": {
+      "bytes": 1789,
+      "sha256": "5521ed58b91da9ebfbc79cea16b085f77f01a887343d221149186e6d51bb22d4",
+      "git_blob_sha1": "ae01d93ffe198b7d43abdad8235559ecf526bb31"
+    },
+    "game/docs/package_log.json": {
+      "bytes": 273,
+      "sha256": "ca2d3284d975b36437da758ae77795394d052391cde1ebbc7725e54c25d07c43",
+      "git_blob_sha1": "590067cae9412e16f09ad3c3587858b278366c88"
+    },
+    "game/package.json": {
+      "bytes": 2189,
+      "sha256": "8852062945661839d557755a56092f2ecb4004d4fa4614aac5cdf830ef7395a0",
+      "git_blob_sha1": "9872a34c4f6724e800c3f13316be247e23c3605c"
+    },
+    "game/public/fmu-m24/app.bundle.js": {
+      "bytes": 74239,
+      "sha256": "6d162ceaa51496ee2dee45f2fb4db0f60cb5240dd219fab2bbe2aaa94df227ac",
+      "git_blob_sha1": "7347e824a742bc565e4fab974361712e6f5871f8"
+    },
+    "game/public/fmu-m24/app.css": {
+      "bytes": 18924,
+      "sha256": "e8477cd044d3a8db0b23b8ae7be7f153e91cc70fbc8e629750ee3df6d7f1aa0f",
+      "git_blob_sha1": "14a47967c77c7a4d8241423e323bfa953bcd3d27"
+    },
+    "game/public/fmu-m24/index.html": {
+      "bytes": 562,
+      "sha256": "994a1a35fb38e6e6f9c285d40c0e837f22d016289d14ec9fff5cb5cac6cd3c4c",
+      "git_blob_sha1": "e8f50c860628260bfcdda66f62b3b3bda8bdc7a1"
+    },
+    "game/reference/rng.rs": {
+      "bytes": 11965,
+      "sha256": "76d7aff483c6cbb501e0ef7dc3432808a79b3ebd518587c18bcbf598a7df9e0f",
+      "git_blob_sha1": "d5d8b65097c00e6b912412fb634c9fdf6b54bf55"
+    },
+    "game/src/engine/clubs.ts": {
+      "bytes": 1880,
+      "sha256": "134dbe71df539e121d9aed5902a84915e076b4535920aac69b65865adf88ad95",
+      "git_blob_sha1": "66bf7cfe84226ae84a3a9f564fef11a84f3fc157"
+    },
+    "game/src/engine/events.ts": {
+      "bytes": 2632,
+      "sha256": "8c866cc7c34b5272130a6a4f6becadc90b79653a9aa1428d50f4882abe3693b3",
+      "git_blob_sha1": "c8095e2cfac2b8c8f7b783de1edf01eecf4a04ac"
+    },
+    "game/src/engine/generated/tables.ts": {
+      "bytes": 1756,
+      "sha256": "059e15b0872d110159e982163e772674b5f951e52627df64b7e4a760857659be",
+      "git_blob_sha1": "ab78ae13bf7d8325d0f7bb8098f10d251327bfab"
+    },
+    "game/src/engine/injury.ts": {
+      "bytes": 2193,
+      "sha256": "e6f6633d226ec723caae3a9bb45f14c0b0eda3c61e128250591dc478e20cbc72",
+      "git_blob_sha1": "67102ba9df8177842e43f5b7ed1aaf389196435e"
+    },
+    "game/src/engine/messages.ts": {
+      "bytes": 1856,
+      "sha256": "52d25df2967eb8c4fbed81f86d3a33741748106870342d17d6e4f6a765d76f44",
+      "git_blob_sha1": "73919db12eed8aca189297f9c57464ddd2d5c538"
+    },
+    "game/src/engine/percent.ts": {
+      "bytes": 522,
+      "sha256": "1c175ffc895a6c9e0fd0fc8c97e927663c023e2baa706692a95f081fa6f608c9",
+      "git_blob_sha1": "1e5e86ceb2716d62b99b492176f7e395f760e6b7"
+    },
+    "game/src/m22/datapack/database.ts": {
+      "bytes": 1980,
+      "sha256": "289990269f2974f99f520efb79cf7da43ae676d9749c6e3093409889cbfbd3ce",
+      "git_blob_sha1": "c1ac82e2de0c0e4ae98533bdb93a342393f6b481"
+    },
+    "game/src/m22/datapack/legacy.ts": {
+      "bytes": 1281,
+      "sha256": "7a504e76483aa4513ee556abb97cb5c83e485b31fc49d197950fc2aeea5813f2",
+      "git_blob_sha1": "e62ab1f7689953fda8db5b71f11b31e127ff73c4"
+    },
+    "game/src/m22/datapack/pack.ts": {
+      "bytes": 1627,
+      "sha256": "a04bbfabfc9c0b98f71c9cb065170884cd3238fb88efec015c2073881215e430",
+      "git_blob_sha1": "be2e4caf4b5333861d0e25559754f987996827d5"
+    },
+    "game/src/m22/datapack/read.ts": {
+      "bytes": 1238,
+      "sha256": "058fca10cd3d88128f9231fba6697a1d6109c998e5dfe7e7cc11fa8866785b75",
+      "git_blob_sha1": "5ab590307ca0ad59d218992f9c20cbeb49009ab3"
+    },
+    "game/src/m22/engine/engine.ts": {
+      "bytes": 1108,
+      "sha256": "1006d3e99367af218770f5d82e546487b8058224581bdb9200c0e296e929763a",
+      "git_blob_sha1": "7604ece3e5c70345f33695978ae60ea146a58c44"
+    },
+    "game/src/m22/engine/events.ts": {
+      "bytes": 1103,
+      "sha256": "b378b384bebf6b813abfac37caaed0d2c9d60fa8fcb1fd4adc56346c1c15b2c8",
+      "git_blob_sha1": "fb58d29650cf2982ab27abf24fbce9c0998bcc0a"
+    },
+    "game/src/m22/engine/lineup.ts": {
+      "bytes": 1294,
+      "sha256": "6ef73f47603a5fd839753386073e62d6fceaa70882bea77cb83c032e0dec85bf",
+      "git_blob_sha1": "cf83cd9cc4319a90f9e2cc52f95f422700af87d2"
+    },
+    "game/src/m22/engine/simulate.ts": {
+      "bytes": 1565,
+      "sha256": "1a7be2ff37aa3c33a2180f1f3f7e3dbb8ca1476f8e96f8aa998d5ea63e78fb11",
+      "git_blob_sha1": "301088703f04262a14b9197b564a29a26acf56b0"
+    },
+    "game/src/m22/engine/tactics.ts": {
+      "bytes": 1054,
+      "sha256": "083c16b0bbd04dde4b9e8b53e127c10bf97bd9b5e61e30270f2cc3ad462e196b",
+      "git_blob_sha1": "112b015cd4a5f6ead42c0273dd7de6e58ac019f8"
+    },
+    "game/src/m22/engine/value.ts": {
+      "bytes": 1409,
+      "sha256": "1fd0b45ea9200fe5d5d8a13a75f067984f723e72f341e9226f40e5c3e8386348",
+      "git_blob_sha1": "1131c25a18314168436001036884e69d4ccf5722"
+    },
+    "game/src/m22/i18n/labels.ts": {
+      "bytes": 1912,
+      "sha256": "1cce6ccde671e081d19b5aea31fb1129251ef4638d1f35bf36bc6a858108eff6",
+      "git_blob_sha1": "4e23024eb762f70080617157cbf387bf08024e5a"
+    },
+    "game/src/m22/i18n/lib.ts": {
+      "bytes": 1675,
+      "sha256": "1bb5c3a83dcfcca309499148549e6232daebb5c85c103cfa3a5e45f01aef1ed2",
+      "git_blob_sha1": "38fc4c956d1d0689888b39f0fbecb0540a9d5a34"
+    },
+    "game/src/m22/index.ts": {
+      "bytes": 4352,
+      "sha256": "9ad720e559d62941e2ea3d1d8da18a92f77743668a54320a717b800eafe344cc",
+      "git_blob_sha1": "20a3d93df8e96eabe41631d76ae0c57f994dd68e"
+    },
+    "game/src/m22/interop.ts": {
+      "bytes": 1579,
+      "sha256": "32a5221f27658f7e6ea3e66348f85d119ad8b8d948260c161623c2dfe1f57e04",
+      "git_blob_sha1": "7f15d3b8269b436946a7298a1e694fe7ba14cce2"
+    },
+    "game/src/m22/model/canonical.ts": {
+      "bytes": 1195,
+      "sha256": "27217db85a1ccc602a984081d8127c3821a26a77a8ea4e7e69e14b452bc65c61",
+      "git_blob_sha1": "d1b882b9a3f41f19ed44fa900a44101586bbb8e5"
+    },
+    "game/src/m22/model/canonical_fields.generated.json": {
+      "bytes": 11890,
+      "sha256": "3a13ceff99cb0479045f573f08c1581674f2fcf7d8ea55fa00b7356a2e370fa3",
+      "git_blob_sha1": "c71396c6f65d2098e54d032b991be944d5773662"
+    },
+    "game/src/m22/model/canonical_fields.generated.ts": {
+      "bytes": 12037,
+      "sha256": "c6a95ce906a7a95d08b6fd4c9470129a9209510b692b814c5054542d92308421",
+      "git_blob_sha1": "266b4ba6667f6659c9068ac18ed73cb7d62b82e7"
+    },
+    "game/src/m22/model/canonical_generated.ts": {
+      "bytes": 812,
+      "sha256": "5ab3b6f4b1e491c307cf2cc258fe335c6c0977635f51024480a37add087611d5",
+      "git_blob_sha1": "1eb007c6b759b13eddfdcd457be074db75e8198a"
+    },
+    "game/src/m22/model/clock.ts": {
+      "bytes": 1375,
+      "sha256": "94ead4647b8e2a48509c6ed9bf16b609b09c01d11313d2cb1423ff7858758e91",
+      "git_blob_sha1": "c09043e58a892392572e6a9031ce7a6ca1f98830"
+    },
+    "game/src/m22/model/mods.ts": {
+      "bytes": 990,
+      "sha256": "712cf2f7e605f3f52bbfcffd877f4b943e9676051ae297f81de5404694888f74",
+      "git_blob_sha1": "d49bc47a2b47beb4702dafe89d24a086db9e3832"
+    },
+    "game/src/m22/model/player.ts": {
+      "bytes": 2635,
+      "sha256": "0d408be41806106b50fcf0c0345bf7f1dfca1f8928c3f5d6d651c20d66d52e4d",
+      "git_blob_sha1": "c0a3924dafaa7fb5ce836f13fe08e42278958767"
+    },
+    "game/src/m22/model/rng.ts": {
+      "bytes": 1363,
+      "sha256": "d1a72adddd44191dc1351a5091b306375093bf9863b085368ef48f734073a54f",
+      "git_blob_sha1": "8118458f11c8f53fbb21b353a74f3b22b54e6dfe"
+    },
+    "game/src/m22/model/save_numbers.ts": {
+      "bytes": 1457,
+      "sha256": "227b92fabea29d7e43bb4e96a0a24af9e3f58ce7627131e3aaff6bbb51461198",
+      "git_blob_sha1": "0ed4602907340392d546355ee441b002f9a0367b"
+    },
+    "game/src/m22/model/saved.ts": {
+      "bytes": 680,
+      "sha256": "4475416fe23b9b72e0d68d3ad414ebf3e208f5d989480ef51ca6c1e13a7e6b73",
+      "git_blob_sha1": "a2674ad7659bb6cffed2abd78e87f53b648174b5"
+    },
+    "game/src/m22/model/saved_fields.generated.json": {
+      "bytes": 12064,
+      "sha256": "fc4426f5e1a95230802d41564499c55a9f7deaaecef55f2951502762e0b4dd99",
+      "git_blob_sha1": "54801143ef09637a40e8c16c188a8ff07cfa7137"
+    },
+    "game/src/m22/model/saved_fields.generated.ts": {
+      "bytes": 12203,
+      "sha256": "e32ad47ec9f5cb3703ec0a593f64792b2afbae1b027de5d73124748adb47215b",
+      "git_blob_sha1": "5a78390338354367b0fb476a39f5b1112e10d200"
+    },
+    "game/src/m22/persistence/game_data.ts": {
+      "bytes": 975,
+      "sha256": "9e5359241597662a4339968df7708776daf9d673031df742678e4d5b9760fe7f",
+      "git_blob_sha1": "ad7a26ed1a19dab69512274139f6e44fa7ed56a4"
+    },
+    "game/src/m22/persistence/import_context.ts": {
+      "bytes": 1036,
+      "sha256": "3c9ce519fdcd8c77766fd1371453334f93db83378ac16f03074350c6387800c3",
+      "git_blob_sha1": "ce43e927f1e796bf2e2dee58c943dbbea41d35fb"
+    },
+    "game/src/m22/persistence/import_generated.fields.json": {
+      "bytes": 43322,
+      "sha256": "523130cdd37a71c64281736aae6892bf35aa9440f4877b0728b11b12d6ff309c",
+      "git_blob_sha1": "0a48c394a57ba31c2986f380560d9f8e81610509"
+    },
+    "game/src/m22/persistence/import_generated.fields.ts": {
+      "bytes": 43517,
+      "sha256": "fbbf96f38de975c1511303406a909edd5ce0d0e9c0784fb03363e5cf851cf027",
+      "git_blob_sha1": "88e306843595778d0b6d7f080cabf2b904d43fee"
+    },
+    "game/src/m22/persistence/import_generated.ts": {
+      "bytes": 834,
+      "sha256": "5cb19506d6969bbeef9ba1b8df2717aa0bf827334dc9f0be71ef7c9679a45534",
+      "git_blob_sha1": "ef889ec09d477c574cae58277d255246a900a8fb"
+    },
+    "game/src/m22/persistence/javaser.ts": {
+      "bytes": 1375,
+      "sha256": "e47b9bd571824d6827003ea2bc38edec7abbeb3ad2191578a00feefe4d7d63b9",
+      "git_blob_sha1": "d41250c33dc5e207a724c73dfe08fb8f7a8e57fd"
+    },
+    "game/src/m22/persistence/kryo_canonical.ts": {
+      "bytes": 919,
+      "sha256": "9542c69c95f43e9e15b20e591854d73239ffd4e72288d659896975dd75f58a89",
+      "git_blob_sha1": "80780711c7961775ac5e518b5432833870688a36"
+    },
+    "game/src/m22/persistence/kryo_graph.ts": {
+      "bytes": 1153,
+      "sha256": "18b8fb5e5b366eba8c5a9d26df13d0a541495304ab6164b823f30d8dcb840d43",
+      "git_blob_sha1": "0b8c019a7d53df6cb18f936597f8c8d573405302"
+    },
+    "game/src/m22/persistence/kryo_input.ts": {
+      "bytes": 2993,
+      "sha256": "cf08317ab5d015abc127825e4200af6bfc13324bd3c014aeb1ee9555852ba63a",
+      "git_blob_sha1": "c0c8107cbfbd0efc196f8f62aa3e9638ff7f0eb1"
+    },
+    "game/src/m22/persistence/kryo_mod.ts": {
+      "bytes": 755,
+      "sha256": "da40e12f3241aa1d1a80286f635e2f7da53d0b0a7cbcca1f8b0e9dbcad4ce785",
+      "git_blob_sha1": "544717fb7183f1237c7bbb1fa2c05e7dcd8235e4"
+    },
+    "game/src/m22/persistence/kryo_reader.ts": {
+      "bytes": 1118,
+      "sha256": "a09a5f961a511b7ba588715e283b4899d7404e99bb580d264ee892979fb952ae",
+      "git_blob_sha1": "674a4668cf41eefe932ed57af4c28fdbb845969c"
+    },
+    "game/src/m22/persistence/kryo_schema.ts": {
+      "bytes": 1149,
+      "sha256": "854756cf200331e501d89cd4275f952eddff70c1b7e8a8bc8ae5ecb2e6600abd",
+      "git_blob_sha1": "750ba0dfefb20211dd5417c8748491c6224ef435"
+    },
+    "game/src/m22/persistence/migrations.ts": {
+      "bytes": 2121,
+      "sha256": "bc5c634167e16c060aa46e194c4862e89fb04edad764922cab7b77e08388c06c",
+      "git_blob_sha1": "99b46a775656a45432b43c7f4b773e2d65c99cfd"
+    },
+    "game/src/m22/persistence/native.ts": {
+      "bytes": 1954,
+      "sha256": "5b51f8e0eaa29b253853153d9d3f6ffe1cab159ec9c69e072b541ccce12fdce0",
+      "git_blob_sha1": "e64244bbf4d90440c9d42ece2a317142b59e2dbc"
+    },
+    "game/src/m22/simulation/coach_market.ts": {
+      "bytes": 745,
+      "sha256": "202bd1aeb628f5d168105f0fa4997d36452dab1f321001784088dc8db1c9f554",
+      "git_blob_sha1": "5e1d2df31f873fc6138fe216e528177b1924abc2"
+    },
+    "game/src/m22/simulation/coaches.ts": {
+      "bytes": 782,
+      "sha256": "ffec42cb5608954dc4211d583b7ca9f8455ebc3e15a1d1a745f02deada6aac0e",
+      "git_blob_sha1": "a96d98a6e7796495a9f9180ad06293aedd746a76"
+    },
+    "game/src/m22/simulation/continental.ts": {
+      "bytes": 1553,
+      "sha256": "da041f385d41f06f82bfb038b94d031dfdc4646aecca08ed4fd85b8dcdd261aa",
+      "git_blob_sha1": "3f94096a97bc914c6a6a27a2fbbfc36b011c1dd3"
+    },
+    "game/src/m22/simulation/evolution.ts": {
+      "bytes": 812,
+      "sha256": "1c3cb5bba1ee70913cf0b41dbccdfc412a20a897287d5aa7bbd55f87e1923fc5",
+      "git_blob_sha1": "894b835e61520ff7b0cb4ec15c5ca9c4cc04c1ce"
+    },
+    "game/src/m22/simulation/game.ts": {
+      "bytes": 1312,
+      "sha256": "239cac38cdd319697c551d0f0cca74dbef1d7948c766efd3a280611afd251e9b",
+      "git_blob_sha1": "d5191bef01e3c44bf25b909b171ad727e24f0704"
+    },
+    "game/src/m22/simulation/human_lineup.ts": {
+      "bytes": 883,
+      "sha256": "a9e35e6729806407a252191ccb21db35d939e63c5fa6b30caf071b8c4fc2e348",
+      "git_blob_sha1": "51870227b3a7a71cf43ecc077a8b2faf4c44f4ba"
+    },
+    "game/src/m22/simulation/human_purchase.ts": {
+      "bytes": 2121,
+      "sha256": "4d8a0c7e478840dc4683fc9901410d66dbb596f8a8113e023c89c078bdfcf964",
+      "git_blob_sha1": "768ae2d60e579b992ecea2253dc3bc0de14338cf"
+    },
+    "game/src/m22/simulation/knockout.ts": {
+      "bytes": 1017,
+      "sha256": "a36683e60b8c96c2410179fafc8c6cc7f6543116fd5dc304e77b67868db67964",
+      "git_blob_sha1": "da54f34fffa0de2811859b2fdcb168b1e5732f59"
+    },
+    "game/src/m22/simulation/league.ts": {
+      "bytes": 930,
+      "sha256": "fc7726163b0094d9c6249beb3f4a3dfcb7f54122b3fe34527b2c7c414d680e00",
+      "git_blob_sha1": "cb78bea3cf74f9e6e23eb3fd8407aa7040a5d8e9"
+    },
+    "game/src/m22/simulation/market.ts": {
+      "bytes": 1425,
+      "sha256": "1d9d6868cf931db4615528769a454e092edab527e0b0fdd073d626969a26cfa2",
+      "git_blob_sha1": "19c6f4c644535d52a7b2225fb1251e8fd62ae7b0"
+    },
+    "game/src/m22/simulation/matchday.ts": {
+      "bytes": 809,
+      "sha256": "86fbd9fe32821afb664d5ffb3b2136e6edf6c6907eecb2acecba9328bab5aafd",
+      "git_blob_sha1": "ad10dc691007766edab5aa24b5c1008e2b518d72"
+    },
+    "game/src/m22/simulation/national_cups.ts": {
+      "bytes": 1327,
+      "sha256": "c43387055e26a8eca0f42171aa96b5a8b84328966ba3ac13b262e4258ef9a33e",
+      "git_blob_sha1": "cc7e412dfa371293449a04e7638c81ec6319acd2"
+    },
+    "game/src/m22/simulation/national_teams.ts": {
+      "bytes": 785,
+      "sha256": "cf3ed13e595e28d6e4aeff97a58385e1634d737916e602c0a2e0d27172cb67e7",
+      "git_blob_sha1": "bff89093492a545a41755b1b410216f2f2d6b8b7"
+    },
+    "game/src/m22/simulation/new_game.ts": {
+      "bytes": 1587,
+      "sha256": "60aedaa3836040a9ab6694ba4592b67858e0a16491c14f27623c53847f0013a5",
+      "git_blob_sha1": "138318549a1b48eb9584bd369f79357f2e48fa52"
+    },
+    "game/src/m22/simulation/new_season.ts": {
+      "bytes": 1419,
+      "sha256": "7c7aab8fa0e6460ea275deff21be7cc040c235e74f0f8906a212cbda2eed49b7",
+      "git_blob_sha1": "46db03eb266805c80dcc4fcda27de2553b59fedd"
+    },
+    "game/src/m22/simulation/player_gen.ts": {
+      "bytes": 998,
+      "sha256": "f44151a7c55b11bc15017439d9eb7c3b6b6e06e9417e92331dd0af3f752d6446",
+      "git_blob_sha1": "177ba7a87e7e0bd93ef6b719a2f9bf311d6859e9"
+    },
+    "game/src/m22/simulation/player_search.ts": {
+      "bytes": 1431,
+      "sha256": "481807f0470a76e30b729ef531a5bbdcc839e4da6fd4fcbe6c962946485464ce",
+      "git_blob_sha1": "9e0084a3cd07a3620ef6a2eb776a5a80c54a87d4"
+    },
+    "game/src/m22/simulation/second_tiers.ts": {
+      "bytes": 688,
+      "sha256": "d65ea4e678286730fd61bc6fcb29179d01ce90ffa54176f483eeb7c9e52c0cc1",
+      "git_blob_sha1": "aa05269f2e038ab02e3e41a03b7a2483ecf9923e"
+    },
+    "game/src/m22/simulation/stages.ts": {
+      "bytes": 967,
+      "sha256": "d4eeb701488e299d54682c1f9a7e11bf6fe447db1514ee0d6e1dccde37d2a3f1",
+      "git_blob_sha1": "db479ce594e4cab5c5f1c1ac2908d422b4aed8b7"
+    },
+    "game/src/m22/simulation/titles.ts": {
+      "bytes": 624,
+      "sha256": "a987a5ce4974d4e0a348e0268768416015c6095a28d8d73fb273bf258f48dbb6",
+      "git_blob_sha1": "a451cfd22d691828a2b824c8700e64dfee3a1489"
+    },
+    "game/src/m22/simulation/world_cup_qualifiers.ts": {
+      "bytes": 525,
+      "sha256": "c7b7c10ab8431b60f0163fde5a6a787c10ce97979de6e9fbec9e8094bfac1b23",
+      "git_blob_sha1": "6be145d54bfe9e9aac93a5d1a78c857b5131dfa6"
+    },
+    "game/src/m22/simulation/youth.ts": {
+      "bytes": 790,
+      "sha256": "227e129aff2ea229b4a6fa1f0e2a864f6d2a068bc630e122dc216c7cbbcda325",
+      "git_blob_sha1": "4e47a13f806d79ec76d242d19afc9fbe39d7b39c"
+    },
+    "game/src/m22/systems/academy.ts": {
+      "bytes": 829,
+      "sha256": "1bc2371ac6a21753326b7cae7092897994bf17c4c9ee90e49121cade595321d6",
+      "git_blob_sha1": "363fd2c7981596d802d9ba61b2adad145111defa"
+    },
+    "game/src/m22/systems/assets.ts": {
+      "bytes": 1552,
+      "sha256": "0e575414bcd0f46807ce7bcdd727c1ab9279049b818474a930910ea48c5956c5",
+      "git_blob_sha1": "ec0844ce66a7cd20491917afdbe3a49a9511324d"
+    },
+    "game/src/m22/systems/award_hall_of_fame.ts": {
+      "bytes": 628,
+      "sha256": "17a245acadee35d345814c79cebcd0054b2c856718945d32c6de23644047e2eb",
+      "git_blob_sha1": "fb594d7f5d6f18033b742da4586d8ef1a66865bc"
+    },
+    "game/src/m22/systems/award_season.ts": {
+      "bytes": 460,
+      "sha256": "df9506f224a86f73bc919fb928be4ad06af6088efd21bb353c39146917d36806",
+      "git_blob_sha1": "8383d86875ec6e5be4031ebf25d6a84ec84081e9"
+    },
+    "game/src/m22/systems/credit.ts": {
+      "bytes": 855,
+      "sha256": "3f82d2cbcc86f24dc6115aab5ab1cb682d4d917f30d67a349383083f55dc0121",
+      "git_blob_sha1": "a72f2e61908b67f105034cc92d6796e0d1a98dc8"
+    },
+    "game/src/m22/systems/economy.ts": {
+      "bytes": 827,
+      "sha256": "78f547d0ac621265f539be2eea3aea51a35c52521782ada8860b3b213c9d0139",
+      "git_blob_sha1": "7df6295174377efd03fd578d8e4c10615400049d"
+    },
+    "game/src/m22/systems/lib.ts": {
+      "bytes": 673,
+      "sha256": "f1b733c021451fa8896fb59fc23d21f865df8cb139840be339582440e27fdc49",
+      "git_blob_sha1": "780409920090a83a26fae2eb2bbcf1a58087b18b"
+    },
+    "game/src/m22/systems/loans.ts": {
+      "bytes": 979,
+      "sha256": "4176c0d716a1a6a3683cad2c828a2433cc4072b6614d3c9c089a6259cba8c6af",
+      "git_blob_sha1": "85115644a114ab5c0ffb40165163912999c73c60"
+    },
+    "game/src/m22/systems/market.ts": {
+      "bytes": 1039,
+      "sha256": "17a132e1ffb35af6cb1a74eec49bee097762fb5092ffd4ba738c7a66d26af00d",
+      "git_blob_sha1": "1f0141688af80bad15004f9600f3d3754807c8b3"
+    },
+    "game/src/m22/systems/news.ts": {
+      "bytes": 767,
+      "sha256": "90d9b8ab13f276f86a9ff82686db764fbb1b71f306dc6a93e55d8c5bade04e86",
+      "git_blob_sha1": "d78d4faf66b9f8e02ac43292c918a489f5b531bc"
+    },
+    "game/src/m22/systems/performance.ts": {
+      "bytes": 511,
+      "sha256": "1e39efc54caa83f2966eca22547d5a26010ed29d68e8b2a54933105a989bac72",
+      "git_blob_sha1": "ab374eaf5461a75bc3c079647e20f9e50dc1d25f"
+    },
+    "game/src/m22/systems/satellites.ts": {
+      "bytes": 801,
+      "sha256": "b0b9e6651c81231e9e2ae115c13b363e4d40c3923275ad46fd7498d2e03d3565",
+      "git_blob_sha1": "bb6b0357545116128f026e3edbd1489d5af62e2f"
+    },
+    "game/src/m22/systems/sponsors.ts": {
+      "bytes": 798,
+      "sha256": "38c773f85170942c4a07f52bd3a8695b753915b85c03d4e674da9f4e93926fc4",
+      "git_blob_sha1": "2f5c64a2937058d9921ad98f43aec671a7e2f5c1"
+    },
+    "game/src/m22/systems/stadiums.ts": {
+      "bytes": 729,
+      "sha256": "a8a953daa3763d8c97d2ee3cceedcf57d293d291c92b77debd9fcd6f72f04606",
+      "git_blob_sha1": "584a1e798ff72e3dcc00fe24caa724a9765e866c"
+    },
+    "game/src/m22/systems/super_mundial.ts": {
+      "bytes": 395,
+      "sha256": "833e21a0bc2eef1eae1e3e505da891c03c140e77de3a31d7a44777681937beb5",
+      "git_blob_sha1": "8f00fc8a320070487896466565ea6f16c34b37db"
+    },
+    "game/src/m22/systems/windows.ts": {
+      "bytes": 628,
+      "sha256": "5e87a3fca7641f77d049f9e9662dfb50f7879447cd43aad372f3f37447c101bc",
+      "git_blob_sha1": "3449efd5832b2d405894a1e465aa14be1458e194"
+    },
+    "game/src/m22/systems/youth_league.ts": {
+      "bytes": 797,
+      "sha256": "0bdbd955b85dacd7a0843799241f240db1d42929fd98090d6f437a52549386b2",
+      "git_blob_sha1": "2c85011ca7631431c105a94b47381e8458241ea2"
+    },
+    "game/src/m23/app/app.ts": {
+      "bytes": 1487,
+      "sha256": "5c5cb311855c3791df29c50575c18abbc0ab56a2a23b1239ab0b748d885e9455",
+      "git_blob_sha1": "f4ba3024b39a83754b21273db970e77d52a72853"
+    },
+    "game/src/m23/app/assets.ts": {
+      "bytes": 841,
+      "sha256": "c70eeda8c1cab087d71bdd5b75fb4a8354257a66269fa26b2024b35b572397bd",
+      "git_blob_sha1": "f42ee98398c969dfddf481c8dadb22a6399b5dfa"
+    },
+    "game/src/m23/app/awards.ts": {
+      "bytes": 594,
+      "sha256": "6fa1a9d4d7372ec290999f6893bc72364e8d0d39704037cb2ccbb95b505547fe",
+      "git_blob_sha1": "fd9b778c92e162372ead574aa4bdfb2b98a5ee6f"
+    },
+    "game/src/m23/app/calendar.ts": {
+      "bytes": 814,
+      "sha256": "8987b060f0e26d80010777859d9ec1216bc5e2a1d5e67b58da41ac9cd6823eaa",
+      "git_blob_sha1": "9756bc54a3bd8551e0d56b1323eb03c83c442721"
+    },
+    "game/src/m23/app/career.ts": {
+      "bytes": 1463,
+      "sha256": "3c43cab9a91e758e0a48e2f486c9a63e581a948c6f7a968c53eea60e1d36192a",
+      "git_blob_sha1": "673334abd8549f4b0b4044b7fb83ee5c6e5ab350"
+    },
+    "game/src/m23/app/career_screen.ts": {
+      "bytes": 1063,
+      "sha256": "bc7e8778ab48f04ccc9762c8538b74c165acf9fb95e89fff919e80c1ced3724d",
+      "git_blob_sha1": "593b47feeec93fde85f768967de4b393bc670fd9"
+    },
+    "game/src/m23/app/champions.ts": {
+      "bytes": 645,
+      "sha256": "9b1b4822086fd7ee6c395ee1eafad7ae5669b369529a74ff44d8720effb3ebb2",
+      "git_blob_sha1": "9fe28c879ca03f6c15bf9be0974288d28d68bfbd"
+    },
+    "game/src/m23/app/club_history.ts": {
+      "bytes": 2356,
+      "sha256": "883388eef95b35d1954405149303a112f413a569c553197d1a4fdd1683c6e996",
+      "git_blob_sha1": "220437ee3628817956b4d5d9da855ca9a4d508a7"
+    },
+    "game/src/m23/app/club_ranking.ts": {
+      "bytes": 1305,
+      "sha256": "66bacead1095d6caa7ba606c42c5940fe242b8713d2e0276c0f7362bf33e8fed",
+      "git_blob_sha1": "d329e54ad669d16d89694112a81c13fb645ca5ef"
+    },
+    "game/src/m23/app/coaches.ts": {
+      "bytes": 675,
+      "sha256": "2120a1c6c4d7a9fc0993941d57ae68222408f5b00e730cce32650193b26334af",
+      "git_blob_sha1": "b46ea3051b8374db7cd399aa965cc7fa5c61d0ac"
+    },
+    "game/src/m23/app/contract.ts": {
+      "bytes": 955,
+      "sha256": "7a90f0c97068b364be0ee917de17633fea13f42d90eadc67701bd1f3ac1c3c5c",
+      "git_blob_sha1": "03342df1dcc95f977040da26428046958d4151d3"
+    },
+    "game/src/m23/app/controls.ts": {
+      "bytes": 400,
+      "sha256": "3c4325b1ab2f1338086485baf0d1a7cbcc7c9924618be26efc58e6b2493f4e4a",
+      "git_blob_sha1": "3729a628bb226b2a92752f4be227136b47e729fc"
+    },
+    "game/src/m23/app/finances.ts": {
+      "bytes": 868,
+      "sha256": "7131185b4e4758aabb32888df5df7cb4c89fac87fd734495e47568ec84a5167c",
+      "git_blob_sha1": "a0c8b3e6cb5c5c503c756f796d95e034f3f04094"
+    },
+    "game/src/m23/app/findings.ts": {
+      "bytes": 779,
+      "sha256": "3eacba2225d2e13f975d75523a33459b1914af106432236532961c121ceed81a",
+      "git_blob_sha1": "ea337a0cc342e0c7bebb9cf8d2dc7dbf65317c13"
+    },
+    "game/src/m23/app/form.ts": {
+      "bytes": 437,
+      "sha256": "31561d4e4aba1ba0436c6850d326f6d9a8ce3ddeda042ce40ce1292e3dd8c99f",
+      "git_blob_sha1": "f4eeab59ed71e3b1fd20b8f4d3dbb35973797157"
+    },
+    "game/src/m23/app/format.ts": {
+      "bytes": 3917,
+      "sha256": "a852b310f004e753fd47d0c2c82dedbb9ec10ec75791377d6875541b2bee5b43",
+      "git_blob_sha1": "48c04eee8c139698a7c163d18d42822e809af567"
+    },
+    "game/src/m23/app/game_files.ts": {
+      "bytes": 719,
+      "sha256": "ab24975ce79bf46b41e592418035a00fc7d003f6f073ed00edeb74b6434f1354",
+      "git_blob_sha1": "4b008f14a7ef6dc3192ecf2b0c7d1d85cfc06ced"
+    },
+    "game/src/m23/app/glyphs.ts": {
+      "bytes": 1620,
+      "sha256": "930a97fe4828973e5fe2a6f68a010fa645b21ab81e6851416f7bc91e6ae49698",
+      "git_blob_sha1": "a52ed45477124d07033e6e2ae6404118d8acbf99"
+    },
+    "game/src/m23/app/head_to_head.ts": {
+      "bytes": 1029,
+      "sha256": "3a22f5e02da06dce83d72af5ebb7c96ed1b7208e3852a9ab61d15c7462c27601",
+      "git_blob_sha1": "9eb8edc7b647c3bf7e4aeb4d49017f23c2fef1d8"
+    },
+    "game/src/m23/app/history.ts": {
+      "bytes": 717,
+      "sha256": "42473037da35f17a5a33809186a46bf72f24ac4b75a8c386df45c02996f36df4",
+      "git_blob_sha1": "62bd86a0e821043b5d2847973c7620ff7b4cdb3d"
+    },
+    "game/src/m23/app/home.ts": {
+      "bytes": 834,
+      "sha256": "eb08d01d9861ceb4c7e6d152c3f20dc17a1f9acf1cd58ddb633b58f23091ec6f",
+      "git_blob_sha1": "b51f2dae32fc0885b46d740f391b8295298bdfd5"
+    },
+    "game/src/m23/app/leaders.ts": {
+      "bytes": 1118,
+      "sha256": "9678e7ac89867d34e922f267a5988cb1d1a8788befb508a30f96b02d35a32031",
+      "git_blob_sha1": "6668e1392fa9c7ebf3a6d07543113a32fb5905fe"
+    },
+    "game/src/m23/app/lineup.ts": {
+      "bytes": 1218,
+      "sha256": "6f3dced5942c56fb46d84c264c07ffd5dadb0453b640deb9356e8833a7daf6a5",
+      "git_blob_sha1": "fa83de34fb0297c587bffd2fcd64021827709b1f"
+    },
+    "game/src/m23/app/loans.ts": {
+      "bytes": 855,
+      "sha256": "4b33b68549ddf4ccd1b24d7281d34d4b6cd78df758f77674a8df529f6443e5ec",
+      "git_blob_sha1": "fd0d54f77b2f2eba3b3f343d42c54845d477a83a"
+    },
+    "game/src/m23/app/management.ts": {
+      "bytes": 897,
+      "sha256": "41805527aaa7efcd17fee6196dcdcbaaa9b081cce677993d6eaa795f938f5a26",
+      "git_blob_sha1": "9ce757508f73f989884fdc761bfc609f23007fe6"
+    },
+    "game/src/m23/app/market.ts": {
+      "bytes": 668,
+      "sha256": "2f746499084a9ccaa63d8cf69b708d29908008c5f5a03bb3f1372de682deaa42",
+      "git_blob_sha1": "83a21fcc828f902e60636ad363d04ada241f7d45"
+    },
+    "game/src/m23/app/menu.ts": {
+      "bytes": 562,
+      "sha256": "aea6e3b6491b70c7a110de0af0bb8ecd992ee192782f64cc8f335e98544ddc4b",
+      "git_blob_sha1": "837874a3a186c59087fb1ee8a18ceb4afded1b58"
+    },
+    "game/src/m23/app/messages.ts": {
+      "bytes": 1073,
+      "sha256": "2e780df69cca7ca43f5bf785009b38d6fed3b3e83732e9cdd18710532329a831",
+      "git_blob_sha1": "d9a8e65d0f02caf724ef184b91867c7c2ef278f2"
+    },
+    "game/src/m23/app/modkit.ts": {
+      "bytes": 843,
+      "sha256": "bc77b1c937485789b1295b8c4bc09fc308a5a5c2e0b7ea4b4063c5a38bc1b9aa",
+      "git_blob_sha1": "4eaea65b356f2f76702009af5e5ca835e68d7198"
+    },
+    "game/src/m23/app/motion.ts": {
+      "bytes": 955,
+      "sha256": "629b90a2255456b9735c1aadef4ec57a47e863ea7b38a7c7f694417bbf14efcf",
+      "git_blob_sha1": "53cc287969b6db59a75e98fcfd59eb584434fbd5"
+    },
+    "game/src/m23/app/new_game.ts": {
+      "bytes": 1459,
+      "sha256": "03485b4f66fcc59f8b38386cec5128a77fe2416347c2723b0b15bb9b6ebc5c6b",
+      "git_blob_sha1": "7f2c3f42fbb2a90d842f5a9360cc847563fd2588"
+    },
+    "game/src/m23/app/newspaper.ts": {
+      "bytes": 1208,
+      "sha256": "dc55de3f3e7ec80499e9f392154327d3d212cc3ca3ddfc87ad5539745e80f381",
+      "git_blob_sha1": "c25cdab54b3bf535b66f991a5aeb9007dfa98799"
+    },
+    "game/src/m23/app/offer.ts": {
+      "bytes": 809,
+      "sha256": "8a5a476245cc0709291baa67eaa9075a246790ae50129a3d74cbb482bff46336",
+      "git_blob_sha1": "ba6fc633ca59d34c5ced3fdaec7ab10f88412deb"
+    },
+    "game/src/m23/app/opening.ts": {
+      "bytes": 399,
+      "sha256": "7aa80fcc5abb46f4fbbb9d42ddc364a468bde9d3dc9a8d5689b7e5ace815b046",
+      "git_blob_sha1": "18be8babd0b1eba3ba7a68429155de05a6050da8"
+    },
+    "game/src/m23/app/patch_download.ts": {
+      "bytes": 691,
+      "sha256": "c3f316846a7f50037fd70201c46abcfa637eeaa70f49e6199a91abfecda97772",
+      "git_blob_sha1": "adb0c4843f9e7bfdc805e33c07d1558303339388"
+    },
+    "game/src/m23/app/patch_library.ts": {
+      "bytes": 1777,
+      "sha256": "2d85a3823764826b63ccf8253b0a4c4c1fbda26c2b6facf447332ae82f0cb5d5",
+      "git_blob_sha1": "15756bb29851d3c224a286f1b532d740cdb92222"
+    },
+    "game/src/m23/app/patch_store.ts": {
+      "bytes": 932,
+      "sha256": "378998885fb585cb411d2efcb439bfcf2e25d58fe124a9a9f98289def283fff3",
+      "git_blob_sha1": "b859cea8582501c82273a93840dce3aaeb4820dc"
+    },
+    "game/src/m23/app/patches.ts": {
+      "bytes": 1144,
+      "sha256": "cfe8913e88aef06761b18918917d30d30f96e15a20b89b85d1cb4a5841c30e07",
+      "git_blob_sha1": "24941009e352c9081256d1f300cdbab0fbc45c6b"
+    },
+    "game/src/m23/app/pitch.ts": {
+      "bytes": 825,
+      "sha256": "ebf0c9ff054aca8348875b2d62d8ef1ff52955e288ff0d879f68b3adfff7fabe",
+      "git_blob_sha1": "599d0933267bc555cece6688faefa81822f25f6c"
+    },
+    "game/src/m23/app/player.ts": {
+      "bytes": 519,
+      "sha256": "a805b7793448f04ec69a4c2a34ee4bea0cdfc4bafcf2f0f2bb55f327d07a88f0",
+      "git_blob_sha1": "645a47e268688bb3251d1f780bcc4ddfbba2aad2"
+    },
+    "game/src/m23/app/player_actions.ts": {
+      "bytes": 871,
+      "sha256": "3eb63f937c46aeeb90d784516f29635dc4212205c38be7563d1ce19a2a3c8f5d",
+      "git_blob_sha1": "e8d989fed7c74da707ac17b58a0d17df10d270d9"
+    },
+    "game/src/m23/app/preferences.ts": {
+      "bytes": 489,
+      "sha256": "abcb02a868e21b100aa664a4af6b01f48fd4a3eb7affa59a5eab73e55870257b",
+      "git_blob_sha1": "6538bb4257bc27b672a0dbe1cca16770e12819c3"
+    },
+    "game/src/m23/app/proposals.ts": {
+      "bytes": 570,
+      "sha256": "da19902ddb594d3aa0a0fb7c15dacedbdedcc5bc81e179d817a49d1a2cdc0ff0",
+      "git_blob_sha1": "01545889cb23f779fbf34fbe3903d54175061121"
+    },
+    "game/src/m23/app/retire.ts": {
+      "bytes": 456,
+      "sha256": "47b29897f0453d8e825823aa0a284038575bfe44e3313b5d6dc91eb21048dd27",
+      "git_blob_sha1": "bbe13eb640b2d9916c7a8b4e5d9024ee1a25bfac"
+    },
+    "game/src/m23/app/round.ts": {
+      "bytes": 810,
+      "sha256": "a26f35b9236b8eaba96b5eb5b0cebe7305e574a3792bcbcd24330c2580529357",
+      "git_blob_sha1": "d529a8ee5b62aea1b95b7196d3bf378a654500c9"
+    },
+    "game/src/m23/app/satellites.ts": {
+      "bytes": 768,
+      "sha256": "428cb07702fdc7f59655f310f220352a4cb94f8a589cdaf7bccb91871e853c09",
+      "git_blob_sha1": "0140678fd262b3ac275885abb2df249627093e7b"
+    },
+    "game/src/m23/app/search.ts": {
+      "bytes": 1516,
+      "sha256": "26e57cfaf6112101d542e34df7705e55e22335b35212efc3e6dc8df880deec1a",
+      "git_blob_sha1": "ac0a4962135dc0bb891421f27bbab59c0c3bffa6"
+    },
+    "game/src/m23/app/squad_offer.ts": {
+      "bytes": 462,
+      "sha256": "44849016cd046de6d06170d5fac0ced04d4c78f51cc60e096f573cb76c748b4b",
+      "git_blob_sha1": "6060dd436c3aa2fa5579c854d5805e65f9ca2c9b"
+    },
+    "game/src/m23/app/stadium.ts": {
+      "bytes": 831,
+      "sha256": "bd69c848dea703c0591cc72211938411a4fc8fc6efca10a1637c15209e1534da",
+      "git_blob_sha1": "f8e491402149e0a1841a2430a9532df63b844b03"
+    },
+    "game/src/m23/app/standings.ts": {
+      "bytes": 553,
+      "sha256": "11c2831400197f52c8ea09b95ff067bfbbb7d66ef57b99ea6bc096adf347768e",
+      "git_blob_sha1": "993324e193af740f4c1d4a027ee2152c22c9842b"
+    },
+    "game/src/m23/app/standings_ext.ts": {
+      "bytes": 251,
+      "sha256": "0546e8f2b06481ef23cd1ea67c123a5d8345c522e6313e883eb9a5b63bf9b819",
+      "git_blob_sha1": "591ddd59bce760c71ce3ffca88a909a1983efcdb"
+    },
+    "game/src/m23/app/start.ts": {
+      "bytes": 638,
+      "sha256": "e8487fc933a3b795437866b63518564dd26479079e129b0d085838d4e484fa32",
+      "git_blob_sha1": "f5ca6b57d42009372d74a96eff9ee0436bb46b1d"
+    },
+    "game/src/m23/app/support.ts": {
+      "bytes": 435,
+      "sha256": "8ed27bda4197e7360f29ef82b5262051ac0bb71a847c26acc6a6d714895e77aa",
+      "git_blob_sha1": "2ed756233c2e3d2942d5256463e9e1a8bda1f5b4"
+    },
+    "game/src/m23/app/team_of_round.ts": {
+      "bytes": 1129,
+      "sha256": "f6b34aa5639744a2f3f4c48563d4c4110e943549d823dc8db2c03db133d479ff",
+      "git_blob_sha1": "6146b142a679083c62526d5acaa9aef45856cc69"
+    },
+    "game/src/m23/app/teams.ts": {
+      "bytes": 600,
+      "sha256": "73d9520af1a678963bca42208be2672f8d702344c77e75728e87e09b1e97c3a1",
+      "git_blob_sha1": "28748195eff55da9277c07a52c9a1c6c2c8526d7"
+    },
+    "game/src/m23/app/theme.ts": {
+      "bytes": 689,
+      "sha256": "a9aab44ef340bbf29557d816964ba71fcbec43fbc4ec1e3add8a05a4cdbe8498",
+      "git_blob_sha1": "60ddb4d1bb887464673eaa9d53aa5c04925b2bbb"
+    },
+    "game/src/m23/app/training.ts": {
+      "bytes": 281,
+      "sha256": "9a8416697bebeaea717983f10d8604990f33e9221dd76d53f5b66627e8319415",
+      "git_blob_sha1": "6cc2ebec06d5950948c20c06813a7a0b4b9e7218"
+    },
+    "game/src/m23/app/trophies.ts": {
+      "bytes": 488,
+      "sha256": "682e5df8beed76641497ce18e56a557a6050a7b88483da987c4eab5ca9883796",
+      "git_blob_sha1": "922a71fbef128af0b1223a2a682f43a9b19c0ea6"
+    },
+    "game/src/m23/app/types.ts": {
+      "bytes": 1164,
+      "sha256": "ca8e8e96c2f660d8e9f55f87d3a67655848b64f337d89bd02642455e223968ba",
+      "git_blob_sha1": "395db4fa58556291556a7d6db7bb6aad1a78f4cd"
+    },
+    "game/src/m23/app/view.ts": {
+      "bytes": 3051,
+      "sha256": "c2b80bc7a7d0b97f2f3db0a7636422e1154213fddb05761edaa3594c1433e082",
+      "git_blob_sha1": "e97000801600a46dfee867beb62d6b52f4fb9d6e"
+    },
+    "game/src/m23/app/widgets.ts": {
+      "bytes": 786,
+      "sha256": "fae81c6986468e3d805ad39f50330f9c8bf6db529ed97245b4a01ea3c6a9cbda",
+      "git_blob_sha1": "eebd2d417dcb08a5abc5818fef06e69150d53545"
+    },
+    "game/src/m23/app/youth.ts": {
+      "bytes": 626,
+      "sha256": "85bd9903cf6e5e018c8cf45feddec3b68cc805dd8219ba6d42ccaa94ebeae3e3",
+      "git_blob_sha1": "1d029c1c3d5804a46b0c6227cb3c45128204c37b"
+    },
+    "game/src/m24/persistence/bfn_inspect.ts": {
+      "bytes": 932,
+      "sha256": "98e99048ec20db04e428bf28e85f04f078cbe10b3ea0b866fdc704c774a5c370",
+      "git_blob_sha1": "42675247a857f0e91aeecc87dc21d3698242a948"
+    },
+    "game/src/m24/persistence/graph_stats.ts": {
+      "bytes": 2330,
+      "sha256": "6bf4b11eceb8ea94d5882d32df266982d6594d8a8a037fa3e7bd19e75d320542",
+      "git_blob_sha1": "5fa15ee3aecc01191f1872f37dfb4600ef85e931"
+    },
+    "game/src/m24/persistence/schema_diff.ts": {
+      "bytes": 2123,
+      "sha256": "4bcda1367567cf5dfab9bc2d491bd7b9e579b2cc4fe2f22662eb2520d9d86cf3",
+      "git_blob_sha1": "7c46db2f218e393410210ba710969ee986c68d66"
+    },
+    "game/src/m24/web/browser.ts": {
+      "bytes": 28859,
+      "sha256": "4e4c4d2e6a4ca5c0821020fc35a80365c2dcd0078d4f9a127e9e79aabd426106",
+      "git_blob_sha1": "450f5d3cb4de4084192b9d31cf663d97179efc31"
+    },
+    "game/src/m24/web/career_demo.ts": {
+      "bytes": 16465,
+      "sha256": "5fb3e341c372fb2aa5defc989ba92d414d66d052165df7188ffcf082bcd70b8c",
+      "git_blob_sha1": "2355b8e4dcc254dda7806088e0117ecff171cac9"
+    },
+    "game/src/m25/persistence/import_s22_graph.ts": {
+      "bytes": 4985,
+      "sha256": "9781ec357f70822a3653edaa992a5ac86439ef7f8614414359bf3e4616dd1802",
+      "git_blob_sha1": "6fcb16eae82391cdd0922305d7454ba0328297b3"
+    },
+    "game/src/m25/simulation/live_round.ts": {
+      "bytes": 17648,
+      "sha256": "0a16df478e1d44e6956ffe8604aad230363e4a3c8927e2a3b724ddf884a20e05",
+      "git_blob_sha1": "546e4b41775caa36f122144558b6fb0b9ee23a5e"
+    },
+    "game/src/m25/web/demo_replay.ts": {
+      "bytes": 5149,
+      "sha256": "9f518d40e9f5a77e543282c8456d5be0297455f92cd2999158f901c787117906",
+      "git_blob_sha1": "0dd4041f494319d06d90665784624e9912ee634a"
+    },
+    "game/src/m26/diagnostics/cli.ts": {
+      "bytes": 2409,
+      "sha256": "f35999d9da75b29172375d5aac5c6e9253ef9776580b765a0fc3c86645842d36",
+      "git_blob_sha1": "6c2f6c7f980b5c6c3eac3f0566eb427e0bdb7b70"
+    },
+    "game/src/m26/diagnostics/persistence_examples.ts": {
+      "bytes": 3761,
+      "sha256": "71bc2c0b646dd9526dd33a758f70073d8357059ae4c4acd7de913dda2c34b04a",
+      "git_blob_sha1": "298f9723d4a53400c101b485ce87f1cfb539040c"
+    },
+    "game/src/m26/diagnostics/simulation_examples.ts": {
+      "bytes": 3272,
+      "sha256": "98ccd9f0fe48e0a0a4f9ad7100345ecaaf515e2933e40cc34f1171b606101d69",
+      "git_blob_sha1": "43db625c608490c18c3846585553c866bc17b785"
+    },
+    "game/src/m26/diagnostics/systems_examples.ts": {
+      "bytes": 2997,
+      "sha256": "5ccffdf265d03d1f9f4542bc99376a11ce6a66d9429ee8cf5f252063f3b2f87b",
+      "git_blob_sha1": "c6d9d50bec122e01ef4e7e59ad1b0b2ecb24bdb2"
+    },
+    "game/src/m26/persistence/bfn_codec.ts": {
+      "bytes": 3141,
+      "sha256": "93e3b0b6759f3bb92d143d420a262f54bfea8afb254f7986be6e8628ca374acd",
+      "git_blob_sha1": "c495d4e5da660c88fd35087d96690c14b7d22f1f"
+    },
+    "game/src/m26/persistence/cbor.ts": {
+      "bytes": 8047,
+      "sha256": "2134bad99e8c72707d90d8b8570fae472388a600643bee43fdb5aa33b7922408",
+      "git_blob_sha1": "00dd8ef53a380edc40722e6b2b8854be06b0839b"
+    },
+    "game/src/m27/datapack/cli.ts": {
+      "bytes": 5138,
+      "sha256": "b61542c05f782977ed42eac83cedc9d8b67f793b7b2e07ff8243f4c9104ca39a",
+      "git_blob_sha1": "fd22577b57e07ca4ec548d9bc1542ea9423439eb"
+    },
+    "game/src/m27/datapack/index.ts": {
+      "bytes": 1388,
+      "sha256": "fc914f7b200c2051f7f55e365464d9778ae6d780e34658e0833431b10298bceb",
+      "git_blob_sha1": "a28bbd9cba4f2ea7c36fec2b76ae0f36f00774c8"
+    },
+    "game/src/m27/engine/index.ts": {
+      "bytes": 1792,
+      "sha256": "6f40f42ef3c3999944203f26b62eeb18494ac4dc1633257fa817154a3844402c",
+      "git_blob_sha1": "b8b4c7663f509db79e3292673504425201b9a675"
+    },
+    "game/src/m27/model/index.ts": {
+      "bytes": 2937,
+      "sha256": "a7f9a1e185cd05c352f65e4ea506410619565cb74b2aa28174b1264df8465a59",
+      "git_blob_sha1": "2428e57a5669f75de93179d97fcfcb7e226a25f3"
+    },
+    "game/src/m27/persistence/bfn_world.ts": {
+      "bytes": 22467,
+      "sha256": "5ce1213425b24ebc2a033e93804c7cb27881371defd77ffce6caca661d31b440",
+      "git_blob_sha1": "63d58fa316909831bb8a7a6abbb5781b32635ec2"
+    },
+    "game/src/m27/persistence/index.ts": {
+      "bytes": 1102,
+      "sha256": "fa5a232af7822e1968d9f5e501d366c12b72f4607564cfda640de0bb365ef71f",
+      "git_blob_sha1": "42f6f9890575a7ae7da52fd28b527d50918e9b4b"
+    },
+    "game/src/m27/persistence/world_access.ts": {
+      "bytes": 4076,
+      "sha256": "3be4869360651eea2c9804e080269b6b4fd7d91535bbf8951aa83401b8fae68f",
+      "git_blob_sha1": "16e8d13c5d8a62f646c1bf84608134e91aba0291"
+    },
+    "game/src/m27/persistence/world_cli.ts": {
+      "bytes": 3492,
+      "sha256": "b7ccc878d7dd0748725cf25216ef8e6abe19f0e9bc441540531245307e1d1118",
+      "git_blob_sha1": "030218242292850da56208976fc7f6860188771d"
+    },
+    "game/src/m27/persistence/world_schema.generated.json": {
+      "bytes": 98065,
+      "sha256": "ad9a5f9a07cffab4a2be43f3b1eddc7fc4af730b050fab53e94d898d25fb0d2b",
+      "git_blob_sha1": "89a3629dbd8a12e4fb980eaa2e281b80b97acca0"
+    },
+    "game/src/m27/simulation/entrypoints.ts": {
+      "bytes": 2269,
+      "sha256": "3a97626e6795033e69cb9137c3ce61995d519a20f62bb34d9ade23b9b45d3d26",
+      "git_blob_sha1": "feeb12703249227b381962cab7241b66d5603708"
+    },
+    "game/src/m28/career_world.ts": {
+      "bytes": 2857,
+      "sha256": "7bce69ec4ec1462791b6408819dbddd1d565d7fa199a890d987f3bdf025348ea",
+      "git_blob_sha1": "37d3012d25c393f6717f9b8a5ac1b35c07566207"
+    },
+    "game/src/m28/index.ts": {
+      "bytes": 283,
+      "sha256": "57f67e1164124d7ff9816c6b17be0bf7ad58abc1893540ec1bb0821c9290b802",
+      "git_blob_sha1": "a85eaa810d2a4b11ac40229a3b6258b92fe92f28"
+    },
+    "game/src/m28/save_numbers.ts": {
+      "bytes": 7346,
+      "sha256": "c2c954cd7ea48dd98d8db6a043ee7e84efdde360bd3a486ae301c372ffcd08e6",
+      "git_blob_sha1": "9e733ef935193c7148fcf777a007cd1da05961d2"
+    },
+    "game/src/m28/world_audit.ts": {
+      "bytes": 4183,
+      "sha256": "492a523a4a312436312ed9a4d6a6a340a5492a3923a3d0140d2dccf2a5326294",
+      "git_blob_sha1": "af8943e2a34c971aaff9964f33e75efe1f015302"
+    },
+    "game/src/m28/world_calendar.ts": {
+      "bytes": 5378,
+      "sha256": "000aac127b3491a3c7ea19cd6c8130c4f023bb5147fc01868a969881b8279be7",
+      "git_blob_sha1": "68125a1dffcc51f5da38092a20b36d179fbd4408"
+    },
+    "game/src/m28/world_cli.ts": {
+      "bytes": 2615,
+      "sha256": "c220c6afba1d4116e7c0df7da66d3119a4e6d992aa7d04357ee8a55c8a930cb1",
+      "git_blob_sha1": "1052bd04cf724508708358b913b9abd780eed318"
+    },
+    "game/src/m28/world_finances.ts": {
+      "bytes": 4054,
+      "sha256": "a013ba084c8504c35b749518c74add3bf696a76284241cbe851dd88c57088c96",
+      "git_blob_sha1": "504893e1c36b156fd19eee72667b00d64d0075a3"
+    },
+    "game/src/m28/world_transfer.ts": {
+      "bytes": 5883,
+      "sha256": "7ea58712d5f55314b06c5a8d3e627e7c722402620614df5be7ebb4680ca9e127",
+      "git_blob_sha1": "840488c01ebc69ba3e3b32d2f0a3afb5f8015375"
+    },
+    "game/src/m29_world_advance.ts": {
+      "bytes": 14696,
+      "sha256": "f2c5e14aa02a8ed6b79d4ff08e53f72c6875a654ac6d8aea1adc5ac2ff219f0f",
+      "git_blob_sha1": "58f7e0af42b6f03d81f40b258a4acc94536040df"
+    },
+    "game/src/m29_world_cli.ts": {
+      "bytes": 1763,
+      "sha256": "265643b032069383184ad853405eacb7d7a9748ca41c84a56b824dd88d677f44",
+      "git_blob_sha1": "b77c564ed288b0991dd4f89eedc25abc3e9c33b1"
+    },
+    "game/src/m29_world_driver.ts": {
+      "bytes": 5395,
+      "sha256": "1e745946df7c72f4c609f36877ff39311d785de530b3aa8b39b918c4a1e461a8",
+      "git_blob_sha1": "3bc74e800f3d9da988233d91937f60dfeef9dca4"
+    },
+    "game/src/m30/differential.ts": {
+      "bytes": 5574,
+      "sha256": "d31481ca697e019bdfd276e020ee13aea20e77fb9d3c0917cc7f189d94d1872c",
+      "git_blob_sha1": "208335670bce7e31e50abe3274603953f1669ed1"
+    },
+    "game/src/m30/integrate_m29.ts": {
+      "bytes": 2897,
+      "sha256": "876eb7b235ed4b2fd84e5ff186a42355bd5b4741a19b9f72a7377dd3314e4801",
+      "git_blob_sha1": "aa7d5b3a967f48eef11ded72f58b11159863e409"
+    },
+    "game/src/m30/java_rng.ts": {
+      "bytes": 5460,
+      "sha256": "a26df4fd103f4f9003cc6be1ae66c3911ac35ce3ad37329b4c79ebcb266570c0",
+      "git_blob_sha1": "3f1ff24cbfc2deb91bc5d3688067e824971b96a9"
+    },
+    "game/src/m30/journal.ts": {
+      "bytes": 8961,
+      "sha256": "46b32a7461f4f09a5db4d5800f56d3548711a577f772aa1d21046ba6d9913804",
+      "git_blob_sha1": "cc010a56c65176115d8d7d49a717d5c6b7a33718"
+    },
+    "game/src/m30/transaction.ts": {
+      "bytes": 3844,
+      "sha256": "f04d3aaea0183f3565a7a9678f5d638108eb4d44223a952563a81f5c88d3cafe",
+      "git_blob_sha1": "52125e2dab849fd75333b4e7c2bb4d42148b005d"
+    },
+    "game/src/model/generated/host_cities.ts": {
+      "bytes": 1391,
+      "sha256": "56fd1e39e1026eb6608fefdc60eff471fcd5d0adb3a6d2a5ac24e84da1890c0a",
+      "git_blob_sha1": "f911a07dab7e53636ced3cd53cc0f11f60fa472e"
+    },
+    "game/src/model/names.ts": {
+      "bytes": 1406,
+      "sha256": "a10ec870c04fcff6034cee238d80e94e4b8696c1a04f95b2c69c08a7d66f2ca1",
+      "git_blob_sha1": "75e9981dc7730ade59b119696bbbef0760b37307"
+    },
+    "game/src/ported/datapack/codes.ts": {
+      "bytes": 3879,
+      "sha256": "9b29602b36521c6fa46e6a39e8788af42825423ffc717d7cc976f848bd32c6d1",
+      "git_blob_sha1": "9181ff443565348c9074be3bcf67b5b2f2cb5aa3"
+    },
+    "game/src/ported/datapack/format.ts": {
+      "bytes": 2573,
+      "sha256": "cc9690bcef975a1cd9a03863c677f7e88fa289dd4b41a8798949020f08f00a7c",
+      "git_blob_sha1": "e9f169188fe00705f73374b6adcbadba93a9e013"
+    },
+    "game/src/ported/datapack/index.ts": {
+      "bytes": 126,
+      "sha256": "a661810ee485332c23612dd62e78bf8d3d585e82ec10aef9194599740fa3605f",
+      "git_blob_sha1": "c9177b61377f0b63a27b88fcda821fc89bc04b29"
+    },
+    "game/src/ported/datapack/issues.ts": {
+      "bytes": 4100,
+      "sha256": "2a2aef852738041a2dc063979fadee379ae404801295e381afe67e0a2c158085",
+      "git_blob_sha1": "5dbb4117db646fb4558e3c332e8a49b511c4cb49"
+    },
+    "game/src/ported/datapack/tree.ts": {
+      "bytes": 2547,
+      "sha256": "cd0c9b594e4249298fca311214ba1f6a09fa9b35c1698fd5cfdca28a503a1c33",
+      "git_blob_sha1": "51d03d8356c58fe56c81265d0ed5bdf3179c7762"
+    },
+    "game/src/ported/datapack/trophies.ts": {
+      "bytes": 4450,
+      "sha256": "04acfadee71e6bb8ce54179b6aca81e6deed1819b6923e5cfa58a6845d6ebb51",
+      "git_blob_sha1": "4a5736d913464e4a2ba1124199b8feaa4677b1d8"
+    },
+    "game/src/ported/engine/hooks.ts": {
+      "bytes": 797,
+      "sha256": "2d857565770712c034da4793f6e498753fa03539dd9f4c1dc6b875933204c7ec",
+      "git_blob_sha1": "d9a8c94ab27981d2b6da051d098382150eef7cab"
+    },
+    "game/src/ported/engine/index.ts": {
+      "bytes": 52,
+      "sha256": "5200c4fb12a43285e1a52a8ca3cf47c8144ba038c11730bae027531b04d3c23e",
+      "git_blob_sha1": "8178b51a3b88ee0af0cb29e6d84608fd1a1cf6a9"
+    },
+    "game/src/ported/engine/stadium.ts": {
+      "bytes": 4019,
+      "sha256": "9ce7f519e68bce98cfe506e40d772d2e04c2fe6022c9ea57fcd6cc6101bae37b",
+      "git_blob_sha1": "c0d0dafcb876a560ee44a3c1b995adbab61a71e9"
+    },
+    "game/src/ported/model/brands.ts": {
+      "bytes": 4467,
+      "sha256": "2d334413785f67917d50469fca85025dd911bf2c911495b101d7eee81ec80f1d",
+      "git_blob_sha1": "6c330279476b683624180e4d0101b863209a8535"
+    },
+    "game/src/ported/model/countries.ts": {
+      "bytes": 23744,
+      "sha256": "352983625e6a6680989644e059cd215f362c4526065d1f95afcc420551657743",
+      "git_blob_sha1": "a9409538d60e4a5df02759c29b84c1f4a58f1917"
+    },
+    "game/src/ported/model/fdlibm.ts": {
+      "bytes": 2180,
+      "sha256": "c97a3a8d1a9ceb297d625f43111e373cc3866deac3eaca7d0e9b94cf0ae8e3d6",
+      "git_blob_sha1": "1fa6c2cf8a41acbbe164db516e5378c1854bb8ab"
+    },
+    "game/src/ported/model/ids.ts": {
+      "bytes": 923,
+      "sha256": "3dd13df5645cd33e334588231d443c4459dd8456fe284ab10532f72c8b298722",
+      "git_blob_sha1": "a2ae6585e7a9ecef3e424f4dc837c115d51c6f1b"
+    },
+    "game/src/ported/model/index.ts": {
+      "bytes": 398,
+      "sha256": "9c3a492b3722cfc7fc3309f926e98cb81691f0204260c663ecdb4e2e759be4cd",
+      "git_blob_sha1": "b84535d6eaecc66a0d67bb64991e1037cedd6bd1"
+    },
+    "game/src/ported/model/java_hash.ts": {
+      "bytes": 2602,
+      "sha256": "b6539b784cd6c9f5159f3b4b6b1447f19a266c84da6a356a7774f7afa600e1fe",
+      "git_blob_sha1": "9c156801cd096a8c65a59eeb82d39b6c1293ac5e"
+    },
+    "game/src/ported/model/java_sort.ts": {
+      "bytes": 948,
+      "sha256": "d0247664680be0090019e8661af8a8607f8f501047fcdd420c7537ae0b396dc2",
+      "git_blob_sha1": "e5bf0bbdd151b4ad2498c06427178b0953c8c0c8"
+    },
+    "game/src/ported/model/labels.ts": {
+      "bytes": 2477,
+      "sha256": "ce186f3f4c57f3ff4a7322814059470fdffc4324dc3ee9f1ae4ec81a5ca33ad7",
+      "git_blob_sha1": "c5262a099bda2b003f1a5c5218e31e6508670f58"
+    },
+    "game/src/ported/model/messages.ts": {
+      "bytes": 1193,
+      "sha256": "f3cefff635fdba149467fe6ecaa07efbfbba7b6022e9f8c7a226074dc2ec19a3",
+      "git_blob_sha1": "d41e0d15990e0a25b6009c6c8c41720c429f8ad5"
+    },
+    "game/src/ported/model/options.ts": {
+      "bytes": 3124,
+      "sha256": "00ff7ae3cf2635d99a613eb40a67bcecd2c11de643a14d4f88b76d698412078c",
+      "git_blob_sha1": "8efa8d8c7f178e60383259fd9c5968028b1a386a"
+    },
+    "game/src/ported/model/runtime.ts": {
+      "bytes": 2050,
+      "sha256": "90cbf93314f8c86632a5f1576ceea3f26ca7a4c46cc2692d350b5075cb8f2846",
+      "git_blob_sha1": "dc37b42590d227347ce80a6c2ffa6a83d8f11711"
+    },
+    "game/src/ported/model/stage.ts": {
+      "bytes": 374,
+      "sha256": "e184b3002e3443bbff951f9bec16457c1b3790fd08dcef02e32ecbeaf98dcb0e",
+      "git_blob_sha1": "1fdb06d88b19d1c3af91a2381a13cda29c54e834"
+    },
+    "game/src/ported/model/templates.ts": {
+      "bytes": 2176,
+      "sha256": "312e85969e45daa06fe5deed6f3a2386f39eb6025983fb0ea534bd3ee056c07a",
+      "git_blob_sha1": "296e96dfd7998412e6a49eca7581a0e74f7fe379"
+    },
+    "game/src/ported/model/world.ts": {
+      "bytes": 3497,
+      "sha256": "6a57bd6ee5ca1a9b6d9f37d7fc5c2a3ce8b10ac001b3a69c0149ec798bcf8a91",
+      "git_blob_sha1": "04f27b04f3a4878e3d41dd0409b64605a2b39392"
+    },
+    "game/src/ported/simulation/clubs.ts": {
+      "bytes": 3382,
+      "sha256": "6871a12a1aa52c038ee8797cbe4c71c164eaf9add715f0664c4d77d164911fa5",
+      "git_blob_sha1": "adbed210d99a2e3ee0fa5892f09f80d1913422d9"
+    },
+    "game/src/ported/simulation/human_contract.ts": {
+      "bytes": 1850,
+      "sha256": "79ca08ea21737b55f8902f8b0a2e5e002c2455f845b45ab59eea8a75ad915d6d",
+      "git_blob_sha1": "b382ca366c3b6eb8e96f1c4431a9f273a1b6ab7a"
+    },
+    "game/src/ported/simulation/human_finances.ts": {
+      "bytes": 1384,
+      "sha256": "b78cbdf64cec383a83c10c07f4ca6ea0617877fe896dc43548796fca5f0fbce2",
+      "git_blob_sha1": "318a544c4a122925c1b2cf2b6d52990cdcb0e1c7"
+    },
+    "game/src/ported/simulation/human_messages.ts": {
+      "bytes": 1167,
+      "sha256": "bf85f8a05b143eea2ea122da54b622907e2be57a03b3a952a393a67395048e99",
+      "git_blob_sha1": "6e3aa0f6436ec2cd640b5a8414ea5b5958389975"
+    },
+    "game/src/ported/simulation/human_stadium.ts": {
+      "bytes": 2062,
+      "sha256": "c5c98abd6ecb317243790bb71e7b052be843d663908a58df240add057cd02636",
+      "git_blob_sha1": "60af9854ef2de168adf02f98ab593aaa41fd7d1d"
+    },
+    "game/src/ported/simulation/index.ts": {
+      "bytes": 160,
+      "sha256": "aaaaaaef31f39384b55513626af516eedd3f6b98b464ab452ae282a2d3c643eb",
+      "git_blob_sha1": "f857a0f9b5001c51fa5421438e4182e7af45c5b0"
+    },
+    "game/src/ported/systems/clock.ts": {
+      "bytes": 1030,
+      "sha256": "de32933f9f31baa9316d7997b0156f2cdfbb5cdef58b378ff55e4a9755e6d2fa",
+      "git_blob_sha1": "d155255ae1bb9313eb2051cf87a4a62c115a1780"
+    },
+    "game/src/ported/systems/director.ts": {
+      "bytes": 3502,
+      "sha256": "195266bb7f9cdfbda29024076c1caed3ac6b03b0efaeb1dacc3606717fa26612",
+      "git_blob_sha1": "bc6a7f6bf9d16b02a4c96447d47b301abc84f103"
+    },
+    "game/src/ported/systems/index.ts": {
+      "bytes": 79,
+      "sha256": "d02d7105942c4ab18888e61dde811d528435ed10aa8f26e8bc28f2dbfe043fef",
+      "git_blob_sha1": "bd5b7ac8b87d95da62249a8e80d5a96ae3cbd0ce"
+    },
+    "game/src/ported/systems/tactics.ts": {
+      "bytes": 2826,
+      "sha256": "589e88c4dfd6f670dfa6451a18eecc26bfd86d5fea6c4896767366c29b55e024",
+      "git_blob_sha1": "46d98a92f7f73d26b25a827ddb252c52dd3b0a64"
+    },
+    "game/src/simulation/cup.ts": {
+      "bytes": 3038,
+      "sha256": "44e484892730b16031d508ff43530664708ae855be097f83f963c0f5f26b3b79",
+      "git_blob_sha1": "35da20f08969b1beaaf6de643f16658d51f4a882"
+    },
+    "game/src/simulation/fixture_schedule.ts": {
+      "bytes": 1589,
+      "sha256": "2a8e4aee92271628174397692014d4c44b8e2eb899fe574fafd45678862ec81b",
+      "git_blob_sha1": "980a8c851b46298c9b707cb3fcc13319d7fad82e"
+    },
+    "game/src/simulation/fixtures.ts": {
+      "bytes": 7676,
+      "sha256": "7cbc0793a3f3f46dab14ff25d77462042ab01dc504066df2918488331780e24e",
+      "git_blob_sha1": "c92ff05fb0c866ec7747ac9c656add0bb1cb7e6c"
+    },
+    "game/src/simulation/generated/fixture_tables.ts": {
+      "bytes": 4100,
+      "sha256": "d9352abdb5ed8bb96df46a8034adc009d5aa93720b0b44c7a2ad04c32475fe93",
+      "git_blob_sha1": "9a55cc2538502622b10d489c85cd34df6b74da17"
+    },
+    "game/src/simulation/generated/tables.ts": {
+      "bytes": 4694,
+      "sha256": "972e4d9669f49177fdae7c4791b97a7451fffe84008ca7f3c34d7fbac3dd6840",
+      "git_blob_sha1": "bfa5d495ad7525b839859ff517c5c10a26df122d"
+    },
+    "game/src/simulation/human_default.ts": {
+      "bytes": 1013,
+      "sha256": "44aff9bd0778a9f895b13843e4e4d3560b8e38db398914f526f7df0f142f42bc",
+      "git_blob_sha1": "4a842beb28238498e68cdefa79b880c18215eb8f"
+    },
+    "game/src/simulation/human_substitutions.ts": {
+      "bytes": 3708,
+      "sha256": "b1ae3cc94f0c0a707b2bd143a6a0d128ed6fefb878715d85f684f984bf3ab865",
+      "git_blob_sha1": "b93207f3428d589717af350ee0ee13731911f0c2"
+    },
+    "game/src/simulation/index.ts": {
+      "bytes": 201,
+      "sha256": "e9e2a3c88f3af3f57608390b02ec86a6fd8b867736d2918d22410bd04669f508",
+      "git_blob_sha1": "2aff7a8b085cd0a82859b482721388abe8bdd2bc"
+    },
+    "game/src/simulation/nations.ts": {
+      "bytes": 2634,
+      "sha256": "3af7c39f675d9799dcc6b79efd1aa0076bd56b7853407f8e9bfda42d7d931a51",
+      "git_blob_sha1": "ef9f37596ba215c4dc568e16192924dfe04ed830"
+    },
+    "game/src/simulation/season.ts": {
+      "bytes": 3674,
+      "sha256": "17009d5044b4b821bea188fabfe187a201987f44e6d8e97176610ffe00eda064",
+      "git_blob_sha1": "50e051e4830a7253334576a8b96de4889256e1f4"
+    },
+    "game/src/simulation/sorting.ts": {
+      "bytes": 1415,
+      "sha256": "61be667155e1580149c25987274ab9be86980f496d64e04514d0d0a2ea1b502f",
+      "git_blob_sha1": "02a777e16e550bd16e87e26c7b9c6f64855fd749"
+    },
+    "game/src/simulation/trophy.ts": {
+      "bytes": 5347,
+      "sha256": "adb273f4867034e11b489098b51f273e89e219c419bedd1ecd2f5dad9ba8623c",
+      "git_blob_sha1": "d08984efe6448267987eedfd7576dc910d8950de"
+    },
+    "game/src/systems/award_clubs.ts": {
+      "bytes": 4651,
+      "sha256": "9a481ae9d1c2e609d5ff0824ca3c96ea6c818ba3e5994f27ab7633659aba4cab",
+      "git_blob_sha1": "94580628ad61dd17e817bda41904ed1d264d79d8"
+    },
+    "game/src/systems/award_coaches.ts": {
+      "bytes": 3069,
+      "sha256": "47528e3973de8ce7677a81e60ee05bfbecbc242c43384ed410ef93b7ca8af1cd",
+      "git_blob_sha1": "7b47da65c72c840ae231495573fa67e478fc2a40"
+    },
+    "game/src/systems/award_history.ts": {
+      "bytes": 3685,
+      "sha256": "a6fee28bcaf79fc0152d8299d496bb2c8fd8c1e902414209868e521f1a95f150",
+      "git_blob_sha1": "df2bc3c91b739893c926bb7be6e100eed40c0d7f"
+    },
+    "game/src/systems/award_lifecycle.ts": {
+      "bytes": 2586,
+      "sha256": "7d41b47c00edb6b51ce10c09c3cf55f70459c423ac222be55bc1de4f37a3a6ab",
+      "git_blob_sha1": "5132ddebdc5b61d06f2c0e97cc7661aa89b9b0f9"
+    },
+    "game/src/systems/cash.ts": {
+      "bytes": 4592,
+      "sha256": "aab1f91cb04acbfa4f19e4e59dafed88a3d3775ab86708c539c74a7d7840f0f3",
+      "git_blob_sha1": "2b602f77838bc8fc13bb5a7d20865bca6f023deb"
+    },
+    "game/src/systems/config.ts": {
+      "bytes": 2027,
+      "sha256": "c8d33e9805b86824b9dcf9f9c94735dbeaffb6c346a3b3908d14c01ae640accc",
+      "git_blob_sha1": "d90b6d2e6a830c8840eaa2944dab8f5771e517ba"
+    },
+    "game/src/systems/fans.ts": {
+      "bytes": 4500,
+      "sha256": "9307dea1b237a343981e6f2078ab7feedf3df8fd10ee88c88af1b76c114101fd",
+      "git_blob_sha1": "07f4333d68695f3d5c04246b928fe8698fc85f07"
+    },
+    "game/src/systems/index.ts": {
+      "bytes": 132,
+      "sha256": "c5a1eb345b168ce15feaca0cffb66e264934646a5992737bed600ddfa5e696e6",
+      "git_blob_sha1": "d6c934b5aa44d0cdbc1bdddb96ab6d59fd81816d"
+    },
+    "game/src/systems/investor.ts": {
+      "bytes": 6097,
+      "sha256": "f8791fe8168d91ceb830a29b1a210510e3ce0c921cae5c2e932774d54a76460a",
+      "git_blob_sha1": "d8db58d9d7da98bc1cf60ce2ea92f20e7ee12e9f"
+    },
+    "game/src/systems/scouts.ts": {
+      "bytes": 4956,
+      "sha256": "21690b10dd70df71d73e511ba9503fa753517d9f566d06eb70cf75b43386224c",
+      "git_blob_sha1": "86ce4591b0696225de5852513377ad8176bb8951"
+    },
+    "game/src/systems/staff.ts": {
+      "bytes": 4012,
+      "sha256": "582264c81acafd85f584d7036caaef8bd31145e2837570b996e55d4ecd32aa17",
+      "git_blob_sha1": "24a23e912e3ed7c618e5e7e5dac0dcaa63ae94e2"
+    },
+    "game/src/types.ts": {
+      "bytes": 991,
+      "sha256": "756183733ab7d4d0c5b0d881de5fd0d00fce725855defacec6b576a361487a01",
+      "git_blob_sha1": "92277233ce6ba95a6aef872ae4843656e8417458"
+    },
+    "game/tests/fixtures/m26_sample_data_only.bfn": {
+      "bytes": 316,
+      "sha256": "9d03ccd032f56a3b7495f59c3e68ffdbfeed634e17e7b14b5815c673d2c16407",
+      "git_blob_sha1": "1b58194d3d655a250cfe2aeef83c9d16119ec2e7"
+    },
+    "game/tests/m20_engine.test.ts": {
+      "bytes": 8777,
+      "sha256": "e4c989313fdbbd9da8633625cebdaff40f921cc04a4216f2152ac88d2ba3ba71",
+      "git_blob_sha1": "1852c5df87d30787b7c48ad653773a8642d3947d"
+    },
+    "game/tests/m20_simulation.test.ts": {
+      "bytes": 4089,
+      "sha256": "ebf81bf3a5feccf2fbe3a8965dd5f80c86c1af181ebd3dc6f92f4c6afd94d95d",
+      "git_blob_sha1": "3992b6fab71d923bd133473f394ce4b238ff0555"
+    },
+    "game/tests/m20_systems.test.ts": {
+      "bytes": 12445,
+      "sha256": "fcc85b686bbf1d1e98ca833f95ba845d7107f5dae6a097536bc623fbb84e7077",
+      "git_blob_sha1": "6105a1e7d3db192e591d6f1d25557023c78ec14a"
+    },
+    "game/tests/m21_cross.test.ts": {
+      "bytes": 6136,
+      "sha256": "25da729ae3d76aa81df2c4eaf68c99e75e3ac51c96b382f3c927171d9aaca1c2",
+      "git_blob_sha1": "1264a8030af8044318d573943c1b5d118af68a72"
+    },
+    "game/tests/m21_domain.test.ts": {
+      "bytes": 9535,
+      "sha256": "3bcf56debbe4141d77f52d1de298ce4409c01bb128cccf6445b013cb68c64d70",
+      "git_blob_sha1": "b1d4675e481970a5c5a831b14f5c233fc51177b6"
+    },
+    "game/tests/m21_model.test.ts": {
+      "bytes": 7301,
+      "sha256": "d128f70ed27ab53864b68a3470467e85d7984892392ebe54f14cc1ace036b15d",
+      "git_blob_sha1": "f8c50fde130f75665004feb4ca9ead25a459077c"
+    },
+    "game/tests/m22_lowlevel.test.ts": {
+      "bytes": 9056,
+      "sha256": "b2823585cd36d65fc05f94995d577f7d9f3f32b0ffa2aa8d6ea50c9486ecbd37",
+      "git_blob_sha1": "627fda0362f3a8840a7777e7d6c8a7f300dd661d"
+    },
+    "game/tests/m22_simulation.test.ts": {
+      "bytes": 7455,
+      "sha256": "c4bd49cd6cfe948b73a0994d48cba61adf47839dd597dc8cf51c4bf9f0332e24",
+      "git_blob_sha1": "2eb0ea4fbb79224639818563aeb2345253e0d353"
+    },
+    "game/tests/m22_systems.test.ts": {
+      "bytes": 7111,
+      "sha256": "8344317a49647448bbf6b8e8f247d2488badd5d4d7c818fbe574c9fa449b8adc",
+      "git_blob_sha1": "ac7f6027257465e6914b9fccf07ae5d0fce4cb81"
+    },
+    "game/tests/m22_wave_de.test.ts": {
+      "bytes": 6599,
+      "sha256": "6cb31bd23d4eac7a51d7d615e7f5bb8586d1081da5e6e5ee9bf410c7dfa3f3cb",
+      "git_blob_sha1": "4ee6527e268319560d8d11dec5970931680a1e0a"
+    },
+    "game/tests/m22_wave_fg.test.ts": {
+      "bytes": 9737,
+      "sha256": "c74840d89451992dad6e4505daaaa7b539784ef4669ce23b59048e65f6a21cbb",
+      "git_blob_sha1": "0d8c41713d2e7edf9df08f9f43058d1ae3006f99"
+    },
+    "game/tests/m23_app_core.test.ts": {
+      "bytes": 7278,
+      "sha256": "e4c5db7b03baa299dd01f5a82af797b3e80be88d9f0b2fc1d8e07174ebf690f3",
+      "git_blob_sha1": "ccc9962fb35a1e796122ee7eecbbe41641b23ed2"
+    },
+    "game/tests/m23_app_integration.test.ts": {
+      "bytes": 11226,
+      "sha256": "d035a6232124c7d5a594eceaa038d20f910f9d27973faa364deb306d043f9838",
+      "git_blob_sha1": "088aa0d5abdfa3549448491cd0c6616659bc1cf5"
+    },
+    "game/tests/m23_app_selectors.test.ts": {
+      "bytes": 10905,
+      "sha256": "40dba37c4341da43f4f082ccf1f27ac4c4e9e130a7caa8ed3bb282b6a42c7383",
+      "git_blob_sha1": "8ea8ffd93505598843226fee0ce32fbec974ee8f"
+    },
+    "game/tests/m24_advance_example.test.ts": {
+      "bytes": 1066,
+      "sha256": "0480683ecd0aedbb2e44bc33b3403fa7ac1f9ee8deae2a1636168b26d08d1de7",
+      "git_blob_sha1": "9bfc75663f66477347e79d2b1d05b3e9f1de07a2"
+    },
+    "game/tests/m24_persistence_examples.test.ts": {
+      "bytes": 3034,
+      "sha256": "993ef4cc420222eb11543b6310eb3a26779a80e6bcc7daeaaaf017c6aac78649",
+      "git_blob_sha1": "a417b2512b46b2d837769ae0ec2f16d54ad3fb7f"
+    },
+    "game/tests/m24_web_career.test.ts": {
+      "bytes": 8671,
+      "sha256": "a92cfc86c2a849868e3c24f14aedea3110c6fdb3ec9a9d605e6b26260defdb38",
+      "git_blob_sha1": "01c9b00965f76642dbfd210d76d7b8074da59c3e"
+    },
+    "game/tests/m25_demo_replay.test.ts": {
+      "bytes": 3956,
+      "sha256": "0e3dbcac4d966ef0c3e8bf49d337546a3df1f520e16fb1cf6fdde6c7e76df4f8",
+      "git_blob_sha1": "60815fc1e8eec0ef73e956caaacef975d43be078"
+    },
+    "game/tests/m25_import_s22_graph.test.ts": {
+      "bytes": 3906,
+      "sha256": "fbe3bb835b011a67f003edc59b2103e67e87bb23338ef0a93980cdf0f0a48be0",
+      "git_blob_sha1": "07bc965bc67a0d754cbf6dc976099c62f39b4b72"
+    },
+    "game/tests/m25_live_round.test.ts": {
+      "bytes": 10986,
+      "sha256": "67d0c37141819e8dc9cb751494caae758830ad4067da893831d466da5c4a94e8",
+      "git_blob_sha1": "75212899ec506a4a2f30e2bb473281e81804eaa7"
+    },
+    "game/tests/m26_bfn_codec.test.ts": {
+      "bytes": 6532,
+      "sha256": "b4e3a2da09df42bf43181e11562ae58e9adfff3f8dd6bbe3ae5697f9b9536cb8",
+      "git_blob_sha1": "2d1d3e16ea07628e72e2aec3d4a0b654c20a52d0"
+    },
+    "game/tests/m26_cli.test.ts": {
+      "bytes": 1702,
+      "sha256": "ac30f75831c1d197d24aebb6be7d9d58b9e1a1ae8f5b23a2d7ad4d2bc426519d",
+      "git_blob_sha1": "8e7f8db0f72d0b4d64c19193ee5ca750fe511d89"
+    },
+    "game/tests/m26_diagnostics.test.ts": {
+      "bytes": 6917,
+      "sha256": "f905cb1db0680b5aaf5e08b153e069bd2281a8d6ab97e3a57a2d1f778f51902d",
+      "git_blob_sha1": "786d206e5f2aefd90de34a56fd28023f47cf620f"
+    },
+    "game/tests/m26_fixture.test.ts": {
+      "bytes": 1289,
+      "sha256": "ff3dc8e51bdbc955d7e144ee869f1c035ee77a6abc18f24a9027f031f5b76556",
+      "git_blob_sha1": "34dd79b0a07daafd32ee43419fc11a97f36f7541"
+    },
+    "game/tests/m27_barrels.test.ts": {
+      "bytes": 1515,
+      "sha256": "8cfd2e6d10b1c031b24cf49067d2e94ff2335ee19324be880c311d5cc7c7bbea",
+      "git_blob_sha1": "3c10fb7da5e5102c8f43843172e4d724786e1ad6"
+    },
+    "game/tests/m27_bfn_world.test.ts": {
+      "bytes": 17242,
+      "sha256": "787f30b0664b8b75d3bfb43671e77a8d6e8cb96d33d10cb6acb1f981fd6d8e51",
+      "git_blob_sha1": "e220b1ce320b797c1de550600dcb3179d0b5cd00"
+    },
+    "game/tests/m27_entrypoints.test.ts": {
+      "bytes": 3713,
+      "sha256": "5d45a8ec2825fac2f6eb5549cc4f3a475edc8fad9694eac51bf5179998073474",
+      "git_blob_sha1": "020c45a23bb313b52be314483e5d219a5c7532a4"
+    },
+    "game/tests/m27_world_access.test.ts": {
+      "bytes": 3376,
+      "sha256": "8df9430cf861ab93074d4edd46e7f61a32eb87553f1198665273f6f4dd6f3758",
+      "git_blob_sha1": "73b7de8eb13ebd4814adb0172d2f903324a55424"
+    },
+    "game/tests/m28_audit_cli.test.ts": {
+      "bytes": 5078,
+      "sha256": "88190b66dc8f2cc5d256e5b1bb6d9e56209bce39c6338f7a4c504f03315e664c",
+      "git_blob_sha1": "261449ef7c73e5249cad714d419cdba1c8816519"
+    },
+    "game/tests/m28_calendar_finance.test.ts": {
+      "bytes": 6722,
+      "sha256": "530ef159decd4307b6c3416b72f89068bf704b382ea45a23a65d948500e73143",
+      "git_blob_sha1": "578111ed3e2df6a9d51bdffae805f58a752fe1c9"
+    },
+    "game/tests/m28_career_world.test.ts": {
+      "bytes": 3750,
+      "sha256": "f8d079c4b267f83690dca8d97ee29b7e38670b5dcfe4fcbf912db87084afb8d2",
+      "git_blob_sha1": "e2045d99a647e710e54a2038c098fe8d6c7125ce"
+    },
+    "game/tests/m28_helpers.ts": {
+      "bytes": 3691,
+      "sha256": "14492648ae33fbf3482424d81ea77b435b6c5e4859fcf88299ee42cc6cea6922",
+      "git_blob_sha1": "9caaafc7ed2c347a60c58521806978f316b6eb59"
+    },
+    "game/tests/m28_save_numbers.test.ts": {
+      "bytes": 7383,
+      "sha256": "630b684f21f05a854bbb4604a01b382290af088f5749e454bf36f1baf1b2cbd5",
+      "git_blob_sha1": "26958eeeda0345c2043832fc2e344755778a82e5"
+    },
+    "game/tests/m28_transfer.test.ts": {
+      "bytes": 7670,
+      "sha256": "6cb8902929820bdb4bb5e6b8d18c567e333092d1793e9222d5b5b0244113f7db",
+      "git_blob_sha1": "4e568741a978783183aabd659cfc795cb73e4f94"
+    },
+    "game/tests/m29_world_advance.test.ts": {
+      "bytes": 20924,
+      "sha256": "5f4c183cf543b3e97fee78a10632a4573033ccfba05a2258fe4f4232d1743cb5",
+      "git_blob_sha1": "7711b5a5a80a11df428a534ba9369b3b757ddd9b"
+    },
+    "game/tests/m30/differential.test.ts": {
+      "bytes": 3065,
+      "sha256": "8b90b6a4b4dca398495ce00d3a87151835f65d62a04e5ba38ca565bde5e05c45",
+      "git_blob_sha1": "fa65991322a7989ba4c6484f7d44e2e9f598db68"
+    },
+    "game/tests/m30/integrate_m29.test.ts": {
+      "bytes": 4461,
+      "sha256": "4ffc5297c815021a27c2d05be809bd57bf69532f0d1fb229ffe5e433a92c2da1",
+      "git_blob_sha1": "3a785683bcb6ff1b58f3be6a74aa49e17e05ae7b"
+    },
+    "game/tests/m30/java_rng.test.ts": {
+      "bytes": 4863,
+      "sha256": "3dda7659ba47cebcfaa4077d69064aa54931cb503181f0c3bbbc77250f1c3e21",
+      "git_blob_sha1": "2e59bc3deed4d6fcc5781094705dc6a065f84d2d"
+    },
+    "game/tests/m30/journal.test.ts": {
+      "bytes": 8388,
+      "sha256": "953b16e8b1aac614d254faf524aa51622471217b62bfc8747cfa2d81393490ce",
+      "git_blob_sha1": "721b02c4ce51fbbc1837eca1fe547a28ba24e9e0"
+    },
+    "game/tests/m30/transaction.test.ts": {
+      "bytes": 4397,
+      "sha256": "f78344a7534df084c95085a81ac201c0266865117552284a4f080cb5b48cf34e",
+      "git_blob_sha1": "2ba4161a9fe3f001a25ebdce23125391907c9897"
+    },
+    "game/tests/simulation.test.ts": {
+      "bytes": 12892,
+      "sha256": "e56b50c26a728d446c69d94ee26f518f639f6d31814320eb89ae356d7af2c52a",
+      "git_blob_sha1": "100c4bc87d4a5395c43552b7f11e6a3f59be3ff3"
+    },
+    "game/tests/systems.test.ts": {
+      "bytes": 9122,
+      "sha256": "2ce20bf0771af0e961d35a31232d9a943c3bc0ae21af0d063835b40443aaf4e4",
+      "git_blob_sha1": "f9a7d78ba0ce34ff6c7c8a329f6be56461a93751"
+    },
+    "game/tools/batch-plan.mjs": {
+      "bytes": 1403,
+      "sha256": "dd3437c264308fc3523b40ca7a6e2ccc015b367f51a5a24f30145aac25069982",
+      "git_blob_sha1": "8a30d174e49032f566e4100ea5409c1b07fe2598"
+    },
+    "game/tools/inventory.mjs": {
+      "bytes": 3521,
+      "sha256": "a44a5006831fcc2ca39b824ca5d94df04454561ee0aad8c219cf0b140fe9c444",
+      "git_blob_sha1": "8bb5701184536d465dbabb4dbcd303526e8f416d"
+    },
+    "game/tools/m22_audit.py": {
+      "bytes": 5780,
+      "sha256": "7a5c8435e466c04ee8dbbd45cfcff5c91e3e52436b1984184172f0ca39c175b1",
+      "git_blob_sha1": "1bd61655763538c7a3c1d926219bc4de01aacd5f"
+    },
+    "game/tools/m22_document.py": {
+      "bytes": 16169,
+      "sha256": "65569154247185a78f1de96c01e4d72ee73e719003f20e2e95caeca594e93c5a",
+      "git_blob_sha1": "fb18823907163a7a18ec138f1e75772025cca4b6"
+    },
+    "game/tools/m22_generate_schemas.py": {
+      "bytes": 2566,
+      "sha256": "15efb1dc067a0d4a9b4861e9a608cad97330a12abb738dd5e6c36ef114418c22",
+      "git_blob_sha1": "26719afcbf939b03cd2de7004ff2e541032bc4c3"
+    },
+    "game/tools/m22_package.py": {
+      "bytes": 1978,
+      "sha256": "41cb7f034df82b644136c8a2920e2efe6a349a966606e52f8a5437c295f4c3b4",
+      "git_blob_sha1": "af5b73d2b1c03029f2948abcd21ecb33318b43ec"
+    },
+    "game/tools/m23_audit.py": {
+      "bytes": 5954,
+      "sha256": "9e170fc6d3f550d2c672f3443bde0f2794ac6ba38f39ffe82e6f2fc7d3e306b6",
+      "git_blob_sha1": "cdb7b33278bd3f30ccd90e3e6b300c522805d51a"
+    },
+    "game/tools/m23_document.py": {
+      "bytes": 1682,
+      "sha256": "50ceb9de6c2e149af79d27dbc0cc2250028dd7e0945a433c0c31e2c57fbaf7bd",
+      "git_blob_sha1": "8502a3e0d8f74dae95284e8a4183caa538a738ce"
+    },
+    "game/tools/m23_package.py": {
+      "bytes": 3317,
+      "sha256": "99629b057b0111f990d993ac9e1a91405489cefec8a3359042c98e8f8a3e2cc0",
+      "git_blob_sha1": "39c1b30fc09411f0a300108473af59e02f5207f4"
+    },
+    "game/tools/m24_advance_career.js": {
+      "bytes": 1101,
+      "sha256": "e3fceb21b8aabc9baa6af63e1a3376c7d6be0cc5a5329970e64a448cb5aeb9c4",
+      "git_blob_sha1": "ab8e496516acbbf31c377908b16d146e23c664fb"
+    },
+    "game/tools/m24_browser_qa.py": {
+      "bytes": 6159,
+      "sha256": "196d61b17a5ba1b1525ff2d96203d36c999c98463e84d596c23489e2cf3d51c9",
+      "git_blob_sha1": "9d7322277eba086dc8f268c6335f01be06b6aed9"
+    },
+    "game/tools/m24_bundle.js": {
+      "bytes": 1841,
+      "sha256": "1a2e2fed9911b43f9bb7396c117e768f5dcc8df0280e8b661fd35af2865ce65f",
+      "git_blob_sha1": "fc80f0e69c2d4a530fd5395e4987edc6396d1584"
+    },
+    "game/tools/m25_audit.py": {
+      "bytes": 3097,
+      "sha256": "cac0646b04fab152cb18b57f90e8d3cd5ed9178a1548fe123ba21bd495c91cd6",
+      "git_blob_sha1": "b9a958140c8488ae785254db68211e99eb15b7ad"
+    },
+    "game/tools/m25_browser_qa.py": {
+      "bytes": 8346,
+      "sha256": "f5e6861531de7e5670dc9241b20eac5b5b7cff63a546d740e95be1828d908b0c",
+      "git_blob_sha1": "6fe9b0b9da40b813d0f5cb0cf0d22ca8f6990f47"
+    },
+    "game/tools/m26_audit.py": {
+      "bytes": 4345,
+      "sha256": "0cecaf1c6e254531c9d875331b70f58082add1ce3b44ccf717ebba7dff1c30e2",
+      "git_blob_sha1": "625b0c084a6c8dec336da78917aed216bd32a686"
+    },
+    "game/tools/m27_audit.py": {
+      "bytes": 5785,
+      "sha256": "70fdbfbd6b8a33ca393a80e9947407486b163b57a473fda9af0b8696f86f7e77",
+      "git_blob_sha1": "88b04c8d5f1ca6261e65c972b6a445814b6b92e2"
+    },
+    "game/tools/m27_generate_barrels.py": {
+      "bytes": 1994,
+      "sha256": "5a8f838738b128c45416238694f8314da4dd88ca7d1897422ec1237b8a5e70b0",
+      "git_blob_sha1": "cba14ebcf72860d1135d8b5f738a4e5c32d7b2b0"
+    },
+    "game/tools/m27_generate_world_schema.py": {
+      "bytes": 2638,
+      "sha256": "9e528005c444dbf06ee0d6f1c1a3a6b4efa73e27271d678ce8176a3ae2fd8161",
+      "git_blob_sha1": "573032e062bba5869c922bfe54268a8e26758083"
+    },
+    "game/tools/m27_make_fixture_world.mjs": {
+      "bytes": 2150,
+      "sha256": "f5b673edfd571eeda5d0bdd7a00a8c68b0a4f09ad682fe57b834f6ee7521487c",
+      "git_blob_sha1": "6e4a35d5331bce8154a7037676063552c19d475c"
+    },
+    "game/tools/package_release.py": {
+      "bytes": 3624,
+      "sha256": "b11a88bce169cd9be863c472e39ff1d7c353e3522c9f5e84bb2e2dc904b3e2cd",
+      "git_blob_sha1": "e07dfee5b791a255163da5321fa4d1f3fea0adc2"
+    },
+    "game/tools/port_static_tables.py": {
+      "bytes": 3553,
+      "sha256": "83a23de1561aae4f9333b13b3268d7e176a7312a53f2393ecd243d11f80e1c83",
+      "git_blob_sha1": "f865e6f4feff6bd7ba207725275e303493995dda"
+    },
+    "game/tools/verify-runtime.mjs": {
+      "bytes": 1522,
+      "sha256": "0b7f461c4be851968a6a627aeb7de3a10900098a2e1cdaa70cbe552b1189e3c1",
+      "git_blob_sha1": "4eb3131eca7b1d547078e7dc8ebfe4f3dbb08671"
+    },
+    "game/tools/verify_m20.py": {
+      "bytes": 4092,
+      "sha256": "48f2c309cd9c6ee8fe7093ff0ff57144c2feb65e0a5e466faf3bc49eb30c1531",
+      "git_blob_sha1": "363f5545d2659c299ddd174c0c6cac7875731049"
+    },
+    "game/tools/verify_m21_sources.py": {
+      "bytes": 2343,
+      "sha256": "b56e37f5040934b81c73b0bc1af67686caaecb18c46e9a8beae31dea8e895b68",
+      "git_blob_sha1": "15a8ccf06e5c7a20060b3c14322d864fd1aa2f7d"
+    },
+    "game/tsconfig.json": {
+      "bytes": 373,
+      "sha256": "f30968f83c6fdc3ed20b692451d786bf26f873cc335f779d8cfcbbba8f7b6ea7",
+      "git_blob_sha1": "6a0e6616d48f7caa4de59cef177eb31563e7678e"
+    },
+    "game/upstream/brasfoot-next-main/Cargo.lock": {
+      "bytes": 132836,
+      "sha256": "2bf6c25a7d4b0670db0138a84a88a24a04d2ca19bec7a27e534e313089869d24",
+      "git_blob_sha1": "85409fdbe9c46c8ef1e59a9238e8c68394818ace"
+    },
+    "game/upstream/brasfoot-next-main/Cargo.toml": {
+      "bytes": 875,
+      "sha256": "d48bfc663f02e9c8915bf30b3b82300ffee331ac6aa61ae1242b0d808ab5ce80",
+      "git_blob_sha1": "8f25ea71fd4223ebec20f5b9a41f51c3a2e5c28a"
+    },
+    "game/upstream/brasfoot-next-main/LICENSE": {
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "git_blob_sha1": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7"
+    },
+    "game/upstream/brasfoot-next-main/README.md": {
+      "bytes": 4363,
+      "sha256": "a91689bb9d422b58ae2b1faf8a46f08189b0634de423ccbe78e733b862a1a275",
+      "git_blob_sha1": "0d5170ffe723a7735117044c28adb2dcc2159b1a"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/examples/advance_career.rs": {
+      "bytes": 2240,
+      "sha256": "9e0c06cadb0cf45bae01ad522268c114406c5a7a0c62a1f99fa4a1dea681e224",
+      "git_blob_sha1": "82bd2b05962ddb65482bef7ec95de57b03e85bb1"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/examples/render_screens.rs": {
+      "bytes": 2179,
+      "sha256": "caa67e3e01f7b6529e346bd0bd37498567e082a36473da1f70511aac3606a45c",
+      "git_blob_sha1": "5711762f409e063383fdc21798751201feb988fa"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/career.rs": {
+      "bytes": 18750,
+      "sha256": "0da0100d844126042e712a952e5d1d77f65c0cbef01ef85fefaccc10c7416034",
+      "git_blob_sha1": "03e80bae7c43f7d505a2a5c0cf46440e27750770"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/format.rs": {
+      "bytes": 8049,
+      "sha256": "8b95d2ced1d25ff7d2cfa16687e048b9a34021e4c5ca36945f6eaf92249b44ad",
+      "git_blob_sha1": "087ff0653bcc6bb6527c5cae52bd456f19cbf539"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/game_files.rs": {
+      "bytes": 7179,
+      "sha256": "6cdf529b5246c928263409bf6a85ed63dbd09fc2099485b2ecaa9f01e255ed49",
+      "git_blob_sha1": "e1f78a670a1204e5a05f645c721d3ca7f6d6b03e"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/glyphs.rs": {
+      "bytes": 2503,
+      "sha256": "b4a8d08346157b8b8f0b279618948e808b759da3b32dfe6c1aa60c08d1782182",
+      "git_blob_sha1": "1cbc353935a1b2b766eab371169210bb7c85771b"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/lib.rs": {
+      "bytes": 14918,
+      "sha256": "9b1a3ddb1cb391e37bfe7b9977d6c386432749f0452b86aea890b6954bca0f51",
+      "git_blob_sha1": "72fdbb60f33234485276a2ee7c2862b427e7659b"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/main.rs": {
+      "bytes": 3031,
+      "sha256": "6fa022b74234abb37fd45bc57b82fc58be04c9e8166e2a633e1aace481b31f63",
+      "git_blob_sha1": "afb991b9325d82c3a12978f2b187d9307f5ae048"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/motion.rs": {
+      "bytes": 3796,
+      "sha256": "a0a2516d98a5796547e766d9007ba558af11f7c991909ac60a58619c4c56e68a",
+      "git_blob_sha1": "8bfc172fedeb7a0f932309b769f0b48978a9ac05"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/patches/download.rs": {
+      "bytes": 20420,
+      "sha256": "fabb18f995ff3fb9c74c7f66aa28d265212d6129525be3e08adf29570e4871e8",
+      "git_blob_sha1": "5cb2a22f899f31fc7c783aa4eccfb8aac0bfb3cf"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/patches/mod.rs": {
+      "bytes": 21069,
+      "sha256": "310cdb4b5c42be9eef145340cd03005a0cd57a8704545730d3793a0ac9fc1da9",
+      "git_blob_sha1": "32879be4bdb113cad5e36d5fb024ed247c2a9228"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/patches/store.rs": {
+      "bytes": 7723,
+      "sha256": "0d0422c44d0076e520d2cd383a158a3f9085756c49bce0d0540e4b335dc4bcf7",
+      "git_blob_sha1": "c92946c5025a938ad4393707158b0a9cb872cebd"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/assets.rs": {
+      "bytes": 38307,
+      "sha256": "894d781e65e12ede545e65b24500abbb47041b33035dbdd3da365453da0f4ccd",
+      "git_blob_sha1": "69b1b4f2521967bf1aa725b818acdd916927952e"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/awards.rs": {
+      "bytes": 36356,
+      "sha256": "75f000dcf83e88784ab60663da957daefaecef4d12c0b75e9d53d4ef3c947199",
+      "git_blob_sha1": "cec594625df3b10f39e4123b07f517213eeaf112"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/calendar.rs": {
+      "bytes": 4617,
+      "sha256": "65b1528b5f0760c6b2a9fbff18da8f2bd1d9ab09b91517332a58e01db7032288",
+      "git_blob_sha1": "dffbd49ecb5934a2a414f80f4c0d0bc28d9ccdfc"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/career.rs": {
+      "bytes": 35368,
+      "sha256": "fa0e4a7af28b32a45b0dc153191be7cd279a3167d421bfbe1e16854296206426",
+      "git_blob_sha1": "85d561503965f03b5ea5cd9716873f57542df967"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/champions.rs": {
+      "bytes": 5639,
+      "sha256": "2ddd015949fd0876a25350643206e49ad49e03c76a74288eff05cf6f9eeee135",
+      "git_blob_sha1": "a0d9bc684f782d9825bd662452c939e320a24c03"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/club_history.rs": {
+      "bytes": 14526,
+      "sha256": "1a263890fdcc94e1fadffa42a6a1feb32bb4ad24d11efc449e45b205d1238524",
+      "git_blob_sha1": "84177788af0f9cc30ff7cb9e0c0ae6308fce091c"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/club_ranking.rs": {
+      "bytes": 13171,
+      "sha256": "1d7e115a4b5956d199b7047870d5fff25b9a046b0826a73a8d8420e6fa7c02aa",
+      "git_blob_sha1": "1bbb3cfc44348404f58119c146b45030d1e60d43"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/coaches.rs": {
+      "bytes": 21608,
+      "sha256": "8d23db20f20347526f42731bbd29e0733f8bcff98dceaaf95c2de97d9f3030b9",
+      "git_blob_sha1": "b18adf29bc69a97c736d94ac71d963928f9d40c0"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/contract.rs": {
+      "bytes": 5341,
+      "sha256": "b7ab50bcbaf0ff64bd88b434c2e81a3befefd830d38c90c14abb721d16cfcf98",
+      "git_blob_sha1": "aa495af3652361ac7c08e4e23bda53ddfca28b8d"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/controls.rs": {
+      "bytes": 4933,
+      "sha256": "5e07ec94e9ae44a7e2a14e2d246ef311c28afd189d14564f77fa096252c39d6f",
+      "git_blob_sha1": "d7a285b6d5638a898be49d742445bc0af8eb4e68"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/finances.rs": {
+      "bytes": 75909,
+      "sha256": "90feea4832d4b37b737516e73cad8b38a2dcc596c5ae9c0aefc640623643cd48",
+      "git_blob_sha1": "cedb879cf38b777a3f247dc0b420cf8bf6917787"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/findings.rs": {
+      "bytes": 18751,
+      "sha256": "584f50c5841d8231986e6e043862920244f6592c329f5ee50ed1c53f2902ed78",
+      "git_blob_sha1": "a301fcc9b79bb2b6379c0f73164a288f958b4413"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/form.rs": {
+      "bytes": 7183,
+      "sha256": "d6cb305d7ee6b3ce1870e4a2fa5a16b911810d0ce3891ff3b01ac5440d683bb5",
+      "git_blob_sha1": "edb714819d91980defc6050dab5d17457e10a304"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/head_to_head.rs": {
+      "bytes": 10739,
+      "sha256": "8cab88865be0853c1c00fdc4916010b325400b85966e4b8c740af599b5207a15",
+      "git_blob_sha1": "df1732b318ddee2771f7eaa7023d083ed64d694b"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/history.rs": {
+      "bytes": 5719,
+      "sha256": "1d63c372f462db1d4c40a76f1e9755f174850dcf18e8b2f2e979f8e24d50d96e",
+      "git_blob_sha1": "2ea73d508d096f4aa08ee7c8e86e013abae301a7"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/home.rs": {
+      "bytes": 32057,
+      "sha256": "47a0cede900ab0fb30ec6ba6bcb6d972ced87f6dd53c304202461bc67b5e99e9",
+      "git_blob_sha1": "422724a169996744937f9ad6e154a3c1da1f9fda"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/leaders.rs": {
+      "bytes": 9580,
+      "sha256": "376053aa0d1fe63c60a2c7fa90f610ab42195cfcdbc7ce1229db43fa242eec9c",
+      "git_blob_sha1": "6c3e2f18cfb46a0b12dcfba9cd1b335f01afb6f9"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/lineup.rs": {
+      "bytes": 20686,
+      "sha256": "7473b77b5f23f2acd7fb56f07d4b0cf40b084cc241724d657a3a0352b3ae74e3",
+      "git_blob_sha1": "d4599928f37a0c4dee7e32cf99827d8de503e3af"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/loans.rs": {
+      "bytes": 5727,
+      "sha256": "cb6a2b90fcdbf9ed51dbb1680694070783c22c1df5ce8e6bd6e47a1457f2f27a",
+      "git_blob_sha1": "6431a98b8d2d4a59bc473309b11b0394e97d7028"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/management.rs": {
+      "bytes": 41188,
+      "sha256": "f10605660af347422f4f2db497e19f21f2cfcdac92cb36de14605213fbcb1429",
+      "git_blob_sha1": "0196f324ee2f5a29b1519f48c0e0548126ab0194"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/market.rs": {
+      "bytes": 15743,
+      "sha256": "5db0a500f112c96a3c1dbf30d27acdcd6ad20a2b29e776f08f520616192b5bfc",
+      "git_blob_sha1": "1abe567fded622adc9edcaacf0d0bf7bab7f1626"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/menu.rs": {
+      "bytes": 14608,
+      "sha256": "82670eafaa8971a9c9b6ab5269f1ddd776139678cf266c7ce622a1b566867169",
+      "git_blob_sha1": "48bedea261d9861c9729cd38df18ef6b9eecc22f"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/messages.rs": {
+      "bytes": 9222,
+      "sha256": "471c4c16673c7e4f4d0cae319fc5563869e17c344988159371dfa92930fd2d76",
+      "git_blob_sha1": "e97bd261aec517e36b012c27acb90edc2e20aed9"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/mod.rs": {
+      "bytes": 913,
+      "sha256": "d5db455f4526305974a06505e33acf135bb73b21a1ac4cedde3c458110db58fd",
+      "git_blob_sha1": "64c481830a7334b903c841c2e08caf8eab11051d"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/modkit.rs": {
+      "bytes": 15576,
+      "sha256": "157877db8a472554efce653856344757479c3839abbd88cc488378ff704a9425",
+      "git_blob_sha1": "296dbf28b2201023318f5b40516553d5eb39202a"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/new_game.rs": {
+      "bytes": 31942,
+      "sha256": "cf92bf37ceab91bc0650aa144d36d96e017e91b9bb59f8a96c55ca7c10e5ea22",
+      "git_blob_sha1": "ae2ad8fc996046f78151b9a12f4cf5fef2456216"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/newspaper.rs": {
+      "bytes": 9233,
+      "sha256": "5e68f7a8d699122cfd4d72df92f05ff9538b016f569f6f02b0af43eaf022bf1c",
+      "git_blob_sha1": "6bbcb1be8439b27d3c3b8851e95580643af49257"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/offer.rs": {
+      "bytes": 9863,
+      "sha256": "2874a49f2d2691f2b42446ebc8a115816871c9169ed50a6023fd0df9488076b8",
+      "git_blob_sha1": "280b25b77bc95f20266cdd1bee48abf5803c18bb"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/opening.rs": {
+      "bytes": 3695,
+      "sha256": "7bf4366b3d5b953f9afd8404baaded4c64aa5bd1ef18a81259435376da03c223",
+      "git_blob_sha1": "01c578e0a5baac41856f9a694e2fafbd234de20d"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/patches.rs": {
+      "bytes": 19169,
+      "sha256": "e4d5f74f78c68a54de465a2ef44b3e51ad4626f31ec2b7d7e5a6b55fac01759a",
+      "git_blob_sha1": "e5291086539135bef4ca9c5f2bac7a502369203d"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/pitch.rs": {
+      "bytes": 4090,
+      "sha256": "0aa7f5b38df8a60e94d93cac7818a770c0e033f2d8bb5aa540d9116e0b426daf",
+      "git_blob_sha1": "fbf79057ec53d929f0ed1f0569ba60e13fc9f6db"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/player.rs": {
+      "bytes": 13738,
+      "sha256": "1e310e9936ae236e634e4c3be72af3b49619f29b1fc5bcf2c11e3dddfb04ae44",
+      "git_blob_sha1": "daa63d9c482a0981f9cd6ba463796a1a9df770a2"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/player_actions.rs": {
+      "bytes": 7417,
+      "sha256": "9548097308f28cc9bc33003f40dbc99d9f95eb1154a1b7f0d5d35802da32a83e",
+      "git_blob_sha1": "e16452eb2bf50da7d1a7dac7bd028f00c5cdcbfd"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/preferences.rs": {
+      "bytes": 8859,
+      "sha256": "7f9bc6c9b08c9589f7ebff26c879d74e10f806d8616d7b23d957a4c1596e927b",
+      "git_blob_sha1": "6ef4fd490adb01b06c0dc39b5951c83c85848018"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/proposals.rs": {
+      "bytes": 6080,
+      "sha256": "23d2b57efe89bdd972161a89b6045ff60bc7ab7b5032746f379f9b20249c79e6",
+      "git_blob_sha1": "606d0eba9670d602ba04328e838d99796d4a0dc8"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/retire.rs": {
+      "bytes": 3550,
+      "sha256": "b28da18559b611b3743c87a48fd7ca8b336d97b65535c39f264ced9008240b33",
+      "git_blob_sha1": "230b6d186b379d92f48948646fd4bd0c5886cb88"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/round.rs": {
+      "bytes": 36021,
+      "sha256": "b686fd00e54fcdb030ed5cdbbf9ff99ac0b38b003817e3e5fc94ba73d5ab8ef1",
+      "git_blob_sha1": "82c7c78d79adda8bca61ad1b191d2a8e8977a4e9"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/satellites.rs": {
+      "bytes": 67780,
+      "sha256": "c81858b957248df66d42024fd25f601325cc27e1c18fccbec8dba010d411eed9",
+      "git_blob_sha1": "d0f006c70baba2744e8f9d70f52b207f26531972"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/search.rs": {
+      "bytes": 22812,
+      "sha256": "4d8356ebab048ad3570e9de591351a5a5101a382f6678519f4a5dbea49facd1d",
+      "git_blob_sha1": "27351333997b35d61ece921a1e0e286b86535ec9"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/squad_offer.rs": {
+      "bytes": 2766,
+      "sha256": "41d146fb9f6f0310b5fd7d54b89c3614b7e42585cfbe51fc541c9b87b03425ac",
+      "git_blob_sha1": "2f47dd2529212824853fdef6b5bab4850fb32f58"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/stadium.rs": {
+      "bytes": 10614,
+      "sha256": "3c2fc96fd9fb582cd69cf904d788970a3ac0ff07c9fb556d79ba8d6b87f7f050",
+      "git_blob_sha1": "6a738d078b4c8751c9c05c64a70e0300c902f771"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/standings.rs": {
+      "bytes": 18188,
+      "sha256": "f0b7456d8535857c58e36844016f369831dd35e3cb9f305c438fa097cfc01513",
+      "git_blob_sha1": "99b9c9152f378ef7468e206da435e694d67f4dec"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/start.rs": {
+      "bytes": 4923,
+      "sha256": "e34ee0fb08abac644dfd31607358d32e4147f033d487d64c345bd9ba87dde6a8",
+      "git_blob_sha1": "081a58ab0f84ded5da7829915f5ef000f49ad337"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/support.rs": {
+      "bytes": 4702,
+      "sha256": "139e74e1daeb6a474b2d1e14329b4ef6ce166498dbd5ca43b89cb9080c9608b2",
+      "git_blob_sha1": "e0ce917e30b4ffd911923ad047ec5f47c0f00c2b"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/team_of_round.rs": {
+      "bytes": 7439,
+      "sha256": "1d46e2974b9abc248a5360404e5078427c5c9b7454325aa413d4fcad2a1100a2",
+      "git_blob_sha1": "86710cfad5857203dfcfaeb3b88fff415bae4a96"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/teams.rs": {
+      "bytes": 35794,
+      "sha256": "f5ccc5e4985c6d63892e25df272c1f2643ce970f34756d1909dfa75f948c4191",
+      "git_blob_sha1": "e7fe688aa6f6fb61bb0e8448421938fbf044608d"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/training.rs": {
+      "bytes": 1974,
+      "sha256": "4a9193ff9a36aa69a1e0cb0e3ffbf764c5aa2ecbfe62d752eac752ce40b00ceb",
+      "git_blob_sha1": "b2ac6fc3f2d520c54235dbfee151ac13ff744d3d"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/trophies.rs": {
+      "bytes": 8556,
+      "sha256": "7e738bf7f3e0a0737220950e266c4f9f6a2da6a5ab7f18e4b488f5ea52a3d641",
+      "git_blob_sha1": "e14783561a716ca92cb7b443904b0b23073fa426"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/widgets.rs": {
+      "bytes": 20692,
+      "sha256": "058685574fad6ffaf759ad3bc54a2d639ffebac8d236c0d7a718f0817e00d518",
+      "git_blob_sha1": "c46127a3814c5f4e86380a008c4975ba77e73fce"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/screens/youth.rs": {
+      "bytes": 17333,
+      "sha256": "7330e6c76a91582532c3a564f9eab060632b1bdfe8abedeb1f41d9dfa04edf70",
+      "git_blob_sha1": "084accc034091b766e47690df2332cefc4197ea5"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/theme.rs": {
+      "bytes": 9232,
+      "sha256": "e290e78e2c8a49c27f3cd6a4ae4f90f2156b28fae3a891cec11e28b9e791f881",
+      "git_blob_sha1": "650af05cb51cab9848224f15f9aed14f88419373"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/src/view.rs": {
+      "bytes": 8311,
+      "sha256": "085954f5d213ae6c93d85608541a2bd10223bc646782f209d2c8fefa93803233",
+      "git_blob_sha1": "c2777fdbe65cea289a72b7a09643345d2d5abd49"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/tests/catalog.rs": {
+      "bytes": 1622,
+      "sha256": "056219b7644ea038236a65d09bc5dc03015a83d94e6cc4d4f8af56276af7cbac",
+      "git_blob_sha1": "fd4edb464777cc6232ed7fb46dd348e5698ff3f6"
+    },
+    "game/upstream/brasfoot-next-main/crates/app/tests/interaction.rs": {
+      "bytes": 8312,
+      "sha256": "7d6b751a07cbd9dc51df6a9a6ce1749a92a91841d039faf7c3b5cf752f119f93",
+      "git_blob_sha1": "67fe5585cb90f58133a5e5cd9bf7f7c62de1db88"
+    },
+    "game/upstream/brasfoot-next-main/crates/datapack/src/bin/brasfoot-data.rs": {
+      "bytes": 7106,
+      "sha256": "afa7c44eaf85ef0569350abc407974e37caed32fabf95850fa00b9bda3de0e5e",
+      "git_blob_sha1": "de47077ed63de340c051029bbb1377e1c8e34425"
+    },
+    "game/upstream/brasfoot-next-main/crates/datapack/src/codes.rs": {
+      "bytes": 6293,
+      "sha256": "ef13f76e6363647cc68c6898b95445febca6ba8917bf4ab4872de26633cdeab5",
+      "git_blob_sha1": "7b2ec2edbc3a0fdec098cbaffdf7923110bd4ab8"
+    },
+    "game/upstream/brasfoot-next-main/crates/datapack/src/database.rs": {
+      "bytes": 8579,
+      "sha256": "9c4d09c9187a7cbdfd9fdd8934d9cb0418f572e304fc76248905f18795807222",
+      "git_blob_sha1": "e18563df743583c860ddf50d2a7b47e9209cc28e"
+    },
+    "game/upstream/brasfoot-next-main/crates/datapack/src/format.rs": {
+      "bytes": 7535,
+      "sha256": "91bc0b551236c891ef81ff379383c5290fdd8c07ac25a743dafbbb36543a1c64",
+      "git_blob_sha1": "cfac0b0b34f27c9bee86a3fed9814a51d987f5a2"
+    },
+    "game/upstream/brasfoot-next-main/crates/datapack/src/issues.rs": {
+      "bytes": 7433,
+      "sha256": "d1998a6dc45fd1f73bae73ae52345b9fd71e38a163627c73be2c82770304fa71",
+      "git_blob_sha1": "cccc5ed01cba29fcc56db39e2df40972584c4414"
+    },
+    "game/upstream/brasfoot-next-main/crates/datapack/src/legacy.rs": {
+      "bytes": 18321,
+      "sha256": "166f7564155c64d696551ddad4e9224362253fbc13ab93cfbbfe83a5ba73d39c",
+      "git_blob_sha1": "7c047f5b517d358bc64fbb293918d09b48af6f40"
+    },
+    "game/upstream/brasfoot-next-main/crates/datapack/src/lib.rs": {
+      "bytes": 417,
+      "sha256": "64f209a8bc7d5742cda039ff02a958b62121b32ac9f0869829c1f4823a9427b5",
+      "git_blob_sha1": "11846a1569e24e1bf552985783bae5165a70690d"
+    },
+    "game/upstream/brasfoot-next-main/crates/datapack/src/pack.rs": {
+      "bytes": 4147,
+      "sha256": "149789af65ec85accc09dd7aeab4229ec8ba71ed5810d4f95bd1c2f19c889493",
+      "git_blob_sha1": "f13d5576056d2f2d1bf7d5e8b66c25dfdea8a035"
+    },
+    "game/upstream/brasfoot-next-main/crates/datapack/src/read.rs": {
+      "bytes": 12442,
+      "sha256": "507348833a09a61e6e1198baba980b1531a96e4a6c1ae10e26ff13e5ca64b4d3",
+      "git_blob_sha1": "e02bef5f74e72ffa8c100349521f79a44eddf16f"
+    },
+    "game/upstream/brasfoot-next-main/crates/datapack/src/tree.rs": {
+      "bytes": 5245,
+      "sha256": "5c2a9a5c320cc20b85a6bfc69a0af41391fd10f7121146a142e0db571b7bdcfe",
+      "git_blob_sha1": "94350788d6d4b5a9e95895a809a6dab014d5e973"
+    },
+    "game/upstream/brasfoot-next-main/crates/datapack/src/trophies.rs": {
+      "bytes": 4969,
+      "sha256": "74491c12bdfebff933259342d41f94386aca8290a89b0f428f5a001f49a12d1f",
+      "git_blob_sha1": "e2d8040a64fb597cb968a5653487af5686c655d5"
+    },
+    "game/upstream/brasfoot-next-main/crates/datapack/tests/datapack.rs": {
+      "bytes": 12485,
+      "sha256": "28ee10a8e873281df26ad4291e13ee969f333cf1a34033e0074d74f98bb0a584",
+      "git_blob_sha1": "fd6aa60da08fb1c52c189eee32765c46923c9224"
+    },
+    "game/upstream/brasfoot-next-main/crates/engine/src/clubs.rs": {
+      "bytes": 1617,
+      "sha256": "cd24c353fb51f9d6ed451ed007fc37e39ff2539e6f69fe75ce6a1e584c4a76bf",
+      "git_blob_sha1": "be84cc3dddd3c29a59e7dbb0519f48b6afc2a32b"
+    },
+    "game/upstream/brasfoot-next-main/crates/engine/src/engine.rs": {
+      "bytes": 26697,
+      "sha256": "4cdf502c0f99923ce34c2ca5ed7866785a7430937c6edb4626df92c57543d856",
+      "git_blob_sha1": "0e4fd94c01a5aba500d03a45dac757383dc33dfb"
+    },
+    "game/upstream/brasfoot-next-main/crates/engine/src/events.rs": {
+      "bytes": 3047,
+      "sha256": "e09538d717ba6cf20e82ba8c44ba11a76bab9f6e0503749f4be5bd563abf0aed",
+      "git_blob_sha1": "4841a386c2b322005a75496b4e48c9963251669d"
+    },
+    "game/upstream/brasfoot-next-main/crates/engine/src/hooks.rs": {
+      "bytes": 1998,
+      "sha256": "5ae088cd007eb114d2a223a2e917cc1699afcfd105a2e125f745643f5ca4cfb7",
+      "git_blob_sha1": "b2872ea51a9f5181b61d0f7f267f7b13f239bf00"
+    },
+    "game/upstream/brasfoot-next-main/crates/engine/src/injury.rs": {
+      "bytes": 2138,
+      "sha256": "9666ccfb48653d63f73026b89a6ead1422b3ae691a52b3e25425140b80f0fafd",
+      "git_blob_sha1": "2c45de1343c2c9357ad373ccd9cbfbf5eceddaaf"
+    },
+    "game/upstream/brasfoot-next-main/crates/engine/src/lib.rs": {
+      "bytes": 291,
+      "sha256": "5e8c63a3bfc72b2ff10372e62283289a2f5e087c0b958361ded59b4d6924a3d2",
+      "git_blob_sha1": "3b541c4b9cca666ed3eceb85a16803cdc414bef0"
+    },
+    "game/upstream/brasfoot-next-main/crates/engine/src/lineup.rs": {
+      "bytes": 6212,
+      "sha256": "8e78b15bdc3ba8a3161842f99eb8973f52f1fa2780aeaea098281a7552aebea5",
+      "git_blob_sha1": "7cf28c18ed8bddce7659cf7b106b7f0d52c83561"
+    },
+    "game/upstream/brasfoot-next-main/crates/engine/src/messages.rs": {
+      "bytes": 2799,
+      "sha256": "78e3f5fd41cf3d2e2619f928ea117f1928b2d5d4aaf8170e12256e18d15efe32",
+      "git_blob_sha1": "28e923a37911b782ffd15811c5124322fafc833e"
+    },
+    "game/upstream/brasfoot-next-main/crates/engine/src/simulate.rs": {
+      "bytes": 26492,
+      "sha256": "e20290b4d9921687973e4c837b5c1e2230f2066b65811e18acfce5ce1b81c707",
+      "git_blob_sha1": "0df3212e85be2dd9e99a7c0e23ae15b2db9c21e4"
+    },
+    "game/upstream/brasfoot-next-main/crates/engine/src/stadium.rs": {
+      "bytes": 4868,
+      "sha256": "982f793e65f6ee101f0460d84e0bcb5a997afd163631df8b140d255735c45bbd",
+      "git_blob_sha1": "df50ea0132381f2111fb6635933204092ee2de60"
+    },
+    "game/upstream/brasfoot-next-main/crates/engine/src/tables.rs": {
+      "bytes": 2524,
+      "sha256": "d4bcba7dfbe6518171272ea130d2164017bdb16066c984506cff2beb853ac757",
+      "git_blob_sha1": "596818605aae95039b65a1e31342a9cdf88a7f5f"
+    },
+    "game/upstream/brasfoot-next-main/crates/engine/src/tactics.rs": {
+      "bytes": 23379,
+      "sha256": "56633cb23a0663d72ac879aeafb43d87a44fc2346ac713f6792e14a21d6fb86b",
+      "git_blob_sha1": "c03b4bb6b7fb4dc2e8ce461467b68565edc39255"
+    },
+    "game/upstream/brasfoot-next-main/crates/engine/src/value.rs": {
+      "bytes": 8288,
+      "sha256": "e01f82b79ae167aaaee05e4009c46fd22c5e75cb66c43e87f4f8f50ebfa07983",
+      "git_blob_sha1": "614b5580dccc11ac402000f0deb532e470fb3300"
+    },
+    "game/upstream/brasfoot-next-main/crates/engine/tests/differential.rs": {
+      "bytes": 10516,
+      "sha256": "2dba17637fb42fb2f8fac676a0a296f3b9958864bfe498d9366d88ad0edba741",
+      "git_blob_sha1": "5e77217bdbe4871ee6891ea12f5393ba819e8c63"
+    },
+    "game/upstream/brasfoot-next-main/crates/i18n/src/labels.rs": {
+      "bytes": 22723,
+      "sha256": "201bedd72e70306219be69d078c99ff9a139843a2ce840270a9ef9ac0426e4e1",
+      "git_blob_sha1": "7949245b18a231221a6169d060a177b481cd81c4"
+    },
+    "game/upstream/brasfoot-next-main/crates/i18n/src/lib.rs": {
+      "bytes": 3922,
+      "sha256": "d85c57912f7a2c492047ebb7a193509d9e332472fbbdc56c60956fd9cbb3cfc5",
+      "git_blob_sha1": "fe0f182a3bf005e2a24efc0e917e3fd819fdf1df"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/brands.rs": {
+      "bytes": 5612,
+      "sha256": "8a8389778560083e1fd256e3b505c2930a0f5fdb4c1a184cfd58ec01aeb28da0",
+      "git_blob_sha1": "6d16d0bfdb1044a80510152114bb73cab5e1b13f"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/canonical.rs": {
+      "bytes": 3422,
+      "sha256": "35e9425725ffac712fee3b4e76eaeba5a591490adb164bc2c37977eecd0591af",
+      "git_blob_sha1": "850124b11cb99e51388ba1889bcaeee766d8440f"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/canonical_generated.rs": {
+      "bytes": 42854,
+      "sha256": "0340e494635ec8eac36c33ae50a5dd08f58f8b72e674185d0cf193d1de82c297",
+      "git_blob_sha1": "e058fd8af11ec8f9e83fc71e7540fa0c8004cba9"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/clock.rs": {
+      "bytes": 6502,
+      "sha256": "b979e507f3a2ff934f8015f86e3f3aa86d5d6ec6a9853aa558069ffde6eec93d",
+      "git_blob_sha1": "183219412943513fb018fde35d888678b680d7dc"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/countries.rs": {
+      "bytes": 26477,
+      "sha256": "747645f41775d8c392e5a34df7c162c5f5f135949ba7e15c416070cc6632e2e8",
+      "git_blob_sha1": "4c3641ba867316a9541c7c3f85efbf38d257b003"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/fdlibm.rs": {
+      "bytes": 3623,
+      "sha256": "bdb0d09c2c8b588e53112ea2759f5bdd06f9f55290a7dace13b3f7ba2a9579a1",
+      "git_blob_sha1": "1f23d77d5bd826f405d28c95245074cc34214874"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/host_cities.rs": {
+      "bytes": 1888,
+      "sha256": "cbf006b5378d35cc3efeeaaea5af26ca4c15ddd53386d334299908dcff5ffcdc",
+      "git_blob_sha1": "168496990aa3f9d2f700d29315b0283b2943ee3e"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/ids.rs": {
+      "bytes": 1132,
+      "sha256": "50ebb565a3e59ee7fdadd28182cf47ca26a87c54670eab6524f7e641477bd8b9",
+      "git_blob_sha1": "0fa1df3547fb4024b669f2f3694582b57763d7f6"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/java_hash.rs": {
+      "bytes": 6774,
+      "sha256": "c8fa467399879c7fcca92c6c5ed31a79e70111e51c6c539dee98f08e0b10ddca",
+      "git_blob_sha1": "046f09d43d4da93b1949d27db7a089ba70629b52"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/java_sort.rs": {
+      "bytes": 3769,
+      "sha256": "d244c9b7d90a806491b544ed6c633d7768014a510283955ee13814244c065e8d",
+      "git_blob_sha1": "b989200fc2779268acec640a0cf47791987ee2b7"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/labels.rs": {
+      "bytes": 5006,
+      "sha256": "9a58a691d045b3d5e065de8ff899f168ed3dafc8f3d66ecb232345472834f71f",
+      "git_blob_sha1": "3c8330300835c20b43d3a26900e8a66573170417"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/lib.rs": {
+      "bytes": 522,
+      "sha256": "9f089f10a7cf79a816225cde16825f60599e01ab7123c0f493a7b83f099d6ee4",
+      "git_blob_sha1": "5a29984494622d85a2910f16b54a9378eeb8ad5c"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/messages.rs": {
+      "bytes": 1746,
+      "sha256": "9def8b58b0eb35a2251c7aa69cb7edc7655915960e48b7efe009a35dab267787",
+      "git_blob_sha1": "c0f58c37c39977cb0f73a59bdf1328424fdc56cb"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/mods.rs": {
+      "bytes": 42592,
+      "sha256": "e9acbb67f987728dfe69c14273db7bf2d2aca6d3f251acaadacd885bc1813752",
+      "git_blob_sha1": "8bdca01dfaa47102c2d29d9d7992fe41fa047a78"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/names.rs": {
+      "bytes": 2489,
+      "sha256": "cd1aae1788a69fb8c0f354135aeb45bd4e231b05ecb3aadde1e309733e7981d8",
+      "git_blob_sha1": "8a5938623b2cdf2301ea0ed5a071f10f5971c1ba"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/options.rs": {
+      "bytes": 4700,
+      "sha256": "4031d5f2176ff4f1cd53d057aaacf44054b4d690e23983f5b886a95e9aa6dcf4",
+      "git_blob_sha1": "3ee163d5602a5c9fd74314ecfa2cebdc668ecaae"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/player.rs": {
+      "bytes": 11727,
+      "sha256": "d6a49380ed286e792d52a672c9ab45090325106705cc82a3d8881351a983928b",
+      "git_blob_sha1": "bf4cf917bf9ee17c8d9e358c2103e61cec5ceead"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/rng.rs": {
+      "bytes": 11965,
+      "sha256": "76d7aff483c6cbb501e0ef7dc3432808a79b3ebd518587c18bcbf598a7df9e0f",
+      "git_blob_sha1": "d5d8b65097c00e6b912412fb634c9fdf6b54bf55"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/runtime.rs": {
+      "bytes": 6217,
+      "sha256": "57624018600accc55d98db3884d0296b9d4f47438418c8fbc9d29a020b3e1d27",
+      "git_blob_sha1": "3562f25034fc5853d1e46b199c3a90eed66b9fbc"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/save_numbers.rs": {
+      "bytes": 8218,
+      "sha256": "e9e5df28c466d21f2fb87bf572d82be3b3621ad4214da40576009bd84fe558a1",
+      "git_blob_sha1": "122db3479e59a39362371513bb889bf0002f8cce"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/saved.rs": {
+      "bytes": 73143,
+      "sha256": "ea18ac8b912caf968e8d9479ba8ee579b1bb9d886b71f9310e642cf50ab810ff",
+      "git_blob_sha1": "242da9f4f6451cbf55c8d464326bcc62800b5c0c"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/stage.rs": {
+      "bytes": 399,
+      "sha256": "1a252e1a4b06f32e49cee0374e4f729fd1f8eeebe46092a56b248f0f9f56933c",
+      "git_blob_sha1": "54c5f30e55d250de6746988c38084447304b55a4"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/templates.rs": {
+      "bytes": 5202,
+      "sha256": "4016fcce1c9e68ce9cb7c31b6e488131f2df50ff2d0420cc5308dbd5a46236d9",
+      "git_blob_sha1": "75b58310c9b3fd29491e1d1c3243819c005e280c"
+    },
+    "game/upstream/brasfoot-next-main/crates/model/src/world.rs": {
+      "bytes": 4515,
+      "sha256": "1eddd78c677b1dd9ae3a40bac3f9b219f6e86989b00cfd751181a9b53b4515f8",
+      "git_blob_sha1": "eeedd9597fdc4eccafdbaaa0d8e1d90981df2586"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/examples/bfn_schema_diff.rs": {
+      "bytes": 5272,
+      "sha256": "c2058874412522f183a01d72e314c37105ebed83a2e2cd9560809213e83083fd",
+      "git_blob_sha1": "53e2a46eb3ccb5954eb6496f3668214827f5e25c"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/examples/canonical_dump.rs": {
+      "bytes": 855,
+      "sha256": "46d0cc102caa0160947d74426d77cb100b8ff0c90bf001ca336b040aef48ec72",
+      "git_blob_sha1": "236c51cf51ebb5999c115a6ef6eb1f42d3784c02"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/examples/comp_ids.rs": {
+      "bytes": 314,
+      "sha256": "e63c9cbc03d9e002e99bca56e0bcebe122db9194d678b779dab5a487d44353e6",
+      "git_blob_sha1": "e730a45d52414c733e9187424bd5357b29475a52"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/examples/game_data.rs": {
+      "bytes": 1046,
+      "sha256": "9af4d2c4f0a5420eecc87a3b404914687084e3c74cac41739859d7a6b0c402dd",
+      "git_blob_sha1": "8728dc2b09a044ac2aa2301e4260660a5b13ec42"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/examples/graph_stats.rs": {
+      "bytes": 2758,
+      "sha256": "aafe2cf9d7ef3ce7a2552fd292a6076f1cba88e4eefab8b297ec2b6a2fe7e2b9",
+      "git_blob_sha1": "3752978d1d0fa923c918340250b3c576899ed061"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/examples/import_s22.rs": {
+      "bytes": 1771,
+      "sha256": "5c22778c381a7203a6223d15ed156d74e25a2446608a24151b6d0e857606277f",
+      "git_blob_sha1": "550bcb8ed46c70d556e03cc6741faaca4f91afe7"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/examples/open_bfn.rs": {
+      "bytes": 1146,
+      "sha256": "24d21e46efb7f0b5ca82603f93e8a58282ae35f4e6827ea2042aca45996f117d",
+      "git_blob_sha1": "c0447902d472826f76e0db7fa239d5a4b0556e0a"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/examples/save_features.rs": {
+      "bytes": 1498,
+      "sha256": "ec50e14899fab88ff35a0af687fe3ac063e1b889531ea203e61bdd162d951a0f",
+      "git_blob_sha1": "4764adafa1d8b9c97f1b71299ca517e0f8ec3e3f"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/src/game_data.rs": {
+      "bytes": 10835,
+      "sha256": "841ee123f55cf510d9164e223ba3c3beab59b29cf102dafb88fb0c662de5843e",
+      "git_blob_sha1": "1d10a325ae98f94f89e9c28ed6151bf2c6d492a2"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/src/import/context.rs": {
+      "bytes": 11818,
+      "sha256": "d0f0d64a255581386864cb053789970ae4d30308e4d30c98cf07ecaca4e64da4",
+      "git_blob_sha1": "bee28ed366b7bf74a8499b84951872d983a89f0d"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/src/import/generated.rs": {
+      "bytes": 74849,
+      "sha256": "62dce3ff1ef61e8b3db86d0b8e35e5705c99f62cd1ea67800c0180d720dcd4b2",
+      "git_blob_sha1": "0ec232b97761a0f55017ce6b119b888d6640749b"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/src/import/mod.rs": {
+      "bytes": 3524,
+      "sha256": "6894ee6644b83700a572dad9259772d552bd89cd232c779b12af6058e37c2d5b",
+      "git_blob_sha1": "fcce4416a40a372bba9912a4f9a44a1726658434"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/src/javaser.rs": {
+      "bytes": 14595,
+      "sha256": "0c7fe1055c6344155b65d694b0444ca6e197254e0f4ed8e2e6f1b90150adba15",
+      "git_blob_sha1": "fb0c582c1cdcf6a5c9ce30db416bcdff2e57ffb4"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/src/kryo/canonical.rs": {
+      "bytes": 5315,
+      "sha256": "787adb8f4494a82e8183c14841973fd49ff5868b05c00c8658d9fb149ced28d3",
+      "git_blob_sha1": "467a00b61aae6ebd0ea8372928de9af247be78c1"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/src/kryo/graph.rs": {
+      "bytes": 2422,
+      "sha256": "437683f828c7e301ca7076aa44e55e24405b4508d763d3d12ae4c5b211eb6e81",
+      "git_blob_sha1": "401f879e11a7a88b831ace088108863c1342fe17"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/src/kryo/input.rs": {
+      "bytes": 6047,
+      "sha256": "24741fd6816b401be2a44be6fffa3bc3f66b9fc78eeebb7f067804103131b04e",
+      "git_blob_sha1": "c5890b1ff13fb4cb267cf84e7b354d8e429c0c79"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/src/kryo/mod.rs": {
+      "bytes": 1768,
+      "sha256": "536eef354062110e105c9bc8b0451cdc358373dec20eebdc24ef50054ea7dbb9",
+      "git_blob_sha1": "0371b1ac10e2252e4bc815ab5aac64de411b8cbf"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/src/kryo/reader.rs": {
+      "bytes": 18537,
+      "sha256": "e238306c7209aa15d4a498869a6ee301616b2d191bbbb0e5d9c8668f18b0259b",
+      "git_blob_sha1": "8aa2ea4e1e14f4e8d8e279a04a8218394523e120"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/src/kryo/schema.rs": {
+      "bytes": 1746,
+      "sha256": "40c955299a69c89528205db9a6dd0db526002da5c800a9982a6016cc8010d8f2",
+      "git_blob_sha1": "b02341b5e704ab463f685a8c2b6c4ddefdb23e13"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/src/lib.rs": {
+      "bytes": 200,
+      "sha256": "00a876d3144b0458e811fd02ff036c61ad053bd9ee904766c225ad5122ede24b",
+      "git_blob_sha1": "53f825e9c83124cd686ff11e176f343a8ece9b79"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/src/migrations.rs": {
+      "bytes": 10916,
+      "sha256": "82a1db0273114133b95f4793d75150fe4fcd037f7e4582fcf50e3cd833215d98",
+      "git_blob_sha1": "94ecd93f5104f1833ad4f9f30f869809860cdd21"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/src/native.rs": {
+      "bytes": 10101,
+      "sha256": "d1a61c22227fedfed7ab618c2d3ab7d1b3a9cc841ffefd943025cc648269ad9c",
+      "git_blob_sha1": "09331815fd9c30b793c638729662632a424bf544"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/tests/import_fictional.rs": {
+      "bytes": 2596,
+      "sha256": "7ae7a648b10ba3402ddfda999ce6e822f37908cfc8bbe177491c8c191cf244d0",
+      "git_blob_sha1": "566cfb2de958e127236e0d846fa22045196cf5e6"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/tests/kryo_differential.rs": {
+      "bytes": 1231,
+      "sha256": "ea75ac3a92f170eac7e8e6df92da91ef76a348d6cd713ef05604485fae5f2c7a",
+      "git_blob_sha1": "040f1fc1d9001bff42d0cb8f9eabc710e88723b8"
+    },
+    "game/upstream/brasfoot-next-main/crates/persistence/tests/migrations.rs": {
+      "bytes": 2555,
+      "sha256": "bdcd419f05b5e93cc90b5a633d73b01886e19a754f883ce30376258f2fe77fda",
+      "git_blob_sha1": "577d895c4e8061c82e9a3a6f3b639e22ef7a168f"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/examples/compare_ratings.rs": {
+      "bytes": 1614,
+      "sha256": "7ca9c45c7d7d9227059d798508507f225916c24f8d6add9bfb306a45473d6ea1",
+      "git_blob_sha1": "0e5c91bced34f46333a9231740df96010567ab00"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/examples/days_to_season_end.rs": {
+      "bytes": 765,
+      "sha256": "3c388eab0d858de91e26848f5dbf1a43b3e67d0c88ac77c76969e60732c57dd6",
+      "git_blob_sha1": "97290d01690b1a01e5b2f6d1b3c9b152a7ec33e7"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/examples/inspect_competitions.rs": {
+      "bytes": 1624,
+      "sha256": "b8ba1838cd9b71c823b2ace49e614a1ec1868b6a0a947a4b705a8e4220706a4d",
+      "git_blob_sha1": "9035c875cfe14dd3c2d0fc9e068a58ce10b2ce33"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/clubs.rs": {
+      "bytes": 6111,
+      "sha256": "9a5929e8457b3e66e8f682abcb4e764a0b4108d3e515f71dcb936db84cfbe6c0",
+      "git_blob_sha1": "b8374bfbf83ddef4731987185d898001b418cb1e"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/coach_market.rs": {
+      "bytes": 14615,
+      "sha256": "7d0fa9fb58b9c193eb87d3e9dff03040b5b4e2b107f6931396adf570efa9e920",
+      "git_blob_sha1": "f75471863caefec761a4031ba4d701e3333179f9"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/coaches.rs": {
+      "bytes": 11128,
+      "sha256": "96ec777b2d61d0e0f7d435a10b3dbbc79335b6fe13fdc4db0168a9d19d66feaf",
+      "git_blob_sha1": "31ea198f35f3c2520141e6f3297572c80e86dbfb"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/continental.rs": {
+      "bytes": 56650,
+      "sha256": "a8e661af79193b40f41ddcc32967fb2b237963b672b032b4a2f12c3694e573dd",
+      "git_blob_sha1": "5be7b7878afd83e9c44c72a5be34e1ae2660ed14"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/cup.rs": {
+      "bytes": 3673,
+      "sha256": "6eb4b09f695f8208d097a20edf3ecb76cf5f028ccefc895627238970a710e790",
+      "git_blob_sha1": "cd114b1804b01448094ee36a06ac87bf84b06dba"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/evolution.rs": {
+      "bytes": 12591,
+      "sha256": "27ec90cea4d31ad1f9f5f306b58533b73b70301566946bd179502477dd99d858",
+      "git_blob_sha1": "b91b0e899ffbdde8a7381e0ca35aa3506ad14c3a"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/fixture_tables.rs": {
+      "bytes": 5262,
+      "sha256": "20e1056d298c7add1d75c9fb98734dbffe67d7d43fda46ee4981b71277cae9c7",
+      "git_blob_sha1": "4b7d72e022139b252cdc2514c527c2ce668c546a"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/fixtures.rs": {
+      "bytes": 8377,
+      "sha256": "13270693294cae9cdd9a518669b519953c84b836078ad3223bb96aa9df56e938",
+      "git_blob_sha1": "c68fa4b24d7f280ffd3bc12b01d6ba0b1ae869c9"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/game.rs": {
+      "bytes": 16064,
+      "sha256": "acbcedb553d7af30bcf27ffba0c5135291b4ec72d532706fc3e122c5500fa6c6",
+      "git_blob_sha1": "6e5b12ef727faf4a420c15a3eb5aacfeb1f76782"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/human/contract.rs": {
+      "bytes": 2726,
+      "sha256": "d2f0e97c94a83c5651626c947080d7f57ddbcb0f0cb5aa6897831d013e38e359",
+      "git_blob_sha1": "cbfb61ec4d1aa7ccdb5b840cfd4dd2fd48893078"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/human/finances.rs": {
+      "bytes": 1674,
+      "sha256": "34ff270a36ac1673c4775241fadd0d2c1b7395e9de4731e75e4b294b7bcdca81",
+      "git_blob_sha1": "7d1dd227a85e7c98ce11310f7975fafa3513902f"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/human/lineup.rs": {
+      "bytes": 13342,
+      "sha256": "4d77718d4ef3a362d8a58a3d1a0f0aa04bbbddee55dc250faf482dee6ef535d5",
+      "git_blob_sha1": "835596227c947c2310bc9893b9d305fd42ffc76e"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/human/messages.rs": {
+      "bytes": 1625,
+      "sha256": "3b4d52495c50ce17a05b29ff4af3d675c26eceff17c4d3cf7a0192fe309addf4",
+      "git_blob_sha1": "b35ba7697183a7656793aceb493dd1397bc44326"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/human/mod.rs": {
+      "bytes": 2866,
+      "sha256": "548e08e5376d3fe8f97c1f86850a0dbd50f1c9bc9cf3ee87fb8ff020b233c323",
+      "git_blob_sha1": "e573b172fdd681472697ca0d1f1556abb8fe514c"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/human/purchase.rs": {
+      "bytes": 7745,
+      "sha256": "255bfd0146e2d699fa7189228f6c7e53164ad34d63b937a1243d366e94d3d9c5",
+      "git_blob_sha1": "5b88de3903d6ff9b982db5dff9c9daad329cf594"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/human/round.rs": {
+      "bytes": 26050,
+      "sha256": "ae024d0421ba3e404f3a815b4968e49ef69cb8d83185210ba411460d05ee1f5e",
+      "git_blob_sha1": "d6e308f4fd0ec862f87d5a97acdd8d378ac6596b"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/human/stadium.rs": {
+      "bytes": 3520,
+      "sha256": "8e1180c48bb812e0f636bbfed58b8ab28f137942098b50ef115e10045b7ea7da",
+      "git_blob_sha1": "12fff4f6ac073f427df4deb301f0c409a3143a90"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/human/substitutions.rs": {
+      "bytes": 5457,
+      "sha256": "f2ba1dc2cf732d5beb3279af1a5af5bc8cbe3831066f627bdc39bf4bc13b5f62",
+      "git_blob_sha1": "85e985e89083b9937bc4f0e1eff09c251cbb82a5"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/knockout.rs": {
+      "bytes": 17405,
+      "sha256": "4000142790134350de756ad231fe8e75ffe39b2b12bf1d581f498f0cf06cc182",
+      "git_blob_sha1": "5afcad1cc86b438fec9ba4afd062f9613b1dc9cd"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/league.rs": {
+      "bytes": 16734,
+      "sha256": "6ae31cb5a399517e6ed7639a5e999e9ad9b893abd3637a2775a5ac6fb9ef43e0",
+      "git_blob_sha1": "646144b4c4dfe7ad9e83367da10a22b85b03141e"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/lib.rs": {
+      "bytes": 4281,
+      "sha256": "35d3d6358a09ee38b293f2127b4181a3bed49f42902dcf4e7818d56ebdc4c71d",
+      "git_blob_sha1": "ccf0ea68331e24a7157ae7a28825a5144f87ad4f"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/market.rs": {
+      "bytes": 31188,
+      "sha256": "170f6317c19f5ca19bbf83cd71b549ce0d658c43ce295d70815b33f735295fba",
+      "git_blob_sha1": "dc399de18fd9f14eb7f4329982d08ea23117ed2b"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/matchday.rs": {
+      "bytes": 25225,
+      "sha256": "03d96a57de11e96c2c1379cbaa68ec1f599aded779a89fa632d76cc2d0761901",
+      "git_blob_sha1": "a37d5c496d4583eb449a58b0b165ffb63c84545d"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/national_cups.rs": {
+      "bytes": 39078,
+      "sha256": "7fe862fb4202f906848495e59d2d9de35f846e50f54620c2c3fa97046bb120b0",
+      "git_blob_sha1": "c44ef3e63e1e91be1f0bc32247539cb6f299a7bd"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/national_teams.rs": {
+      "bytes": 16446,
+      "sha256": "654288ef5904925689f54175cc4d0516aadd50cb8e4933ea5ef6a952694d1e7b",
+      "git_blob_sha1": "7b00f2527281b3ace6627a8caa39012670ed24b7"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/nations.rs": {
+      "bytes": 3269,
+      "sha256": "2de8b393b986eec5b53ac0f3bea9fa847a45aaf6a0b31b603d8790c07488bebe",
+      "git_blob_sha1": "74add7211011fc45ff651a9fdaba2dde210bf4f0"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/new_game.rs": {
+      "bytes": 29971,
+      "sha256": "403d8f2f0be673da7e95aba865f88194abd7736cdb16e0ead9dd2f6d773d9541",
+      "git_blob_sha1": "6de2affef949308ac3c01d06e0eb1a59559a8f37"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/new_season.rs": {
+      "bytes": 46765,
+      "sha256": "6c03f060fccd63e3abef5f727642b2b50c19f84520a02f08f31fcf03ade9d825",
+      "git_blob_sha1": "fb4c6df097fd43458027d2738ad920b8c8d75644"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/player_gen.rs": {
+      "bytes": 29861,
+      "sha256": "76b0e3cba7181637e9fa568f9aa6868236811004f1714d08536d9a1ceecf2d75",
+      "git_blob_sha1": "a6d975d97bc282106b9dbd09a59f93f4b6eb9d06"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/player_search.rs": {
+      "bytes": 5639,
+      "sha256": "39493c6718ca64d71438ee3cfcde2d0ed796fcb35ddf86518039de9fefd6fd96",
+      "git_blob_sha1": "3cd30bed05e83abe8f4295c6a1d49f4cf4c42cc7"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/season.rs": {
+      "bytes": 4445,
+      "sha256": "bdfbdf41c8b681d761944ed514f4cc6aa4a9733d73bf05e6a7e8fabc389254d3",
+      "git_blob_sha1": "bf31e5aea258a861f40f484b106aabb4f11eae03"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/second_tiers.rs": {
+      "bytes": 16549,
+      "sha256": "1ab5ca7621b6440b5bd7d9304345cbd8677153aaae281191d07089a4d0f6acd4",
+      "git_blob_sha1": "4fbe0266d302f40540c1e4b1fba3686571575fa6"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/sorting.rs": {
+      "bytes": 1612,
+      "sha256": "ea1d88de4c942a265bbbf077a05a70af1f2eb8ea8fcdd5ac3574ce881354967b",
+      "git_blob_sha1": "c6237cd3d40681086941dc63d3c5a3e70856f7ff"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/stages.rs": {
+      "bytes": 14553,
+      "sha256": "282ffc96b5ccf9103d558cb9e6dbc87217ca090c6be5730c902337e5a09002ee",
+      "git_blob_sha1": "4723da6a5f4cf297005f3a29df0800a4b0308d00"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/tables.rs": {
+      "bytes": 5549,
+      "sha256": "59287659eb6e783d07a9bd697b7bbe373f45987e564886c87336be4e31be0ebf",
+      "git_blob_sha1": "29b88614ab7e974f4f1de042eebbd1495e3efde9"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/titles.rs": {
+      "bytes": 21506,
+      "sha256": "665b1a393a5268bb93d52065f09e73dcc8feb9bacb1a931a08bef539669ab417",
+      "git_blob_sha1": "4eef8214b46f0eb6e642b49d528e1412f04c3d0e"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/trophy.rs": {
+      "bytes": 9284,
+      "sha256": "5eb62328e5d56880f809cb8f2c64bbce4b5bced23608c3d24aadd5858a2a4ae9",
+      "git_blob_sha1": "cc8d40576f0848e1dbd6e547c46755ff43eea429"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/world_cup_qualifiers.rs": {
+      "bytes": 24057,
+      "sha256": "2ef5c20e71b99f0f5e82460a2a251d975ef222f9fc8d42acf81b549b972a2e3d",
+      "git_blob_sha1": "cabd74280c16ee5f54b12c644c389783683447e0"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/src/youth.rs": {
+      "bytes": 16270,
+      "sha256": "aec2b09f583ea64d8553d2aee467acd4086563d663243d6a05f6bd488ab65fc3",
+      "git_blob_sha1": "f1bd71904fd1d3e709c6894fe6d64f468e37b409"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/tests/differential.rs": {
+      "bytes": 3229,
+      "sha256": "d166182e1598c932c668ae58bfc762c2c86cb9fb1fb430960eb27e6ce65c14c8",
+      "git_blob_sha1": "8756972a5cdd3ac7898be7ea53bf2deaa42c50a9"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/tests/new_game.rs": {
+      "bytes": 4930,
+      "sha256": "632f8113e637f2c51872711183fb4b43e12606bdacc3c72123a7c8128317849b",
+      "git_blob_sha1": "d401821f44cae71e2e54dc7a3793770cac8eb97b"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/tests/purchase.rs": {
+      "bytes": 4835,
+      "sha256": "1f07ad791c8431cb625b40ca21cb9d8270d71b2b8922f63b3d762eee67462cb3",
+      "git_blob_sha1": "5d0d9805accdcbfd4269bf89f4fd135fc1941e7b"
+    },
+    "game/upstream/brasfoot-next-main/crates/simulation/tests/world.rs": {
+      "bytes": 3378,
+      "sha256": "bd38d4ecc3b2c054502471411d1f4de80701138543ac148087560c19e7ddbb8c",
+      "git_blob_sha1": "e7353e236188c94b52cfefecf35ae55e22f55860"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/examples/awards_career.rs": {
+      "bytes": 2261,
+      "sha256": "37a3cc2c5cfb2812ad5e8afa9ae09873f05d7ab35d372da2ffac69bff5cdd5bd",
+      "git_blob_sha1": "a431d09d590f45f73d7d569b00a8fd2cc342cb0b"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/examples/compare_season.rs": {
+      "bytes": 4475,
+      "sha256": "d2ea03b8f2995613432648c413e188e313b8b18f894b3d9052de964954e72aff",
+      "git_blob_sha1": "b2228c050cb2de3fe5eddfd2fe6c3c7383f907db"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/examples/day_matches.rs": {
+      "bytes": 1631,
+      "sha256": "49eaf10646910dbc4aab5669310bdb2afb8b5963fbf0c85fa87352c2bf14bcd9",
+      "git_blob_sha1": "cc38a7f2e1811ee922e62b3bf735d72a5f47545a"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/examples/new_game_smoke.rs": {
+      "bytes": 2711,
+      "sha256": "c06d9a34f6a8bec12b3f332788965c6a1c36267dca552234d897496c364f957f",
+      "git_blob_sha1": "4da919f804479da462f90df938ab33aff0d3cfd2"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/examples/save_smoke.rs": {
+      "bytes": 3499,
+      "sha256": "00e965168c52b6449929a161b4c6284e174cf6ed4d22a512d54ae6ac9b0d27ae",
+      "git_blob_sha1": "43fec20577d54e46a0bde4b0aa56af1493305fea"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/academy.rs": {
+      "bytes": 20000,
+      "sha256": "d0e9981f9643a2002aec21fff3b15714dc4fb3ba22f3c39905efcf0b2a416f4b",
+      "git_blob_sha1": "f6b423af7ab859ef36ed0dfbc8b30d3bf8a17b9b"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/assets.rs": {
+      "bytes": 44721,
+      "sha256": "211594222b83d16854197be2d15fcdf2a4568640c0f407a533641d5dc68f29f7",
+      "git_blob_sha1": "ced0ba5ef5944caf60baf841065ff4274e73fe42"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/awards/clubs.rs": {
+      "bytes": 6626,
+      "sha256": "5a8cef5d969c9a6de0142b7703306ebe5ab62844bd5ccf40be1f264a0d881d37",
+      "git_blob_sha1": "fbc4b01fffc3b8907142707b747266008a84703a"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/awards/coaches.rs": {
+      "bytes": 4265,
+      "sha256": "8dce9c4e5376636f8611db261074918b3b452a8c0a4376653243f943cf991bda",
+      "git_blob_sha1": "c55502ac370cd4ffa1b101121fab9d4c9945bbe5"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/awards/hall_of_fame.rs": {
+      "bytes": 9572,
+      "sha256": "328744f4016e9a661044a184e67a348d8f79c39a7badb4f44b555d345923e15b",
+      "git_blob_sha1": "fe46838890ec61626b5f2e8e21f974e2e6c0f5b3"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/awards/history.rs": {
+      "bytes": 4040,
+      "sha256": "d2bc4d8eaf63bc239a2e8ef67fc0e999eb90d71cd7b10e929fd5976571ab76ed",
+      "git_blob_sha1": "68237ea9b0493e74ac9060306874330baad7a31d"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/awards/mod.rs": {
+      "bytes": 3662,
+      "sha256": "081528cb2f5f1ba1d9e1953ed0eb1cd2c503eb13689870ddadcb12bc42514179",
+      "git_blob_sha1": "8ea4173bbce73107aae46689f123246d95eb8ba1"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/awards/season.rs": {
+      "bytes": 15628,
+      "sha256": "a2e3d06bb1237eac74725d0aae862f83bca4cc3d56ffac064ff10f925a3b8e57",
+      "git_blob_sha1": "d92efd036c963de5f0c0b17b1801d0b84a36de55"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/cash.rs": {
+      "bytes": 5566,
+      "sha256": "9418b557469a4199d8d24a7cfd81d03e39ca63dca71e33c394acf84b59c3ed47",
+      "git_blob_sha1": "104892e94a28dadede5288cbb0dfcf2aeed0b2f1"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/clock.rs": {
+      "bytes": 1691,
+      "sha256": "c442cec1bacab864d5ef5d65b2ed81e56c216cceec2fffd835c5d140c1d81d4a",
+      "git_blob_sha1": "4e3c2ae271d9daff06325886224d8cbd2e88dccd"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/config.rs": {
+      "bytes": 2910,
+      "sha256": "89b9e6b2e4a662823025627768809d6653ef19d38850c9ec50a272f1cf5b7c1e",
+      "git_blob_sha1": "7349043568a4ce76eb6c8e7f568dc602fa8f7a8f"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/credit.rs": {
+      "bytes": 28027,
+      "sha256": "4327aa6e2f727907694e50e6d103f5f5e3ec14a0559fbc091aeb04cee7de440a",
+      "git_blob_sha1": "e1183cf8926ffca6987a3e906a34115196cac580"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/director.rs": {
+      "bytes": 4403,
+      "sha256": "9b019815430451713dd40b1e50463a0a5124b7d60e8f657cbaf644afc16368ad",
+      "git_blob_sha1": "c536a03cbec5229daeb1eef7a65256124bc18e95"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/economy.rs": {
+      "bytes": 23510,
+      "sha256": "54e761ca790b24a97bbfc2049901ce707c84773d6bdb1bde8c676b5d4e63c9b8",
+      "git_blob_sha1": "5ff3421a1248c904b7225837c1c81654e653bc7b"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/fans.rs": {
+      "bytes": 7900,
+      "sha256": "2084e3d297596e646a98bb0c01dcf3d095e8353f340046b71b17a3408ff36247",
+      "git_blob_sha1": "bd282449e750108e4c853a918468c01e7ca8e46d"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/investor.rs": {
+      "bytes": 8523,
+      "sha256": "a038987c5d07fcb65969b30d386c00e3acba5015085a0b3486d91b900f90577c",
+      "git_blob_sha1": "35fc14f89c6b07e353865de96ee19957c19bb4e6"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/lib.rs": {
+      "bytes": 8670,
+      "sha256": "f1f3b34454f6e2ba01cecde27f25a479877bf5e648621990205b756fac8042b0",
+      "git_blob_sha1": "13ed55055c8bfc1666baa9d93daa1b8ad56e20fd"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/loans.rs": {
+      "bytes": 10422,
+      "sha256": "93cbab25698665091f52489d968a1f980c2edcef7c3bcb58839c0d2bd58549d5",
+      "git_blob_sha1": "fb6aed077965953786f7c8d39978d5ad5290f17a"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/market.rs": {
+      "bytes": 30795,
+      "sha256": "6d77789eac816e8130b0e2b791f7070e450377090c5e1af5cf552a20a08fa0dd",
+      "git_blob_sha1": "105a59ab022fae1fd36e31aa37f5b543d463b042"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/news.rs": {
+      "bytes": 7517,
+      "sha256": "b6755f47a1fe7f13bc071dcd5aab89917a64dc831b4b8c84ac2ac8e967d1311e",
+      "git_blob_sha1": "47bd2b325e3032d554df445f2b8ab2e84ef7568c"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/performance.rs": {
+      "bytes": 40247,
+      "sha256": "b93e219e1a14b8a4552ef011483a4d2a95460c3860710827c52757658b1099f5",
+      "git_blob_sha1": "13c6c4b59e191079707fb4f68917ff3ad9944176"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/satellites.rs": {
+      "bytes": 52657,
+      "sha256": "98df672a51b743d091647682f7b912be6e3bdf763e200fdd39e74ccc269bec8c",
+      "git_blob_sha1": "561756af2d1ddf447f9326c653e11904d5773b46"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/scouts.rs": {
+      "bytes": 6710,
+      "sha256": "787f183a848be0b7193925b2335f52ba377a344fc7c1daf13d10adad761ef300",
+      "git_blob_sha1": "aeb11bb8160b93fc5035597741d0856c3b4584d0"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/sponsors.rs": {
+      "bytes": 16068,
+      "sha256": "d5742e144f65ce9ad8b0e44ed1eff8572786cb79444da766710a448cf55c564d",
+      "git_blob_sha1": "4c324fdd4492e58f7795b1467cf3fcaeacc4584a"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/stadiums.rs": {
+      "bytes": 7952,
+      "sha256": "cf5703da78f6611c61e6c80b5d84318c92c367cf667662ae20884121348946ab",
+      "git_blob_sha1": "44ee79c39caa08624ddfdd262f98e135e1e26aaa"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/staff.rs": {
+      "bytes": 5797,
+      "sha256": "698c6b7fcea9a978b750e33f542dfea14cf98223509773d2e71be3ddb026e31b",
+      "git_blob_sha1": "0fd65b34d0f8522b21bf958d0552f727945d1c40"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/super_mundial.rs": {
+      "bytes": 41729,
+      "sha256": "30c811921379a33bdf3d0fdc52b3bf599e700e8d9b099f6f7baafeec50c4a2bb",
+      "git_blob_sha1": "f2dbc3c51f5169cd53057ec60e758ff4e84a62f5"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/tactics.rs": {
+      "bytes": 3394,
+      "sha256": "4cbc62f473f85ca0e4717890cf9f2fc3d42c6e14728be060dffb287ffe0fd23c",
+      "git_blob_sha1": "377787d143af0f9287e4e30224f8b7b4166d1269"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/windows.rs": {
+      "bytes": 15006,
+      "sha256": "7acb8df453ed98a104c462ddc078b4ad94cd213085101b330088fa57fc3884f7",
+      "git_blob_sha1": "01b929725847ac87bfce2b66a5df37dc5a275701"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/src/youth_league.rs": {
+      "bytes": 38459,
+      "sha256": "fbc4c993965efe7a744ef6afb267e36dc694ade1fa0c0f925c66b6b8afb92116",
+      "git_blob_sha1": "c95e4d695beffc5d0dab76b7d502e001d278da26"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/tests/awards.rs": {
+      "bytes": 8227,
+      "sha256": "00b85504f3adec13daf897bc0d914b8b390eda814c98b1df348b7fd9345ff1cd",
+      "git_blob_sha1": "073141fdaffdbb28b7c20a0e404dd1e143dfe514"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/tests/clock.rs": {
+      "bytes": 12912,
+      "sha256": "3b3acb95bdc18c3a16442cb526c2683a08ca47a7f341eea4b6129cfb34c7aa7e",
+      "git_blob_sha1": "074a16b9d4d16bfd8add1f9f46c06a2bf7605025"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/tests/common/mod.rs": {
+      "bytes": 19521,
+      "sha256": "dd4cd5edf44774f4a2c7769eaa4efc1653e5d4965592db19cf172f200f495050",
+      "git_blob_sha1": "aa083f5128d81eb8ab91bd87a6e8c41e5837c0ab"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/tests/human.rs": {
+      "bytes": 29489,
+      "sha256": "08d2da71617624f8b8d775a2a075e32535d2099071d7f034f4962ef8fc09df72",
+      "git_blob_sha1": "801e525ef3fd8157d0e5c209fd71a26724818d06"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/tests/simulation.rs": {
+      "bytes": 3710,
+      "sha256": "d800b39c823a76a2e572d02495481395faa4426e662c7ce718f0d64292c2276b",
+      "git_blob_sha1": "f774fb6ce789faa1f33864951039e4ed50c08b96"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/tests/windows.rs": {
+      "bytes": 2873,
+      "sha256": "b2f6a372188b279b5b49737fcf4dc70a74d6bc8f7330ca4c759e6b1edd56f1ca",
+      "git_blob_sha1": "1b7b5490e3ef42850943e90339ffeb22612db25d"
+    },
+    "game/upstream/brasfoot-next-main/crates/systems/tests/world.rs": {
+      "bytes": 4565,
+      "sha256": "65d4001b9fac55e55cff3a078ad59c46759b0ce4960b75a1efd5496bf5da2f81",
+      "git_blob_sha1": "2f33d41e5aad755ef5160799b9aa9fc944798085"
+    }
+  },
+  "binary_paths": [
+    "game/tests/fixtures/m26_sample_data_only.bfn"
+  ],
+  "files": 697,
+  "full_rust_source_files": 231,
+  "tests": {
+    "m28": 569,
+    "m29": 612,
+    "m30": 46,
+    "integrated": 663
+  },
+  "github_branch": "integration/m29-m30-restored-source",
+  "exclusions": [
+    "compiled dist",
+    "test logs and screenshots",
+    "legacy 18MB WASM",
+    "binary Git bundles stored offline"
+  ]
+}

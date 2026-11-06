@@ -1,28 +1,26 @@
-# FMU
-JOGO MANAGER FUTEBOL
+# FMU — Football Manager Universe
 
-## Estado da sincronização — 2026-11-06
+Repositório oficial de desenvolvimento do FMU. A licença GPL-3.0 do projeto original foi preservada.
 
-Este repositório preserva o histórico inicial e recebe um primeiro módulo versionado de desenvolvimento.
+## Código restaurado em 6 de novembro de 2026
 
-- [Integração M29R — código TypeScript](integrations/m29r/README.md): avanço transacional da carreira, RNG compatível com Java, rollback, checkpoints e testes.
-- [Contratos técnicos](integrations/m29r/docs/CONTRACTS.md) e [relatório de QA](integrations/m29r/docs/QA_REPORT.md).
-- A integração M29R é um **kit independente**: não foi incorporada à base integral M28/M29 e não é o jogo jogável em produção.
-- Validação local anterior: 41 testes TypeScript; 5.124 verificações RNG comparadas ao JDK; duas temporadas de sandbox.
-- A execução atual do GitHub Actions será a validação remota; somente após CI aprovado deve ser considerada verificada nesse ambiente.
+- [**Código principal — M29 + M30**](game/RECOVERY_README.md): World CBOR/Zstd, migrações, simulador parcial, dados e finanças, transações, RNG Java e journal recuperável.
+- [**M29R anterior**](integrations/m29r/README.md): permanece acessível como módulo independente e histórico de integração.
+- [**Demo de navegador**](game/public/fmu-m24/index.html): interface demonstrativa, não simulador integral. O WASM binário histórico não foi copiado para o Git; permanece preservado nos ZIPs originais arquivados na Biblioteca FMU.
+- [**Relatório de integridade**](game/QA_RECOVERY_M29_M30.md) e [manifesto](docs/RECOVERY_M29_M30_SOURCES.json).
 
-Para reproduzir:
+Para desenvolver:
 
 ```bash
-cd integrations/m29r
+cd game
 npm install --global typescript@5.9.3
 npm test
-npm run demo
-npm run parity:java
+npm run m27:audit
+npm run serve
 ```
 
-**Dados dos jogadores:** mantidos separadamente em repositório privado de modelo/ingestão. Nenhum dump de banco, token, credencial ou dado privado deve ser commitado aqui.
+**Testes da recuperação:** M28 569/569, M29 612/612, M30 46/46, versão consolidada 663/663 (inclui cinco testes M29↔M30). O motor Rust completo e a paridade jogável ainda NÃO estão concluídos.
 
-**Origem e licença:** código derivado de Brasfoot Next (GPL-3.0-only), com licença preservada na raiz. O manifesto SHA-256 do Rust original está em `integrations/m29r/docs/RUST_SOURCE_AUDIT.json`; para reproduzir a auditoria `npm run audit` é necessário obter o snapshot Rust de origem, não incluído nesta sincronização.
+**Dados**: `FMU_Database` é privado e contém o esquema inicial e rotinas de importação segura. Nenhum jogador real foi incluído neste repositório público, e nenhum dado licenciado de terceiros foi importado.
 
-**Próximas integrações bloqueadas:** importação de save `.bfn` para World original, motor Rust completo, transações de temporadas reais e histórico M28/M29 que não estava acessível como arquivos editáveis nesta sessão.
+**Preservação**: commits antigos e branches de backup foram mantidos, sem sobrescrever código anterior.
