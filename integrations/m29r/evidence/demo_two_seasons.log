@@ -1,0 +1,9 @@
+
+> @fmu/brasfoot-world-day-transaction@0.29.1 demo
+> npm run build && node dist/src/cli.js demo 2
+
+
+> @fmu/brasfoot-world-day-transaction@0.29.1 build
+> tsc -p tsconfig.json
+
+{"mode":"DEMONSTRATION_NOT_RUST_PARITY","summary":[{"season":1,"played":90,"champion":0,"allDaysCompleted":true},{"season":2,"played":90,"champion":0,"allDaysCompleted":true}],"rng":{"nextSeed":"2422","math":null,"collections":null}}
