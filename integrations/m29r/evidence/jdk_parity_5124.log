@@ -1,9 +1,0 @@
-
-> @fmu/brasfoot-world-day-transaction@0.29.1 parity:java
-> npm run build && node tools/java_parity.js
-
-
-> @fmu/brasfoot-world-day-transaction@0.29.1 build
-> tsc -p tsconfig.json
-
-{"jdk_vs_ts":"PASS","seeds":4,"checks":5124,"includes":"nextIntBounded nextLong nextFloat nextDouble nextInt shuffle"}
