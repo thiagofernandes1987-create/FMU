@@ -1,0 +1,30 @@
+{
+  "release": "M25",
+  "date": "2026-11-05",
+  "baseline_commit": "7bf52ee",
+  "rust_snapshot_commit": "bd2ccbdd5f1aaacb6437b58b198d7963c61b3780",
+  "license": "GPL-3.0-only",
+  "source_rust_files": 231,
+  "source_sha256_verified": 231,
+  "mapped_rust_before": 194,
+  "mapped_rust_after": 196,
+  "unported_rust_files": 35,
+  "nominal_source_coverage_percent": 84.85,
+  "functional_parity_percent": null,
+  "added_source_mappings": [
+    "crates/simulation/src/human/round.rs",
+    "crates/persistence/src/import/mod.rs"
+  ],
+  "new_ts_tests": 56,
+  "all_ts_tests_pass": 411,
+  "web_screens": 9,
+  "visual_viewports": ["1440x900", "768x1024", "390x844"],
+  "sandbox_seasons_passed": 2,
+  "demo_fixtures_per_season": 90,
+  "full_rust_conversion": "RELEASE_BLOCKED",
+  "native_bfn_world_loaded": false,
+  "native_s22_world_loaded": false,
+  "private_database_included": false,
+  "new_interface_scope": "REPLAY_DEMONSTRATIVO_COM_MINUTOS_ILUSTRATIVOS",
+  "rust_differential_verified": false
+}

@@ -1,0 +1,67 @@
+{
+  "upstream_revision": "bd2ccbdd5f1aaacb6437b58b198d7963c61b3780",
+  "source_total": 231,
+  "rust_hashes_verified": 231,
+  "m21_base_mapped": 55,
+  "m21_base_pct": 23.81,
+  "m22_new_partial_or_data_mappings": 70,
+  "m22_sources_touched": 71,
+  "previously_mapped_sources_deepened": [
+    "crates/engine/src/events.rs"
+  ],
+  "m22_mapped_cumulative_in_M21_lineage": 125,
+  "m22_mapped_pct": 54.11,
+  "gain_percentage_points": 30.3,
+  "rust_sources_unported": 106,
+  "met_plus_30_pp_nominal": true,
+  "full_functional_parity_percent": null,
+  "rust_differential_tests": "NOT_EXECUTED_NO_CARGO",
+  "historical_m18_74_of_231_union": "UNVERIFIED_M18_TREE_MISSING",
+  "m22_mapping_classification": "PARTIAL_TESTED; includes static schema fields, subset routines and adapter-specific behavior",
+  "m21_test_baseline": 163,
+  "new_m22_tests": 86,
+  "total_m22_tests": 249,
+  "by_crate": {
+    "app": {
+      "rust_total": 66,
+      "mapped_partial_or_better": 0,
+      "new_m22": 0
+    },
+    "datapack": {
+      "rust_total": 12,
+      "mapped_partial_or_better": 9,
+      "new_m22": 4
+    },
+    "engine": {
+      "rust_total": 14,
+      "mapped_partial_or_better": 12,
+      "new_m22": 5
+    },
+    "i18n": {
+      "rust_total": 2,
+      "mapped_partial_or_better": 2,
+      "new_m22": 2
+    },
+    "model": {
+      "rust_total": 24,
+      "mapped_partial_or_better": 23,
+      "new_m22": 8
+    },
+    "persistence": {
+      "rust_total": 25,
+      "mapped_partial_or_better": 12,
+      "new_m22": 12
+    },
+    "simulation": {
+      "rust_total": 46,
+      "mapped_partial_or_better": 37,
+      "new_m22": 22
+    },
+    "systems": {
+      "rust_total": 42,
+      "mapped_partial_or_better": 30,
+      "new_m22": 17
+    }
+  },
+  "note": "Nominal coverage of source files touched in the independent M21->M22 lineage, not full crate parity; WASM not counted."
+}

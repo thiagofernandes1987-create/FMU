@@ -1,0 +1,75 @@
+{
+  "release": "M25",
+  "source_commit": "bd2ccbdd5f1aaacb6437b58b198d7963c61b3780",
+  "rust_source_files": 231,
+  "rust_hashes_verified": 231,
+  "previous_mapped": 194,
+  "current_mapped": 196,
+  "new_mappings": 2,
+  "unported": 35,
+  "nominal_previous_pct": 83.98,
+  "nominal_current_pct": 84.85,
+  "gain_percentage_points": 0.87,
+  "functional_parity_pct": null,
+  "world_import_complete": false,
+  "egui_parity": false,
+  "new_tests": 56,
+  "total_tests": 411,
+  "ui_screens": 9,
+  "visual_viewports": [
+    "1440x900",
+    "768x1024",
+    "390x844"
+  ],
+  "new_sources": [
+    {
+      "rust_source": "crates/simulation/src/human/round.rs",
+      "status": "SIMULATION_LIVE_ROUND_PARTIAL_TESTED",
+      "target": "src/m25/simulation/live_round.ts;src/m25/web/demo_replay.ts"
+    },
+    {
+      "rust_source": "crates/persistence/src/import/mod.rs",
+      "status": "PERSISTENCE_S22_GRAPH_PREVALIDATION_PARTIAL_TESTED",
+      "target": "src/m25/persistence/import_s22_graph.ts"
+    }
+  ],
+  "by_crate": {
+    "app": {
+      "mapped": 66,
+      "total": 66
+    },
+    "datapack": {
+      "mapped": 9,
+      "total": 12
+    },
+    "engine": {
+      "mapped": 12,
+      "total": 14
+    },
+    "i18n": {
+      "mapped": 2,
+      "total": 2
+    },
+    "model": {
+      "mapped": 23,
+      "total": 24
+    },
+    "persistence": {
+      "mapped": 16,
+      "total": 25
+    },
+    "simulation": {
+      "mapped": 38,
+      "total": 46
+    },
+    "systems": {
+      "mapped": 30,
+      "total": 42
+    }
+  },
+  "notes": [
+    "Fontes mapeadas incluem implementações parciais e view-models.",
+    "Replay de partida usa tempos ilustrativos, sem gerar gols reais do Rust.",
+    "Importação S22 valida grafos pré-decodificados; NÃO importa World .s22."
+  ]
+}

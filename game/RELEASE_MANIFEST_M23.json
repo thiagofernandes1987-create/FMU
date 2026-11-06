@@ -1,0 +1,55 @@
+{
+  "release": "M23",
+  "project": "FMU / Brasfoot Next TypeScript conversion",
+  "version": "0.23.0",
+  "source_commit_rust": "bd2ccbdd5f1aaacb6437b58b198d7963c61b3780",
+  "base_commit_typescript_m22": "7c57fbb",
+  "license": "GPL-3.0-only",
+  "runtime": "Node 22, TypeScript 5.8, reference original Rust WebAssembly unchanged",
+  "source_total": 231,
+  "baseline_m22_mapped": 125,
+  "new_app_source_mappings": 60,
+  "mapped_total": 185,
+  "unported_total": 46,
+  "source_coverage_percent": 80.09,
+  "source_coverage_gain_pp": 25.97,
+  "nominal_30pp_goal_reached": false,
+  "functional_parity_percent": null,
+  "app_visual_renderer_ported": false,
+  "rust_differential_tests": "UNVERIFIED",
+  "test_summary": {
+    "baseline": 249,
+    "new": 67,
+    "total": 316,
+    "passed": 316,
+    "failed": 0
+  },
+  "source_sha256_checks": 231,
+  "source_mapping_status": "APP_VIEWMODEL_PARTIAL_TESTED",
+  "full_conversion_status": "RELEASE_BLOCKED",
+  "private_database_included": false,
+  "font_files_included": false,
+  "required_docs": [
+    "docs/M23_PORTING_MATRIX.csv",
+    "docs/M23_PROGRESS.json",
+    "docs/M23_APP_FUNCTIONS.csv",
+    "docs/M23_MODULE_GUIDE.md",
+    "QA_REPORT_M23.md",
+    "TASKS_M23.md"
+  ],
+  "packaging_status": "TESTED_EXTRACTED_BUNDLE_PATCH_VERIFIED",
+  "preliminary_qa": {
+    "zip_entries": 788,
+    "members_sha256_verified": 787,
+    "tests_passed": 316,
+    "rust_sha256_verified": 231,
+    "schema_regression": "PASS"
+  },
+  "package_qa": {
+    "complete_tests": 316,
+    "new_tests": 67,
+    "git_replay": "TREE_IDENTICAL",
+    "member_integrity": "SHA256_ALL_PASS",
+    "source_audit": 231
+  }
+}

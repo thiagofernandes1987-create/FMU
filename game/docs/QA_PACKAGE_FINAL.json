@@ -1,0 +1,12 @@
+{
+  "status": "PASSED_STANDALONE_ONLY",
+  "typescript_test_passed": 57,
+  "typescript_test_failed": 0,
+  "sha256_members_checked": 302,
+  "rust_sources_in_package": 231,
+  "zip_crc": "PASS",
+  "wasm_compiled_in_node": true,
+  "browser_qa": "UNVERIFIED_BLOCKED_BY_ADMIN",
+  "m18_regression": "UNVERIFIED_MISSING_BASE",
+  "goal_plus_25pp": "NOT_MET"
+}

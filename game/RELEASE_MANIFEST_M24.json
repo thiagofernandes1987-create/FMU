@@ -1,0 +1,23 @@
+{
+  "release": "M24",
+  "base_git_commit": "9873184",
+  "upstream_rust": "bd2ccbdd5f1aaacb6437b58b198d7963c61b3780",
+  "license": "GPL-3.0-only",
+  "added_crate_sources_nominal": 9,
+  "mapped_rust_sources": 194,
+  "total_rust_sources": 231,
+  "rust_hashes_verified": 231,
+  "nominal_source_coverage_pct": 83.98,
+  "unported_sources": 37,
+  "new_unit_tests": 39,
+  "total_unit_tests": 355,
+  "qa_visual_viewports": ["1440x900", "768x1024", "390x844"],
+  "web_entrypoint": "public/fmu-m24/index.html",
+  "demo_career": "SANDBOX_NOT_RUST_PARITY",
+  "native_bfn_world_import": false,
+  "functional_parity_pct": null,
+  "full_conversion_done": false,
+  "full_conversion_status": "RELEASE_BLOCKED",
+  "private_database_included": false,
+  "release_claim": "FUNCTIONAL_WEB_SANDBOX_INCREMENT_ONLY"
+}

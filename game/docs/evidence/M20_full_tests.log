@@ -1,0 +1,738 @@
+
+> fmu-m20-aggressive-source-port@0.20.0 test
+> npm run build && node --test dist/tests/*.test.js
+
+
+> fmu-m20-aggressive-source-port@0.20.0 build
+> tsc -p tsconfig.json
+
+TAP version 13
+# Subtest: M20 engine/clubs: designado fora do clube é apagado por consulta
+ok 1 - M20 engine/clubs: designado fora do clube é apagado por consulta
+  ---
+  duration_ms: 17.346191
+  type: 'test'
+  ...
+# Subtest: M20 engine/clubs: seleção retém designado convocado mesmo atuando fora
+ok 2 - M20 engine/clubs: seleção retém designado convocado mesmo atuando fora
+  ---
+  duration_ms: 10.552287
+  type: 'test'
+  ...
+# Subtest: M20 engine/clubs: seleção descarta ex-convocado
+ok 3 - M20 engine/clubs: seleção descarta ex-convocado
+  ---
+  duration_ms: 0.454682
+  type: 'test'
+  ...
+# Subtest: M20 engine/messages: inbox incremental preserva data e textos
+ok 4 - M20 engine/messages: inbox incremental preserva data e textos
+  ---
+  duration_ms: 4.035612
+  type: 'test'
+  ...
+# Subtest: M20 engine/messages: mensagem disciplinar usa 10% de salário e arredondamento Java
+ok 5 - M20 engine/messages: mensagem disciplinar usa 10% de salário e arredondamento Java
+  ---
+  duration_ms: 7.69271
+  type: 'test'
+  ...
+# Subtest: M20 engine/messages: mensagem composta preserva competição e dinheiro bigint
+ok 6 - M20 engine/messages: mensagem composta preserva competição e dinheiro bigint
+  ---
+  duration_ms: 0.342654
+  type: 'test'
+  ...
+# Subtest: M20 engine/messages: título continental restringe confederação 0..5
+ok 7 - M20 engine/messages: título continental restringe confederação 0..5
+  ---
+  duration_ms: 7.096678
+  type: 'test'
+  ...
+# Subtest: M20 engine/events: season stats são lazy por (season, clubId)
+ok 8 - M20 engine/events: season stats são lazy por (season, clubId)
+  ---
+  duration_ms: 1.311899
+  type: 'test'
+  ...
+# Subtest: M20 engine/events: amarelo seguido de segundo amarelo também gera vermelho
+ok 9 - M20 engine/events: amarelo seguido de segundo amarelo também gera vermelho
+  ---
+  duration_ms: 36.482407
+  type: 'test'
+  ...
+# Subtest: M20 engine/events: estatísticas de gols/lesão/assistência por competição
+ok 10 - M20 engine/events: estatísticas de gols/lesão/assistência por competição
+  ---
+  duration_ms: 20.089456
+  type: 'test'
+  ...
+# Subtest: M20 engine/events: base não ganha assistência e clube vazio não altera
+ok 11 - M20 engine/events: base não ganha assistência e clube vazio não altera
+  ---
+  duration_ms: 0.210377
+  type: 'test'
+  ...
+# Subtest: M20 engine/events: nota altera somatório e número de partidas avaliadas
+ok 12 - M20 engine/events: nota altera somatório e número de partidas avaliadas
+  ---
+  duration_ms: 5.451298
+  type: 'test'
+  ...
+# Subtest: M20 engine/injury: sorteios idade, condicionamento e queda de força de veterano
+ok 13 - M20 engine/injury: sorteios idade, condicionamento e queda de força de veterano
+  ---
+  duration_ms: 0.367324
+  type: 'test'
+  ...
+# Subtest: M20 engine/injury: azar 1 adiciona 70 dias, técnico humano recebe mensagem
+ok 14 - M20 engine/injury: azar 1 adiciona 70 dias, técnico humano recebe mensagem
+  ---
+  duration_ms: 1.433493
+  type: 'test'
+  ...
+# Subtest: M20 engine/injury: jovem fitness baixa ignora penalidade de condicionamento
+ok 15 - M20 engine/injury: jovem fitness baixa ignora penalidade de condicionamento
+  ---
+  duration_ms: 0.118888
+  type: 'test'
+  ...
+# Subtest: M20 engine/injury: RNG inválido falha antes de alterar estatística
+ok 16 - M20 engine/injury: RNG inválido falha antes de alterar estatística
+  ---
+  duration_ms: 0.446092
+  type: 'test'
+  ...
+# Subtest: M20 sim/fixtures: tabelas canônicas da Copa e Copa do Mundo
+ok 17 - M20 sim/fixtures: tabelas canônicas da Copa e Copa do Mundo
+  ---
+  duration_ms: 0.36062
+  type: 'test'
+  ...
+# Subtest: M20 sim/fixtures: 25 clubes, todos os 300 confrontos distintos
+ok 18 - M20 sim/fixtures: 25 clubes, todos os 300 confrontos distintos
+  ---
+  duration_ms: 0.372644
+  type: 'test'
+  ...
+# Subtest: M20 sim/fixtures: recusa tamanho sem tabela e ID duplicado
+ok 19 - M20 sim/fixtures: recusa tamanho sem tabela e ID duplicado
+  ---
+  duration_ms: 0.11749
+  type: 'test'
+  ...
+# Subtest: M20 data: competição conserva prêmios e 13 constantes Rust
+ok 20 - M20 data: competição conserva prêmios e 13 constantes Rust
+  ---
+  duration_ms: 0.062807
+  type: 'test'
+  ...
+# Subtest: M20 engine/tables: 13 formações, 26 slots e 6 arrays
+ok 21 - M20 engine/tables: 13 formações, 26 slots e 6 arrays
+  ---
+  duration_ms: 0.065761
+  type: 'test'
+  ...
+# Subtest: M20 model/host_cities: países e capitais preservados incluindo UTF-8
+ok 22 - M20 model/host_cities: países e capitais preservados incluindo UTF-8
+  ---
+  duration_ms: 0.157849
+  type: 'test'
+  ...
+# Subtest: M20 model/names: cache por país e alias 221→85, filtros de dígitos e ponto
+ok 23 - M20 model/names: cache por país e alias 221→85, filtros de dígitos e ponto
+  ---
+  duration_ms: 0.348186
+  type: 'test'
+  ...
+# Subtest: M20 model/names: nomes e sobrenomes em caches separados, lista vazia recarregada
+ok 24 - M20 model/names: nomes e sobrenomes em caches separados, lista vazia recarregada
+  ---
+  duration_ms: 1.744234
+  type: 'test'
+  ...
+# Subtest: M20 engine/tables: percentual usa f32 + arredondamento Java
+ok 25 - M20 engine/tables: percentual usa f32 + arredondamento Java
+  ---
+  duration_ms: 0.187887
+  type: 'test'
+  ...
+# Subtest: M20 simulation/fixtures: free_days ignora dias concluídos e os dois primeiros elegíveis
+ok 26 - M20 simulation/fixtures: free_days ignora dias concluídos e os dois primeiros elegíveis
+  ---
+  duration_ms: 3.20563
+  type: 'test'
+  ...
+# Subtest: M20 simulation/fixtures: plano de mudanças 2×3 e substituições 2×4
+ok 27 - M20 simulation/fixtures: plano de mudanças 2×3 e substituições 2×4
+  ---
+  duration_ms: 0.927465
+  type: 'test'
+  ...
+# Subtest: M20 simulation/fixtures: escolhe maior estádio do país, 2 primeiros
+ok 28 - M20 simulation/fixtures: escolhe maior estádio do país, 2 primeiros
+  ---
+  duration_ms: 1.054241
+  type: 'test'
+  ...
+# Subtest: M20 simulation/fixtures: regra de primeiro dois falha quando país tem só um estádio e sorteia 1
+ok 29 - M20 simulation/fixtures: regra de primeiro dois falha quando país tem só um estádio e sorteia 1
+  ---
+  duration_ms: 0.273891
+  type: 'test'
+  ...
+# Subtest: M20 simulation/fixtures: país de final continental gira por 10 anos
+ok 30 - M20 simulation/fixtures: país de final continental gira por 10 anos
+  ---
+  duration_ms: 1.748893
+  type: 'test'
+  ...
+# Subtest: M20 simulation/fixtures: palco neutro somente se rodada coincide com final
+ok 31 - M20 simulation/fixtures: palco neutro somente se rodada coincide com final
+  ---
+  duration_ms: 0.512727
+  type: 'test'
+  ...
+# Subtest: M20 simulation/fixtures: newMatch liga índices de dia e conserva condição do estádio de casa
+ok 32 - M20 simulation/fixtures: newMatch liga índices de dia e conserva condição do estádio de casa
+  ---
+  duration_ms: 0.76773
+  type: 'test'
+  ...
+# Subtest: M20 simulation/fixtures: classificação elimina estádio de competição de clube mundial
+ok 33 - M20 simulation/fixtures: classificação elimina estádio de competição de clube mundial
+  ---
+  duration_ms: 0.405807
+  type: 'test'
+  ...
+# Subtest: M20 simulation/fixtures: fase de eliminatória escolhe estádio maior do país
+ok 34 - M20 simulation/fixtures: fase de eliminatória escolhe estádio maior do país
+  ---
+  duration_ms: 0.690629
+  type: 'test'
+  ...
+# Subtest: M20 simulation/fixtures: referências inválidas não alteram calendário
+ok 35 - M20 simulation/fixtures: referências inválidas não alteram calendário
+  ---
+  duration_ms: 1.479705
+  type: 'test'
+  ...
+# Subtest: M20 config: todas as 19 opções habilitadas por omissão
+ok 36 - M20 config: todas as 19 opções habilitadas por omissão
+  ---
+  duration_ms: 3.83939
+  type: 'test'
+  ...
+# Subtest: M20 config: chave repetida e comentários respeitam ordem e valor igual a 1
+ok 37 - M20 config: chave repetida e comentários respeitam ordem e valor igual a 1
+  ---
+  duration_ms: 0.507131
+  type: 'test'
+  ...
+# Subtest: M20 config: mercados DESLIGADO CONTIDO AGITADO e padrão
+ok 38 - M20 config: mercados DESLIGADO CONTIDO AGITADO e padrão
+  ---
+  duration_ms: 1.038141
+  type: 'test'
+  ...
+# Subtest: M20 cash: onze linhas de caixa e saldos bigint
+ok 39 - M20 cash: onze linhas de caixa e saldos bigint
+  ---
+  duration_ms: 0.835576
+  type: 'test'
+  ...
+# Subtest: M20 cash: primeiro mês é parcial e zerou multas históricas
+ok 40 - M20 cash: primeiro mês é parcial e zerou multas históricas
+  ---
+  duration_ms: 0.939625
+  type: 'test'
+  ...
+# Subtest: M20 cash: mesma temporada usa diferenças, próximo ano mantém multa por diferença
+ok 41 - M20 cash: mesma temporada usa diferenças, próximo ano mantém multa por diferença
+  ---
+  duration_ms: 6.93616
+  type: 'test'
+  ...
+# Subtest: M20 cash: mantém só 400 dias e suporta salários mensais/semanais
+ok 42 - M20 cash: mantém só 400 dias e suporta salários mensais/semanais
+  ---
+  duration_ms: 8.222821
+  type: 'test'
+  ...
+# Subtest: M20 cash: valores monetários maiores que JS safe integer continuam exatos em BigInt
+ok 43 - M20 cash: valores monetários maiores que JS safe integer continuam exatos em BigInt
+  ---
+  duration_ms: 1.280253
+  type: 'test'
+  ...
+# Subtest: M20 staff: 3 profissionais por cargo, 9 candidatos e níveis de 1..5
+ok 44 - M20 staff: 3 profissionais por cargo, 9 candidatos e níveis de 1..5
+  ---
+  duration_ms: 2.610447
+  type: 'test'
+  ...
+# Subtest: M20 staff: geração mensal só troca candidatos quando muda mês
+ok 45 - M20 staff: geração mensal só troca candidatos quando muda mês
+  ---
+  duration_ms: 1.213215
+  type: 'test'
+  ...
+# Subtest: M20 staff: reputação insuficiente não modifica candidatos nem profissionais
+ok 46 - M20 staff: reputação insuficiente não modifica candidatos nem profissionais
+  ---
+  duration_ms: 0.618498
+  type: 'test'
+  ...
+# Subtest: M20 staff: contratação substitui cargo, salário e demissão
+ok 47 - M20 staff: contratação substitui cargo, salário e demissão
+  ---
+  duration_ms: 0.803269
+  type: 'test'
+  ...
+# Subtest: M20 staff: desligado simula nível 5, mas não paga salário mensal
+ok 48 - M20 staff: desligado simula nível 5, mas não paga salário mensal
+  ---
+  duration_ms: 0.371862
+  type: 'test'
+  ...
+# Subtest: M20 scouts: margem 0 próprios, 2 estrelas e 5 demais
+ok 49 - M20 scouts: margem 0 próprios, 2 estrelas e 5 demais
+  ---
+  duration_ms: 0.275517
+  type: 'test'
+  ...
+# Subtest: M20 scouts: hash da chave fixa erro por atleta sem RNG
+ok 50 - M20 scouts: hash da chave fixa erro por atleta sem RNG
+  ---
+  duration_ms: 0.221528
+  type: 'test'
+  ...
+# Subtest: M20 scouts: envio cobra, aguarda 14 dias e conclui observação
+ok 51 - M20 scouts: envio cobra, aguarda 14 dias e conclui observação
+  ---
+  duration_ms: 0.530413
+  type: 'test'
+  ...
+# Subtest: M20 scouts: recusas de dinheiro e ausência de clube sem cobrança
+ok 52 - M20 scouts: recusas de dinheiro e ausência de clube sem cobrança
+  ---
+  duration_ms: 0.099262
+  type: 'test'
+  ...
+# Subtest: M20 scouts: pesquisa ordena mais fortes, exclui seleções e limita 300
+ok 53 - M20 scouts: pesquisa ordena mais fortes, exclui seleções e limita 300
+  ---
+  duration_ms: 1.982286
+  type: 'test'
+  ...
+# Subtest: M20 fans: primeira atualização só salva snapshot e não cria evento
+ok 54 - M20 fans: primeira atualização só salva snapshot e não cria evento
+  ---
+  duration_ms: 0.402631
+  type: 'test'
+  ...
+# Subtest: M20 fans: estrela contratada aumenta apoio +7 e conserva últimos dez motivos
+ok 55 - M20 fans: estrela contratada aumenta apoio +7 e conserva últimos dez motivos
+  ---
+  duration_ms: 0.23812
+  type: 'test'
+  ...
+# Subtest: M20 fans: ídolo vendido desconta -7, empréstimo não
+ok 56 - M20 fans: ídolo vendido desconta -7, empréstimo não
+  ---
+  duration_ms: 0.104009
+  type: 'test'
+  ...
+# Subtest: M20 fans: sócios dependem do humor e fator de marketing
+ok 57 - M20 fans: sócios dependem do humor e fator de marketing
+  ---
+  duration_ms: 2.408418
+  type: 'test'
+  ...
+# Subtest: M20 investor: taxa anual 15%, agenda no primeiro dia de fevereiro
+ok 58 - M20 investor: taxa anual 15%, agenda no primeiro dia de fevereiro
+  ---
+  duration_ms: 0.588975
+  type: 'test'
+  ...
+# Subtest: M20 investor: oferta depende de reputação e de sorteios 201 e 81
+ok 59 - M20 investor: oferta depende de reputação e de sorteios 201 e 81
+  ---
+  duration_ms: 3.902639
+  type: 'test'
+  ...
+# Subtest: M20 investor: aceitar compra cria novo dono e não paga no primeiro ano
+ok 60 - M20 investor: aceitar compra cria novo dono e não paga no primeiro ano
+  ---
+  duration_ms: 6.746715
+  type: 'test'
+  ...
+# Subtest: M20 investor: recusa limpa proposta e duas reclamações provocam saída
+ok 61 - M20 investor: recusa limpa proposta e duas reclamações provocam saída
+  ---
+  duration_ms: 4.236119
+  type: 'test'
+  ...
+# Subtest: M20 investor: aporte anual reduz 40% quando reclamações=1
+ok 62 - M20 investor: aporte anual reduz 40% quando reclamações=1
+  ---
+  duration_ms: 0.297805
+  type: 'test'
+  ...
+# Subtest: M20 investor: troca de temporada reinicia avaliação de aquisição, requisita teste
+ok 63 - M20 investor: troca de temporada reinicia avaliação de aquisição, requisita teste
+  ---
+  duration_ms: 0.194554
+  type: 'test'
+  ...
+# Subtest: cup fase 2: 40 vencedores, 20 melhores x 20 fracos
+ok 64 - cup fase 2: 40 vencedores, 20 melhores x 20 fracos
+  ---
+  duration_ms: 10.993973
+  type: 'test'
+  ...
+# Subtest: cup fase 3: 20 vencedores + 12 isentos, sorteio 32
+ok 65 - cup fase 3: 20 vencedores + 12 isentos, sorteio 32
+  ---
+  duration_ms: 0.375896
+  type: 'test'
+  ...
+# Subtest: cup de 32: número incorreto não muda o estado
+ok 66 - cup de 32: número incorreto não muda o estado
+  ---
+  duration_ms: 0.172927
+  type: 'test'
+  ...
+# Subtest: cup: dispatch rodadas finais e ordem RNG
+ok 67 - cup: dispatch rodadas finais e ordem RNG
+  ---
+  duration_ms: 0.891738
+  type: 'test'
+  ...
+# Subtest: cup: formato desconhecido não cria nova rodada
+ok 68 - cup: formato desconhecido não cria nova rodada
+  ---
+  duration_ms: 0.136018
+  type: 'test'
+  ...
+# Subtest: cup: IDs duplicados bloqueados antes de criar uma rodada
+ok 69 - cup: IDs duplicados bloqueados antes de criar uma rodada
+  ---
+  duration_ms: 1.301657
+  type: 'test'
+  ...
+# Subtest: nations: quatro vencedores da Liga A; estádio do primeiro após shuffle
+ok 70 - nations: quatro vencedores da Liga A; estádio do primeiro após shuffle
+  ---
+  duration_ms: 3.090169
+  type: 'test'
+  ...
+# Subtest: nations: play-off do descenso com quartos da Liga C
+ok 71 - nations: play-off do descenso com quartos da Liga C
+  ---
+  duration_ms: 0.526436
+  type: 'test'
+  ...
+# Subtest: nations: Mundial 8 grupos segue ordem fixa Zw
+ok 72 - nations: Mundial 8 grupos segue ordem fixa Zw
+  ---
+  duration_ms: 1.127983
+  type: 'test'
+  ...
+# Subtest: nations: Mundial 16 grupos gera 32 posições no bracket de dois blocos
+ok 73 - nations: Mundial 16 grupos gera 32 posições no bracket de dois blocos
+  ---
+  duration_ms: 1.171734
+  type: 'test'
+  ...
+# Subtest: nations: falta dos quatro primeiros gera erro claro
+ok 74 - nations: falta dos quatro primeiros gera erro claro
+  ---
+  duration_ms: 2.216619
+  type: 'test'
+  ...
+# Subtest: substituições: eventos confirmados mudam lista onPitch
+ok 75 - substituições: eventos confirmados mudam lista onPitch
+  ---
+  duration_ms: 0.485826
+  type: 'test'
+  ...
+# Subtest: substituições: grid 37 posições e reservas a partir de 26
+ok 76 - substituições: grid 37 posições e reservas a partir de 26
+  ---
+  duration_ms: 0.800982
+  type: 'test'
+  ...
+# Subtest: substituições: formação desconta goleiro e conta setores
+ok 77 - substituições: formação desconta goleiro e conta setores
+  ---
+  duration_ms: 0.463117
+  type: 'test'
+  ...
+# Subtest: substituições: troca de dois em campo atualiza slots e mantém IDs
+ok 78 - substituições: troca de dois em campo atualiza slots e mantém IDs
+  ---
+  duration_ms: 0.236589
+  type: 'test'
+  ...
+# Subtest: substituições: troca banco↔campo usa minuto 1 no intervalo
+ok 79 - substituições: troca banco↔campo usa minuto 1 no intervalo
+  ---
+  duration_ms: 0.322027
+  type: 'test'
+  ...
+# Subtest: substituições: rejeição da engine não modifica grid
+ok 80 - substituições: rejeição da engine não modifica grid
+  ---
+  duration_ms: 0.134582
+  type: 'test'
+  ...
+# Subtest: substituições: índices fora de 1..36 retornam falso
+ok 81 - substituições: índices fora de 1..36 retornam falso
+  ---
+  duration_ms: 0.164715
+  type: 'test'
+  ...
+# Subtest: human: por padrão mantém shootout order e recusa todas as propostas
+ok 82 - human: por padrão mantém shootout order e recusa todas as propostas
+  ---
+  duration_ms: 0.069138
+  type: 'test'
+  ...
+# Subtest: human: callback fornecido sobrescreve somente decisão específica
+ok 83 - human: callback fornecido sobrescreve somente decisão específica
+  ---
+  duration_ms: 0.103582
+  type: 'test'
+  ...
+# Subtest: trophy: 27 UFs brasileiras, SP índice 25
+ok 84 - trophy: 27 UFs brasileiras, SP índice 25
+  ---
+  duration_ms: 0.045665
+  type: 'test'
+  ...
+# Subtest: trophy: fallback da 1ª divisão e nome d2 para 2ª
+ok 85 - trophy: fallback da 1ª divisão e nome d2 para 2ª
+  ---
+  duration_ms: 0.093593
+  type: 'test'
+  ...
+# Subtest: trophy: Copa Nacional usa país da liga, não país do World
+ok 86 - trophy: Copa Nacional usa país da liga, não país do World
+  ---
+  duration_ms: 0.216015
+  type: 'test'
+  ...
+# Subtest: trophy: classes internacionais têm arquivo fixo
+ok 87 - trophy: classes internacionais têm arquivo fixo
+  ---
+  duration_ms: 0.071456
+  type: 'test'
+  ...
+# Subtest: trophy: galeria de clube agrupa por temporada, não duplicata de troféu
+ok 88 - trophy: galeria de clube agrupa por temporada, não duplicata de troféu
+  ---
+  duration_ms: 0.207888
+  type: 'test'
+  ...
+# Subtest: trophy: galeria de seleção inclui títulos continentais
+ok 89 - trophy: galeria de seleção inclui títulos continentais
+  ---
+  duration_ms: 0.063686
+  type: 'test'
+  ...
+# Subtest: trophy: galeria de técnico mantém 3 colunas e campeão por id do jogo
+ok 90 - trophy: galeria de técnico mantém 3 colunas e campeão por id do jogo
+  ---
+  duration_ms: 1.237438
+  type: 'test'
+  ...
+# Subtest: season Java Double.compare diferencia zeros e NaN
+ok 91 - season Java Double.compare diferencia zeros e NaN
+  ---
+  duration_ms: 0.115549
+  type: 'test'
+  ...
+# Subtest: season: seleção da liga respeita 11 slots e mínimo de avaliações
+ok 92 - season: seleção da liga respeita 11 slots e mínimo de avaliações
+  ---
+  duration_ms: 0.786225
+  type: 'test'
+  ...
+# Subtest: season: premiação dois ou quatro clubes e força de classe mundial
+ok 93 - season: premiação dois ou quatro clubes e força de classe mundial
+  ---
+  duration_ms: 0.503139
+  type: 'test'
+  ...
+# Subtest: season: encerra status world class após 34 anos e reinicia chamadas
+ok 94 - season: encerra status world class após 34 anos e reinicia chamadas
+  ---
+  duration_ms: 0.416119
+  type: 'test'
+  ...
+# Subtest: sorting: desempate por número de clube em vez de ID
+ok 95 - sorting: desempate por número de clube em vez de ID
+  ---
+  duration_ms: 0.133691
+  type: 'test'
+  ...
+# Subtest: sorting: pontos, vitórias, saldo, gols
+ok 96 - sorting: pontos, vitórias, saldo, gols
+  ---
+  duration_ms: 0.210922
+  type: 'test'
+  ...
+# Subtest: sorting: técnicos com mesma pontuação priorizam menos jogos
+ok 97 - sorting: técnicos com mesma pontuação priorizam menos jogos
+  ---
+  duration_ms: 0.068933
+  type: 'test'
+  ...
+# Subtest: coach squadStrength: 16 melhores, não média do elenco completo
+ok 98 - coach squadStrength: 16 melhores, não média do elenco completo
+  ---
+  duration_ms: 2.354931
+  type: 'test'
+  ...
+# Subtest: coach campaigns: posição esperada pela qualidade e colocação real da tabela
+ok 99 - coach campaigns: posição esperada pela qualidade e colocação real da tabela
+  ---
+  duration_ms: 0.454337
+  type: 'test'
+  ...
+# Subtest: coach ranking: combinação títulos e campanha
+ok 100 - coach ranking: combinação títulos e campanha
+  ---
+  duration_ms: 0.340108
+  type: 'test'
+  ...
+# Subtest: coach ranking: ausência de temporada atual retorna vazio
+ok 101 - coach ranking: ausência de temporada atual retorna vazio
+  ---
+  duration_ms: 0.710626
+  type: 'test'
+  ...
+# Subtest: coach ranking: seleção nacional não é elegível
+ok 102 - coach ranking: seleção nacional não é elegível
+  ---
+  duration_ms: 0.26896
+  type: 'test'
+  ...
+# Subtest: coach ranking: meia pontuação das campanhas em divisões inferiores
+ok 103 - coach ranking: meia pontuação das campanhas em divisões inferiores
+  ---
+  duration_ms: 0.527788
+  type: 'test'
+  ...
+# Subtest: awards history: cria 4 categorias individuais + time com 2 + técnico
+ok 104 - awards history: cria 4 categorias individuais + time com 2 + técnico
+  ---
+  duration_ms: 0.518274
+  type: 'test'
+  ...
+# Subtest: awards history: chuteira utiliza gols ponderados do candidato
+ok 105 - awards history: chuteira utiliza gols ponderados do candidato
+  ---
+  duration_ms: 0.452719
+  type: 'test'
+  ...
+# Subtest: awards history: sem replace conserva cada prêmio já gravado
+ok 106 - awards history: sem replace conserva cada prêmio já gravado
+  ---
+  duration_ms: 0.698174
+  type: 'test'
+  ...
+# Subtest: awards history: replace substitui categoria do mesmo ano
+ok 107 - awards history: replace substitui categoria do mesmo ano
+  ---
+  duration_ms: 0.896364
+  type: 'test'
+  ...
+# Subtest: awards history: anos distintos são ordenados por ano e tipo
+ok 108 - awards history: anos distintos são ordenados por ano e tipo
+  ---
+  duration_ms: 0.953045
+  type: 'test'
+  ...
+# Subtest: awards history: years por jogador mantém aparições em categorias e anos
+ok 109 - awards history: years por jogador mantém aparições em categorias e anos
+  ---
+  duration_ms: 0.347029
+  type: 'test'
+  ...
+# Subtest: awards lifecycle: efeito no 1º premio, estrelas no podium, teto reputação 5
+ok 110 - awards lifecycle: efeito no 1º premio, estrelas no podium, teto reputação 5
+  ---
+  duration_ms: 0.158698
+  type: 'test'
+  ...
+# Subtest: awards lifecycle: ordem dos 13 hooks e sem repetição no mesmo ano
+ok 111 - awards lifecycle: ordem dos 13 hooks e sem repetição no mesmo ano
+  ---
+  duration_ms: 0.176083
+  type: 'test'
+  ...
+# Subtest: awards lifecycle: sem Bola de Ouro não chama serviços e marca temporada
+ok 112 - awards lifecycle: sem Bola de Ouro não chama serviços e marca temporada
+  ---
+  duration_ms: 0.232427
+  type: 'test'
+  ...
+# Subtest: awards lifecycle: erro do serviço interrompe execução e mantém ano marcado (Rust)
+ok 113 - awards lifecycle: erro do serviço interrompe execução e mantém ano marcado (Rust)
+  ---
+  duration_ms: 0.715726
+  type: 'test'
+  ...
+# Subtest: clubs: artilheiro mantém primeiro atleta em caso de empate
+ok 114 - clubs: artilheiro mantém primeiro atleta em caso de empate
+  ---
+  duration_ms: 0.164548
+  type: 'test'
+  ...
+# Subtest: clubs: temporada corrente registra campanha, título, técnico e artilheiro
+ok 115 - clubs: temporada corrente registra campanha, título, técnico e artilheiro
+  ---
+  duration_ms: 0.770147
+  type: 'test'
+  ...
+# Subtest: clubs: sem replace preserva dados existentes
+ok 116 - clubs: sem replace preserva dados existentes
+  ---
+  duration_ms: 0.220155
+  type: 'test'
+  ...
+# Subtest: clubs: temporada histórica sem títulos nem artilheiro não cria registro vazio
+ok 117 - clubs: temporada histórica sem títulos nem artilheiro não cria registro vazio
+  ---
+  duration_ms: 0.078463
+  type: 'test'
+  ...
+# Subtest: clubs: história e carreira ordenam temporadas mais novas primeiro
+ok 118 - clubs: história e carreira ordenam temporadas mais novas primeiro
+  ---
+  duration_ms: 0.202667
+  type: 'test'
+  ...
+# Subtest: clubs: updateIdols soma stats por clube e mantém máximos históricos
+ok 119 - clubs: updateIdols soma stats por clube e mantém máximos históricos
+  ---
+  duration_ms: 0.516686
+  type: 'test'
+  ...
+# Subtest: clubs: melhores artilheiros e mais escalados selecionados em dois grupos de 10
+ok 120 - clubs: melhores artilheiros e mais escalados selecionados em dois grupos de 10
+  ---
+  duration_ms: 0.216059
+  type: 'test'
+  ...
+1..120
+# tests 120
+# suites 0
+# pass 120
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 618.650351

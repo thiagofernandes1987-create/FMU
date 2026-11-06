@@ -1,0 +1,10 @@
+{
+  "zip": "FMU_M19_ACCEL_Simulation_Systems_WASM.zip",
+  "sha256": "d6090cdadf27efcc1a7c4a6c2119d7f848a41d1f6385c09202c6515de231eaf3",
+  "bytes": 6983342,
+  "entries": 304,
+  "source_files": 231,
+  "compiled_typescript": 11,
+  "tests": 57,
+  "goal_plus_25pp": "NOT_MET"
+}
