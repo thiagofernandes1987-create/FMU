@@ -1,0 +1,7 @@
+{1 Thing 3
+.age
+i 42
+.title
+S OK
+.self
+^1
