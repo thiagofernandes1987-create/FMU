@@ -1,6 +1,6 @@
 # FMU — Football Manager Universe
 
-> **Equipe multichat:** veja [FMU_TEAM.md](FMU_TEAM.md) para papéis e contratos, [cadastro de chats](../../issues/4) e [reunião de kickoff](../../issues/5). A comunicação via GitHub é **assíncrona** e depende de cada chat consultar os tópicos.
+> **Equipe multichat:** veja [FMU_TEAM.md](FMU_TEAM.md) para papéis e contratos, [cadastro de chats](https://github.com/thiagofernandes1987-create/FMU/issues/4) e [reunião de kickoff](https://github.com/thiagofernandes1987-create/FMU/issues/5). A comunicação via GitHub é **assíncrona** e depende de cada chat consultar os tópicos.
 
 Repositório oficial de desenvolvimento do FMU. A licença GPL-3.0 do projeto original foi preservada.
 
