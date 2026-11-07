@@ -28,3 +28,7 @@
 ## M29 — Continuidade
 
 O marco M29 é rastreado em [TASKS_M29.md](TASKS_M29.md) e não substitui os controles dos lotes anteriores. A liberação integral do jogo permanece bloqueada até haver engine e fixtures originais.
+
+## M31 — Kryo 4 / .s22
+
+O marco M31 está detalhado em [TASKS_M31.md](TASKS_M31.md). Cobertura nominal não equivale à paridade funcional Rust.

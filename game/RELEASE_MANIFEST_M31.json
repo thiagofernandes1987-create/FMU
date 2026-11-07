@@ -1,0 +1,33 @@
+{
+  "release": "M31",
+  "date": "2026-11-06",
+  "source_rust_commit": "bd2ccbdd5f1aaacb6437b58b198d7963c61b3780",
+  "baseline_git_commit": "7a8f8d5",
+  "license": "GPL-3.0-only",
+  "modules": [
+    "src/m31/persistence/kryo_graph.ts",
+    "src/m31/persistence/kryo_reader.ts",
+    "src/m31/persistence/kryo_canonical.ts",
+    "src/m31/persistence/kryo_compare.ts",
+    "src/m31/persistence/kryo_cli.ts",
+    "src/m31/persistence/s22_preflight.ts"
+  ],
+  "source_rust_files": 231,
+  "source_sha256_verified": 231,
+  "nominal_mapped_before": 211,
+  "nominal_mapped_after": 213,
+  "nominal_percent": 92.21,
+  "nominal_gain_percentage_points": 0.87,
+  "remaining_unported": 18,
+  "new_tests": 44,
+  "full_tests": 707,
+  "two_sandbox_seasons": "PASS_90_MATCHES_EACH",
+  "real_s22_schema_available": false,
+  "real_s22_rust_golden_fixture_available": false,
+  "s22_world_import_complete": false,
+  "rust_differential_verified": false,
+  "full_game_release": "RELEASE_BLOCKED",
+  "visual_qa": "NOT_APPLICABLE_NO_UI_CHANGED",
+  "synthetic_fixtures_only": true,
+  "private_database_included": false
+}

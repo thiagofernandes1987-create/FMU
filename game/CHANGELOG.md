@@ -1,3 +1,11 @@
+## M31 — 2026-11-06
+
+- Leitor Kryo 4 stream TypeScript com classes dinâmicas/registradas, grafo cíclico e tipos precisos; preflight de roots `.s22`.
+- Dump canônico conforme parser Rust, CLI diferencial com `.zst` e proveniência do input.
+- Input UTF-16 de 90.000 unidades sem overflow e limites contra streams malformados.
+- +44 testes (707 no total); 2 novas correspondências *parciais* de fontes Rust; cobertura nominal 213/231 = 92,21%.
+- Importação funcional completa `.s22` ainda bloqueada por esquema e fixtures originais.
+
 ## M26 — 2026-11-05
 
 - Codec `.bfn` BF NX + Zstandard + CBOR genérico em TypeScript, sem conversão World.

@@ -1,14 +1,14 @@
 {
-  "name": "fmu-m29-world-advance-transactional",
+  "name": "fmu-m31-kryo-reader",
   "private": true,
-  "version": "0.29.30",
+  "version": "0.31.0",
   "license": "GPL-3.0-only",
-  "description": "M29: Rust World transactional day advance driver with mandatory engine hooks and safe .bfn checkpoints; Rust parity unverified",
+  "description": "M31: Kryo 4 typed binary parser, canonical serialization and .s22 preflight; full .s22 World import blocked by missing jar schema.",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "npm run build && node --test dist/tests/*.test.js dist/tests/m30/*.test.js",
     "audit": "node tools/inventory.mjs",
-    "serve": "python3 -m http.server 8000 --directory public/fmu-m24",
+    "serve": "python3 -m http.server 8000 --directory public/brasfoot-next-0.1.0-web",
     "m20:verify": "python3 tools/port_static_tables.py --check && python3 tools/verify_m20.py",
     "m21:verify": "python3 tools/verify_m21_sources.py && npm test",
     "m23:tests": "npm run build && node --test dist/tests/m23_app_*.test.js",
@@ -31,6 +31,9 @@
     "m29:tests": "npm run build && node --test dist/tests/m29_world_advance.test.js",
     "m29:inspect": "npm run build && node dist/src/m29_world_cli.js",
     "m30:tests": "npm run build && node --test dist/tests/m30/*.test.js",
-    "m29m30:tests": "npm test"
+    "m29m30:tests": "npm test",
+    "m31:tests": "npm run build && node --test dist/tests/m31_*.test.js",
+    "m31:audit": "python3 tools/m31_audit.py --check",
+    "m31:kryo": "npm run build && node dist/src/m31/persistence/kryo_cli.js"
   }
 }

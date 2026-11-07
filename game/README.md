@@ -1,3 +1,7 @@
+## FMU M31 — Leitor Kryo 4 para saves `.s22`
+
+[README M31](README_M31.md) · [Guia e contrato](docs/M31_MODULE_GUIDE.md) · [Matriz](docs/M31_PORTING_MATRIX.csv). Ainda exige o esquema de classes do jogo para ler saves reais; **não** libera paridade funcional Rust.
+
 ## M28 — World Real
 
 Veja [README_M28.md](README_M28.md) e [guia técnico](docs/M28_MODULE_GUIDE.md).

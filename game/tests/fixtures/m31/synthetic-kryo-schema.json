@@ -1,0 +1,29 @@
+{
+  "format": "Kryo",
+  "classes": {
+    "Thing": {
+      "serializer": "field",
+      "fields": [
+        {
+          "name": "age",
+          "declaring": "Thing",
+          "type": "int"
+        },
+        {
+          "name": "title",
+          "declaring": "Thing",
+          "type": "object"
+        },
+        {
+          "name": "self",
+          "declaring": "Thing",
+          "type": "object",
+          "valueClass": "Thing"
+        }
+      ]
+    },
+    "java.lang.String": {
+      "serializer": "string"
+    }
+  }
+}
