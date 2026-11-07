@@ -12,9 +12,9 @@ Centralizar papéis, contratos, tarefas, reuniões e transferências assíncrona
 ## Marcos e checklists
 - [x] M1 Descobrir repositórios e verificar acesso GitHub — evidência: `get_repo/list_repositories`, ambas fontes acessíveis.
 - [x] M2 Ler baseline FMU M29+M30 e FMU_Database — evidência: `README.md`, `game/RECOVERY_README.md`, `game/QA_RECOVERY_M29_M30.md`, README privado lidos.
-- [x] M3 Criar e ler de volta documentos de equipe e modelos — PASS: 7 arquivos lidos no GitHub e conferidos (6 FMU, 1 Database).
+- [x] M3 Criar e ler de volta documentos de equipe e modelos — PASS: 9 arquivos lidos no GitHub e conferidos (7 FMU, 2 Database), incluindo READMEs.
 - [x] M4 Criar cadastro, reunião e handoff e testar canal de comentários — PASS: Issues #4, #5, #6 criadas; 3 comentários gravados e relidos pelo GitHub.
-- [x] M5 Validar papéis, estados, contratos, templates, segurança e limites — PASS: 10 verificações semânticas (2 verificações inicialmente excessivas, ajustadas sem mudança no documento); readback remoto comprovado.
+- [x] M5 Validar papéis, estados, contratos, templates, segurança e limites — PASS: 12/12 verificações semânticas aprovadas, incluindo READMEs, frontmatter, roles, estados e comentários persistidos.
 - [ ] M6 Handoff entre dois chats independentes com ACK e primeiro PR real — UNVERIFIED: requer iniciar outra sessão, sem capacidade de acionar chats automaticamente.
 
 ## Matriz de dependências
@@ -36,8 +36,8 @@ Centralizar papéis, contratos, tarefas, reuniões e transferências assíncrona
 ## Evidência de aceitação da infraestrutura (2026-11-06, São Paulo)
 
 - Fonte: [protocolo](FMU_TEAM.md), [entrada de chats](AGENTS.md), [template de tarefa](.github/ISSUE_TEMPLATE/fmu-task.md), [template de reunião](.github/ISSUE_TEMPLATE/fmu-meeting.md), [template de PR](.github/PULL_REQUEST_TEMPLATE.md) e instruções do Database privado.
-- Operações confirmadas: GitHub `create_file` e `fetch_file` para 7 arquivos; `create_issue` para [cadastro #4](https://github.com/thiagofernandes1987-create/FMU/issues/4), [reunião #5](https://github.com/thiagofernandes1987-create/FMU/issues/5), [handoff #6](https://github.com/thiagofernandes1987-create/FMU/issues/6); `add_comment_to_issue` e `fetch_issue_comments` para os 3 tópicos.
-- Teste de documentos: 8 papéis e 6 estados validados; frontmatter de 2 templates, seção de contrato/revisão de PR, protocolo CLAIM/HANDOFF/ACK e delimitação de privacidade verificados.
+- Operações confirmadas: GitHub `create_file`, `update_file` e `fetch_file` para 9 arquivos; `create_issue` para [cadastro #4](https://github.com/thiagofernandes1987-create/FMU/issues/4), [reunião #5](https://github.com/thiagofernandes1987-create/FMU/issues/5), [handoff #6](https://github.com/thiagofernandes1987-create/FMU/issues/6); `add_comment_to_issue` e `fetch_issue_comments` para os 3 tópicos.
+- Teste de documentos: 12/12 verificações PASS, incluindo 8 papéis e 6 estados; frontmatter de 2 templates, seção de contrato/revisão de PR, protocolo CLAIM/HANDOFF/ACK e delimitação de privacidade verificados.
 - Não foram executados `npm test` nem testes Rust nesta alteração **somente documental**. A baseline de 663 testes é proveniente do README de recuperação, não desta QA.
 - GitHub Issues/PRs funcionam para coordenação **assíncrona**, mas avisos entre chats, execução persistente, reuniões síncronas, ACK em segundo chat e integração de PR real não foram provados nem são ativados automaticamente.
 - **Resultado da implantação documental:** `PASS`. **Coordenação multichat ponta a ponta:** `PARTIAL / aguardando M6`. **Automação autônoma entre chats:** `NOT_SUPPORTED_BY_FILE`.
